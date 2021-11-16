@@ -561,11 +561,11 @@ Save Workspace as: myProject.code-workspace
 
 ### 11. From VSCode push and pull with GitHub
 
-- From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
+    1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
 ![Github-push](./images/fr0101-10_Github-push.png "Github-push")
 
-- In the Message textbox, type: 
+    2. In the Message textbox, type: 
 
 ```
 Added Workspace and Updated Readme.md
@@ -575,27 +575,27 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-1a](./images/fr0101-10_Github-push-1a.png "Github-push-1a")
 
-- If this shows then, Select Always at the There are no staged changes... box 
+    3. If this shows then, Select Always at the There are no staged changes... box 
 
 ![Github-always](./images/fr0101-10_Github-always.png "Github-always") 
 
-- Click on the Commit checkmark above the Message textbox
+    4. Click on the Commit checkmark above the Message textbox
 
 ![Github-push-2](./images/fr0101-10_Github-push-2.png "Github-push-2")
 
-- If this shows then, Select Yes at the Git fetch box
+    5. If this shows then, Select Yes at the Git fetch box
 
 ![Github-no](./images/fr0101-10_Github-no.png "Github-no")
 
--  From the Source Control menu, click the three dots (...) More menu, and click Push.
+    6. From the Source Control menu, click the three dots (...) More menu, and click Push.
 
 ![Github-push-3](./images/fr0101-10_Github-push-3.png "Github-push-3")
 
-- Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
+    7. Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
 
 ![Github-push-4](./images/fr0101-10_Github-push-4.png "Github-push-4")
 
-- Modify Readme.md in Github by adding these lines:
+    8. Modify Readme.md in Github by adding these lines:
 (Remember the pencil!)
 
 ```
@@ -606,55 +606,55 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-5](./images/fr0101-10_Github-push-5.png "Github-push-5")
 
-- Commit changes
+    9. Commit changes
 
 ```
-1. Go to the bottom of the edit page to the Commit Changes section.
+- Go to the bottom of the edit page to the Commit Changes section.
 
-2. A description is required: Update README.md added 3. and 4.
+- A description is required: Update README.md added 3. and 4.
 
-3. Click commit Changes
+- Click commit Changes
 ```
 
 ![Github-push-6](./images/fr0101-10_Github-push-6.png "Github-push-6")
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-- In VSCode, From the Source Control menu, click the three dots (...) More menu, and click Pull.
+    10. In VSCode, From the Source Control menu, click the three dots (...) More menu, and click Pull.
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 
-- The Github changes will now appear in the Readme.md file. 
+    11. The Github changes will now appear in the Readme.md file. 
 
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
 ### 12. Install Node for Windows
 
-- Be sure to CLOSE VSCode before installing Node
+    1. Be sure to CLOSE VSCode before installing Node
 
-- To download browse to: 
+    2. To download browse to: 
 
 ```
 nodejs.org/en/
 ```
 
-- Select the version that is Recommended for Most Users
+    3. Select the version that is Recommended for Most Users
 
 ![Nodejs-install-0](./images/fr0101-11_Nodejs-install-0.png "Nodejs-install-0")
 
-- Download and install using all the defaults.
+    4. Download and install using all the defaults.
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1.png "Nodejs-install-1")
 
-- Allow changes
+    5. Allow changes
 
 ![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1")
 
-- Finish
+    6. Finish
 
 ![Nodejs-install-2](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-2")
 
-- Test from Windows command prompt:
+    7. Test from Windows command prompt:
 
 ```
     node --version
@@ -664,7 +664,7 @@ nodejs.org/en/
 
 ### 13. Install MySql for windows
 
-- Browse to: 
+    1. Browse to: 
 
 ```
 dev.mysql.com/downloads
@@ -675,7 +675,7 @@ then click: MySql Installer for Windows
 ![MySQL-installer](./images/fr0101-12_MySQL-installer.png "MySQL-installer")
 
 
-- Choose the version: 
+    2. Choose the version: 
 
 ```
 mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
@@ -683,15 +683,15 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-community](./images/fr0101-12_MySQL-community.png "MySQL-community")
 
-- Select No, thanks, just start my download
+    3. Select No, thanks, just start my download
 
 ![MySQL-no-thanks](./images/fr0101-12_MySQL-no-thanks.png "MySQL-no-thanks")
 
-- Choose Setup Type: Custom
+    4. Choose Setup Type: Custom
 
 ![MySQL-custom](./images/fr0101-12_MySQL-custom.png "MySQL-custom")
 
-- Select Products 
+    5. Select Products 
 
     - MySQL Server
     - MySQL Workbench
@@ -701,7 +701,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
     - MySQL Documentation
     - Samples and Examples
 
-- Select from the "Available Products" column, then click the Top arrow to move it to the left column.
+    6. Select from the "Available Products" column, then click the Top arrow to move it to the left column.
 
 ![MySQL-select-products](./images/fr0101-12_MySQL-select-products.png "MySQL-select-products")
 
@@ -713,7 +713,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-select-products-4](./images/fr0101-12_MySQL-select-products-4.png "MySQL-select-products-4")
 
-- Product Configuration
+    7. Product Configuration
 
 ![MySQL-product-configuration](./images/fr0101-12_MySQL-product-configuration.png "MySQL-product-configuration")
 
@@ -733,7 +733,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6.png "MySQL-product-configuration-6")
 
-- Connect to Server
+    8. Connect to Server
 
 ```
 Enter password -> FormR!1234 and click the Check button
@@ -743,39 +743,39 @@ Enter password -> FormR!1234 and click the Check button
 
 ![MySQL-connect-server](./images/fr0101-12_MySQL-connect-server.png "MySQL-connect-server")
 
-- Windows Service
+    9. Windows Service
 
 ![MySQL-windows-service](./images/fr0101-12_MySQL-windows-service.png "MySQL-windows-service")
 
-- Apply Configuration
+    10. Apply Configuration
 
 ![MySQL-apply-configuration](./images/fr0101-12_MySQL-apply-configuration.png "MySQL-apply-configuration")
 
 ![MySQL-apply-configuration-1](./images/fr0101-12_MySQL-apply-configuration-1.png "MySQL-apply-configuration-1")
 
-- Be sure to Click the check boxes for Starting Workbench and Shell in the Installation Complete windows
+    11. Be sure to Click the check boxes for Starting Workbench and Shell in the Installation Complete windows
 
 ![MySQL-installation-complete](./images/fr0101-12_MySQL-installation-complete.png "MySQL-installation-complete")
 
-- MySQL Shell and MySQL WorkBench are automatically opened because you clicked the check boxes in the previous step.
+    12. MySQL Shell and MySQL WorkBench are automatically opened because you clicked the check boxes in the previous step.
 
 ![MySQL-shell-workbench](./images/fr0101-12_MySQL-shell-workbench.png "MySQL-shell-workbench")
 
-- Select the Workbench window and click Local Instance 
+    13. Select the Workbench window and click Local Instance 
 
 ![MySQL-workbench-login](./images/fr0101-12_MySQL-workbench-login.png "MySQL-workbench-login")
 
-- Enter credentials
+    14. Enter credentials
 
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
-- In the Query 1 pane enter SHOW DATABASES, then Click the Exceute icon
+    15. In the Query 1 pane enter SHOW DATABASES, then Click the Exceute icon
 
 ![MySQL-workbench-show-databases](./images/fr0101-12_MySQL-workbench-show-databases.png "MySQL-workbench-show-databases")
 
 ![MySQL-workbench-show-databases-1](./images/fr0101-12_MySQL-workbench-show-databases-1.png "MySQL-workbench-show-databases-1")
 
-- Select the MySql Shell window
+    16. Select the MySql Shell window
 
 ```
 Enter:  \connect root@localhost
@@ -788,7 +788,7 @@ Enter: Y to save password
 
 ![MySQL-shell-login](./images/fr0101-12_MySQL-shell-login.png "MySQL-shell-login")
 
-- Shell SHOW DATABASES
+    17. Shell SHOW DATABASES
 
 ```
 Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
@@ -798,7 +798,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 
 ### 14. Install BitVise ssh client
 
-- Install Bitvise from: 
+    18. Install Bitvise from: 
 
 ```
 https://bitvise.com/ssh-client-download
@@ -816,13 +816,13 @@ https://bitvise.com/ssh-client-download
 
 ###    15. Install TextPad
 
-- Install Textpad from: 
+    1. Install Textpad from: 
 
 ```
 https://textpad.com/download
 ```
 
-- Select the latest version then accept the defaults
+    2. Select the latest version then accept the defaults
 
 ![Textpad-download](./images/fr0101-14_Textpad-download.png "Textpad-download")
 
