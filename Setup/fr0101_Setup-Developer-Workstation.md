@@ -244,7 +244,7 @@ chrome://extensions/
 
 ### 5. Create an account or sign into GitHub then Add your ssh key.
 
-- GitHub
+1. Sign in to GitHub. (Create an account, if you don't habe one.)
 
 ```
 https://github.com
@@ -252,63 +252,49 @@ https://github.com
 
 ![Login to Github](./images/fr0101-04_Login-to-github.png "Login to GitHub")
 
-- Add your Github ssh key from your .ssh folder to your github account
+2. Add your Github ssh key from your .ssh folder to your github account.
 
 ```
-1. Login to your github account:
-
- https://github.com
-
-2. Navigate to:
-
- https://github.com/settings/ssh
-
-3. Click New SSH Key button
-
+https://github.com/settings/ssh
 ```
+    1. Click New SSH Key button
 
 ![Add New ssh key](./images/fr0101-04_Add-New-ssh-key.png "Add New ssh key")
 
 ![Add New ssh key-1](./images/fr0101-04_Add-New-ssh-key-1.png "Add New ssh key-1")
 
-```
-4. In notepad open your github public key from your .ssh folder.
 
-5. Copy the contents to the clipboard.
-```
+    2. In notepad open your github public key from your .ssh folder, then copy the contents to the clipboard.
 
 ![Add New ssh key-2](./images/fr0101-04_Add-New-ssh-key-2.png "Add New ssh key-2")
 
 ![Add New ssh key-3](./images/fr0101-04_Add-New-ssh-key-3.png "Add New ssh key-3") 
 
-```
-6. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
 
-7. Copy the last part of the key and paste it into the Title box.
+    3. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
 
-8. Click the Add SSH key button when finished.
-```
+    4. Copy the last part of the key and paste it into the Title box.
+
+    5. Click the Add SSH key button when finished.
+
 
 ![Add New ssh key-4](./images/fr0101-04_Add-New-ssh-key-4.png "Add New ssh key-4")
 
 ![Add New ssh key-5](./images/fr0101-04_Add-New-ssh-key-5.png "Add New ssh key-5")
 
 
-
-
-- Create a new repository: 'myProject'.
+3. Create a new repository: 'myProject'.
 
 ```
-Browse to:
-
 https://github.com/new
-
-Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
 ```
+
+    1. Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
+
 
 ![GitHub-myProject](./images/fr0101-04_GitHub-myProject.png "GitHub-myProject")
 
-- Edit the Readme.md file
+    2. Edit the Readme.md file
 
 ```
 Click the pencil
@@ -316,29 +302,29 @@ Click the pencil
 
 ![GitHub-myProject-readme](./images/fr0101-04_GitHub-myProject-readme.png "GitHub-myProject-readme")
 
-```
-Change to:
+    3. Change file to:
 
+```
 # myProject was created on mm/dd/yyyy.
 ```
 
 ![GitHub-myProject-readme2](./images/fr0101-04_GitHub-myProject-readme2.png "GitHub-myProject-readme2")
 
-- Commit changes
+    4. Commit changes
 
 ```
-1. Go to the bottom of the edit page to the Commit Changes section.
+    - Go to the bottom of the edit page to the Commit Changes section.
 
-2. A description is required: Update README.md
+    - A description is required: Update README.md
 
-3. Click commit Changes
+    - Click commit Changes
 ```
 
 ![GitHub-myProject-readme3](./images/fr0101-04_GitHub-myProject-readme3.png "GitHub-myProject-readme3")
 
 ![GitHub-myProject-readme4](./images/fr0101-04_GitHub-myProject-readme4.png "GitHub-myProject-readme4")
 
-### 6. Configure ssh Access to Github
+    5. Configure ssh Access to Github
 
 - Create a Host for github connection in the .ssh/config file.
 
@@ -357,7 +343,7 @@ Host github-mm
 
 ![Add Host to config](./images/fr0101-03_Add-host-to-config.png "Add Host to config")
 
-- From the DOS command window, test the connection to github.
+    6. From the DOS command window, test the connection to github.
 
 ```
 ssh github-mm
@@ -371,30 +357,30 @@ Note: On the first try when prompted enter "yes"
 
 ### 7. Download Git, if not already installed
 
-- Download from
+
 ```
  https://git-scm.com/download/win
 ```
 
 ![Git-for-Windows](./images/fr0101-06_Git-for-Windows.png "Git-for-Windows")
 
-- Allow changes
+    1. Allow changes
 
-![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1")
+![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1") 
 
-- Select all the default values and install
+    2. Select all the default values and install
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
-- Finish Install
+    3. Finish Install
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
-- Open Git Bash
+    4. Open Git Bash
 
 ![Git-for-Windows4](./images/fr0101-06_Git-for-Windows4.png "Git-for-Windows4")
 
-- Add Username for github
+    5. Add Username for github
 
 ```
 Change Mickey Mouse to <your name>:
@@ -405,7 +391,7 @@ git config --global user.name = "Mickey Mouse"
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
 
 
-- Add User Email for github
+    6. Add User Email for github
 
 ```
 Change mickey.mouse@gmail.com to <your email in github>:
@@ -418,7 +404,6 @@ git config --global user.email = "mickey.mouse@gmail.com"
 
 ### 8. Open or Install VSCode
 
-- Install from
 
 ```
 https://code.visualstudio.com/download
@@ -426,43 +411,42 @@ https://code.visualstudio.com/download
 
 ![VSCode](./images/fr0101-07_VSCode.png "VSCode")
 
-- Accept all the defaults
+    1. Accept all the defaults
 
 ![VSCode](./images/fr0101-07_VSCode1.png "VSCode")
 
-- Pin it to Task Bar
+    2. Pin it to Task Bar
 
 ![VSCode2](./images/fr0101-07_VSCode2.png "VSCode2")
 
 
-- Open VSCode and Install Extensions
+    3. Open VSCode and Install Extensions
 
 ![VSCode3](./images/fr0101-07_VSCode3.png "VSCode3")
 
-    - GitLens  -- Supercharged
+    4. GitLens  -- Supercharged
 
 ![VSCode4](./images/fr0101-07_VSCode4.png "VSCode4")
 
-    - Prettier
+    5. Prettier
 
 ![VSCode5](./images/fr0101-07_VSCode5.png "VSCode5")
 
-    - React Snippets
+    6. React Snippets
 
 ![VSCode6](./images/fr0101-07_VSCode6.png "VSCode6")
 
 ![VSCode6a](./images/fr0101-07_VSCode6a.png "VSCode6a")
 
+    7. Change default terminal and add Autosave
 
-- Change default terminal and add Autosave
-
-- Using Notepad, edit: 
+        - Using Notepad, edit: 
 
 ```
  C:\Users\Local_Admin\AppData\Roaming\Code\User\settings.json
 ```
 
--Delete all line and Add these lines:
+        - Delete all line and Add these lines:
 
 ```
 {
@@ -487,17 +471,17 @@ https://code.visualstudio.com/download
 
 ![VSCode11a](./images/fr0101-07_VSCode11a.png "VSCode11a")
 
-- From VSCode open a new Terminal
+    8. From VSCode open a new Terminal
 
 ![VSCode11b](./images/fr0101-07_VSCode11b.png "VSCode11b")
 
 ![VSCode11c](./images/fr0101-07_VSCode11c.png "VSCode11c")
 
-- Close VSCode
+    9. Close VSCode
 
 ### 9. Clone myProject
 
-- Using File Explorer open git bash in c/repos folder
+    1. Using File Explorer open git bash in c/repos folder
 
 ```
 Navigate to repos, right click and Open Git Bash here
@@ -505,7 +489,7 @@ Navigate to repos, right click and Open Git Bash here
 
 ![Open-git-bash](./images/fr0101-08_Open-git-bash.png "Open-git-bash")
 
-- Clone myProject from github into the local repos folder
+    2. Clone myProject from github into the local repos folder
 
 ```
 Change:
@@ -517,7 +501,7 @@ git clone github-mm:mickeymouse-gmail/myProject.git
 
 ![Clone-from-GitHub](./images/fr0101-08_Clone-from-GitHub.png "Clone-from-GitHub")
 
-- Open myProject in VScode
+    3. Open myProject in VScode
 
 ```
 cd myProject
@@ -551,7 +535,8 @@ Save Workspace as: myProject.code-workspace
 
 ### 10. Markdown Preview test
 
-- Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
+    1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
+
 ```
     1. My first update was changed locally.
 
@@ -562,13 +547,13 @@ Save Workspace as: myProject.code-workspace
 
 ![Markdown-Preview2](./images/fr0101-09_Markdown-Preview2.png "Markdown-Preview2")
 
-- Click View.. Command Palette and type: >Markdown: Open Preview to the Side, your preview will display.
+    2. Click View.. Command Palette and type: >Markdown: Open Preview to the Side, your preview will display.
 
 ![Markdown-Preview3](./images/fr0101-09_Markdown-Preview3.png "Markdown-Preview3")
 
 ![Markdown-Preview4](./images/fr0101-09_Markdown-Preview4.png "Markdown-Preview4")
 
-- From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe, your preview will display.
+    3. From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe, your preview will display.
 
 ![Markdown-Preview5](./images/fr0101-09_Markdown-Preview5.png "Markdown-Preview5")
 
