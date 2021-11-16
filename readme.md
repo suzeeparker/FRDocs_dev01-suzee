@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The FormR Project
 
 - FormR is an easy to use application that uses a Sequelize, ExpressJS, React-Admin and NodeJS (SERN) stack. The coding philosophy leans more towards DRY (Don't Repeat Yourself) than WET (Write Every Time).
