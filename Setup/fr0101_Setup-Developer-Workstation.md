@@ -10,8 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Setup Workstation
-
+## 1.1 Setup Worstation
 #### Introduction
 The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps.
 
@@ -257,25 +256,26 @@ https://github.com
 ```
 https://github.com/settings/ssh
 ```
-    1. Click New SSH Key button
+
+3. Click New SSH Key button
 
 ![Add New ssh key](./images/fr0101-04_Add-New-ssh-key.png "Add New ssh key")
 
 ![Add New ssh key-1](./images/fr0101-04_Add-New-ssh-key-1.png "Add New ssh key-1")
 
 
-    2. In notepad open your github public key from your .ssh folder, then copy the contents to the clipboard.
+4. In notepad open your github public key from your .ssh folder, then copy the contents to the clipboard.
 
 ![Add New ssh key-2](./images/fr0101-04_Add-New-ssh-key-2.png "Add New ssh key-2")
 
 ![Add New ssh key-3](./images/fr0101-04_Add-New-ssh-key-3.png "Add New ssh key-3") 
 
 
-    3. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
+5. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
 
-    4. Copy the last part of the key and paste it into the Title box.
+6. Copy the last part of the key and paste it into the Title box.
 
-    5. Click the Add SSH key button when finished.
+7. Click the Add SSH key button when finished.
 
 
 ![Add New ssh key-4](./images/fr0101-04_Add-New-ssh-key-4.png "Add New ssh key-4")
@@ -283,18 +283,18 @@ https://github.com/settings/ssh
 ![Add New ssh key-5](./images/fr0101-04_Add-New-ssh-key-5.png "Add New ssh key-5")
 
 
-3. Create a new repository: 'myProject'.
+8. Create a new repository: 'myProject'.
 
 ```
 https://github.com/new
 ```
 
-    1. Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
+9. Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
 
 
 ![GitHub-myProject](./images/fr0101-04_GitHub-myProject.png "GitHub-myProject")
 
-    2. Edit the Readme.md file
+10. Edit the Readme.md file
 
 ```
 Click the pencil
@@ -302,7 +302,7 @@ Click the pencil
 
 ![GitHub-myProject-readme](./images/fr0101-04_GitHub-myProject-readme.png "GitHub-myProject-readme")
 
-    3. Change file to:
+11. Change file to:
 
 ```
 # myProject was created on mm/dd/yyyy.
@@ -310,7 +310,7 @@ Click the pencil
 
 ![GitHub-myProject-readme2](./images/fr0101-04_GitHub-myProject-readme2.png "GitHub-myProject-readme2")
 
-    4. Commit changes
+12. Commit changes
 
 ```
     - Go to the bottom of the edit page to the Commit Changes section.
@@ -324,7 +324,7 @@ Click the pencil
 
 ![GitHub-myProject-readme4](./images/fr0101-04_GitHub-myProject-readme4.png "GitHub-myProject-readme4")
 
-    5. Configure ssh Access to Github
+13. Configure ssh Access to Github
 
 - Create a Host for github connection in the .ssh/config file.
 
@@ -343,7 +343,7 @@ Host github-mm
 
 ![Add Host to config](./images/fr0101-03_Add-host-to-config.png "Add Host to config")
 
-    6. From the DOS command window, test the connection to github.
+14. From the DOS command window, test the connection to github.
 
 ```
 ssh github-mm
@@ -364,23 +364,23 @@ Note: On the first try when prompted enter "yes"
 
 ![Git-for-Windows](./images/fr0101-06_Git-for-Windows.png "Git-for-Windows")
 
-    1. Allow changes
+1. Allow changes
 
 ![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1") 
 
-    2. Select all the default values and install
+2. Select all the default values and install
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
-    3. Finish Install
+3. Finish Install
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
-    4. Open Git Bash
+4. Open Git Bash
 
 ![Git-for-Windows4](./images/fr0101-06_Git-for-Windows4.png "Git-for-Windows4")
 
-    5. Add Username for github
+5. Add Username for github
 
 ```
 Change Mickey Mouse to <your name>:
@@ -391,10 +391,10 @@ git config --global user.name = "Mickey Mouse"
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
 
 
-    6. Add User Email for github
+6. Add User Email for github
 
 ```
-Change mickey.mouse@gmail.com to <your email in github>:
+Change mickey.mouse@gmail.com to <your email in github>:    
 
 git config --global user.email = "mickey.mouse@gmail.com"
 ```
@@ -411,34 +411,34 @@ https://code.visualstudio.com/download
 
 ![VSCode](./images/fr0101-07_VSCode.png "VSCode")
 
-    1. Accept all the defaults
+1. Accept all the defaults
 
 ![VSCode](./images/fr0101-07_VSCode1.png "VSCode")
 
-    2. Pin it to Task Bar
+2. Pin it to Task Bar
 
 ![VSCode2](./images/fr0101-07_VSCode2.png "VSCode2")
 
 
-    3. Open VSCode and Install Extensions
+3. Open VSCode and Install Extensions
 
 ![VSCode3](./images/fr0101-07_VSCode3.png "VSCode3")
 
-    4. GitLens  -- Supercharged
+4. GitLens  -- Supercharged
 
 ![VSCode4](./images/fr0101-07_VSCode4.png "VSCode4")
 
-    5. Prettier
+5. Prettier
 
 ![VSCode5](./images/fr0101-07_VSCode5.png "VSCode5")
 
-    6. React Snippets
+6. React Snippets
 
 ![VSCode6](./images/fr0101-07_VSCode6.png "VSCode6")
 
 ![VSCode6a](./images/fr0101-07_VSCode6a.png "VSCode6a")
 
-    7. Change default terminal and add Autosave
+7. Change default terminal and add Autosave
 
         - Using Notepad, edit: 
 
@@ -471,17 +471,17 @@ https://code.visualstudio.com/download
 
 ![VSCode11a](./images/fr0101-07_VSCode11a.png "VSCode11a")
 
-    8. From VSCode open a new Terminal
+8. From VSCode open a new Terminal
 
 ![VSCode11b](./images/fr0101-07_VSCode11b.png "VSCode11b")
 
 ![VSCode11c](./images/fr0101-07_VSCode11c.png "VSCode11c")
 
-    9. Close VSCode
+9. Close VSCode
 
 ### 9. Clone myProject
 
-    1. Using File Explorer open git bash in c/repos folder
+1. Using File Explorer open git bash in c/repos folder
 
 ```
 Navigate to repos, right click and Open Git Bash here
