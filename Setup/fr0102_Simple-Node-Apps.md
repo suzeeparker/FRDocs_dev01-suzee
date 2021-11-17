@@ -7,11 +7,12 @@
 </div><div class="page-next">
 
 [Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.2 Simple Node Apps
+
 #### Introduction
 
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
