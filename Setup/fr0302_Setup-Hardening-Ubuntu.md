@@ -18,19 +18,22 @@
 
 ### 1. Restart your Vultr VM and Login
 
- 1. Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
- 2.  From your Vultr FormR1 console
- - Copy the root password
- - Click View Console button
+2. From your Vultr FormR1 console
+ 
+3. Copy the root password
+ 
+4. Click View Console button
  
 ![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-3. Login as root using the Send Clipboard button
+5. Login as root using the Send Clipboard button
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
+
 
 ### 2. Create a new sudo user
 

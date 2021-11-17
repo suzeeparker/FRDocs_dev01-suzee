@@ -13,24 +13,26 @@
 
 ## Setup Instructions for application server, NodeJS, on Ubuntu
 
-### 0. Restart your Vultr VM and Login
+### 1. Restart your Vultr VM and Login
 
- - Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
- - From your Vultr FormR1 console
- - Copy the root password
- - Click View Console button
+2. From your Vultr FormR1 console
+ 
+3. Copy the root password
+ 
+4. Click View Console button
  
 ![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-Login as root using the Send Clipboard button
+5. Login as root using the Send Clipboard button
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 
-### 1. Install nodejs
+### 2. Install nodejs
 
 - Install
 ```
@@ -46,7 +48,7 @@ nodejs --version
 
 ![Check NodeJS](./images/fr0304-02_Ubuntu-check-nodejs.png "Check NodeJS")
 
-### 2. Install npm
+### 3. Install npm
 
 - Install
 ```
@@ -62,7 +64,7 @@ npm --version
 
 ![Check NPM](./images/fr0304-04_Ubuntu-check-npm.png "Check NPM")
 
-### 3. Install  pm2
+### 4. Install  pm2
 
 - Install
 ```
@@ -85,7 +87,7 @@ pm2 startup systemd
 
 ![Autostart PM2](./images/fr0304-07_Ubuntu-autostart-pm2.png "Autostart PM2")
 
-### 4. Install Docsify
+### 5. Install Docsify
 ```
  npm install docsify -g
  ```
@@ -100,7 +102,7 @@ ps -aux | egrep 'docsify'
 ![Check Docsify](./images/fr0304-09_Ubuntu-check-docsify.png "Check Docsify")
 
 
-### 5. Install Express
+### 6. Install Express
 ```
 cd /webs
 npm init
@@ -116,7 +118,7 @@ npm install express
 
 ![Install Express](./images/fr0304-11_Ubuntu-install-express.png "Install Express")
 
-### 6. Create Snapshot of server in Vultr
+### 7. Create Snapshot of server in Vultr
 ``` 
 Use label: FormR-Installed-App-Server
 ```
