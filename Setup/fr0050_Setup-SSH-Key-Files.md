@@ -10,7 +10,7 @@ BACK
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Uses of SSH Keys
+## 1.1 Uses of SSH Keys
 
 ### 1. A Remote Linux Server
 
