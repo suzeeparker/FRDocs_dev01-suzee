@@ -15,15 +15,15 @@ NEXT
 
 ### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
 
- - Open Bitvise Client app 
+  1. Open Bitvise Client app 
 
  ![BitVise Open](./images/fr0306-01_Ubuntu-Bitvise-Open.png "BitVise Open")
 
- - Click New Profile
+  2. Click New Profile
  
 ![BitVise New Profile](./images/fr0306-01_Ubuntu-Bitvise-New-Profile.png "BitVise New Profile")
 
-- Enter new profile name: 
+  3. Enter new profile name: 
 
 ```
 FormR1-Vultr-nimda
@@ -32,7 +32,7 @@ FormR1-Vultr-nimda
 ![BitVise New Profile Name](./images/fr0306-01_Ubuntu-Bitvise-New-Profile-Name.png "BitVise New Profile Name")
 
 
- - Enter:
+  4. Enter:
 
 ```
   Host IP address: Your Vultr Ubuntu server IP 
