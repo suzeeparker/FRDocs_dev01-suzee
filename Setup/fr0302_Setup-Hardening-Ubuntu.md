@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Install Web Server - NEXT](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 

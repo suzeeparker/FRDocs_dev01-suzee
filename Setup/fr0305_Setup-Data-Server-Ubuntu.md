@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Install Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 

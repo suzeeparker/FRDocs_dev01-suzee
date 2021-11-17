@@ -6,9 +6,10 @@
 </div><div class="page-next">
 
 [Install Database Server - NEXT](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
+
 
 ## Setup Instructions for application server, NodeJS, on Ubuntu
 

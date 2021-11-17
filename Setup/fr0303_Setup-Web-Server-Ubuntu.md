@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Install App Server - NEXT](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 

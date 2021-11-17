@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
