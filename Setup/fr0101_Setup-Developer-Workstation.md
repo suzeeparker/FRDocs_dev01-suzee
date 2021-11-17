@@ -1,8 +1,8 @@
 <!-- ------------------------------------------------------------------------- -->
 
-<div class="page-back">
+<div class="page-back disabled">
 
-[BACK - Create SSH Keys](/Setup/fr0050_Setup-SSH-Key-Files.md)
+BACK
 </div><div class="page-next">
 
 [Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
@@ -851,9 +851,9 @@ https://textpad.com/download
 
 <!-- ------------------------------------------------------------------------- -->
 
-<div class="page-back">
+<div class="page-back disabled">
 
-[BACK - Create SSH Keys](/Setup/fr0050_Setup-SSH-Key-Files.md)
+[BACK]()
 </div><div class="page-next">
 
 [Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
