@@ -1,0 +1,697 @@
+    /*  ---------------------------------------------------------------- */
+    /*  Entire Page                                                      */
+    /*  ---------------------------------------------------------------- */
+
+         .container {                                                   /* .(90529.02.1 RAM Added to set max grid width) */
+            max-width            : 1350px;
+            font-family          :  Calibri, Helvetica, sans-serif;     /* .(90529.02.2 RAM Added to try to set global font) */
+
+      /*    font-family          : -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto; */
+      /*       -apple-system
+                  San Francisco                     - in Safari (on Mac OS X and iOS);
+                  Neue Helvetica and Lucida Grande  - on older versions of Mac OS X,
+                system-ui                           - default UI font on a given platform.
+                BlinkMacSystemFont                  - equivalent of -apple-system, for Chrome on Mac OS X.
+               "Segoe UI"                           - Windows (Vista+) and Windows Phone.
+                Roboto                              - Android (Ice Cream Sandwich (4.0)+) and Chrome OS.
+       */
+            }
+
+      /*  SearchBar Color:                  *//* .(90601.07.*) *//*
+              #0B526F           --  Light Blue from the ABQ Logo
+              #34445C           --  SicommNet Dark Blue
+              #9EDAE0           --  Hawaii DOE Darker Blue (Still Light)
+              #2C3E50           --  ??
+              #95A6C6           --  ??
+          Background Color:                 *//* .(90529.11.5) *//*
+              #FFD562           --  ABQ Gold
+              white             --  White
+          */
+
+
+      /*  Misc Divs                                                     /* .(90528.06.1 RAM Added) */
+      /*  -------------------------------------------------------------- */
+         .logo {                              /* .(90528.07.1 RAM Added) */
+            height               :   95px;    /* .(90530.05.1 RAM S.B 125?? Is it needed? Yes ).(90530.05.8 RAM Was: 96) */
+            padding              :   14px;    /* .(90530.05.2 RAM Height S.B. 96 + 2 x  padding; Was 14px).(90601.02.1 RAM S.B. 0px for Hawaii logo */
+            margin               :    0px;    /* .(90530.05.6 RAM Height S.B. 48 + 2 x (padding + margin)) */
+
+      /*    background-image     :  url( '/4/IMGs/NM-Logo-2.png' );      *//*#.(90605.10.1 RAM Set it in .hbs page inline style) */
+      /*    background-image     :  url( 'https://ec.samaritan.com/custom/1503/images/logo.png' )  */
+            background-repeat    :  no-repeat;
+            background-size      :  630px;    /* .(90530.05.8 RAM Was: 655) */
+            }
+
+          .title {
+            padding:10px;
+      /*    background-color     : #FFD562;   /* .(90529.11.5  Or: white  ) *//*#.(90605.10.2 RAM Set it in .hbs page inline style) */
+            }
+          .title1::before {                   /* .(90602.03.1 RAM Custom text for this site) */
+            content              : "Search for Local Vendors";
+            }
+          .title1 {
+            font-weight          :  normal;
+            line-height          :  1;
+            color                : #696969;
+            font-size            :  24px;
+            margin-left          :  10px;
+            margin-top           :  10px;
+            margin-bottom        :  15px;
+            }
+          .title2::before {                   /* .(90602.03.2 RAM Custom text for this site) */
+            content              : "Simply find businesses in your area offering a product or service by entering a search word";
+            }
+          .title2 {
+            display              :  block;
+            font-weight          :  normal;
+            line-height          :  1;
+            color: #b4bcc2;
+            font-size            :  18px;
+            }
+          .copyright {
+            font-weight          :  normal;
+            line-height          :  1;
+            color                : #b4bcc2;
+            font-size            :  18px;
+            }
+
+      /*  SearchBar, PagingBar, Results                                  */
+      /*  -------------------------------------------------------------- */
+          layout {
+            display              :  grid;
+            grid-template-columns:  repeat( 1, 1fr);
+            grid-gap: 1px        ;                                      /* space between rows      */
+            font-size            :  16px;
+            }
+
+      /*  Search Bar                                                     */
+      /*  -------------------------------------------------------------- */
+          searchbar {
+            display              :  flex;
+            flex-direction       :   row;
+            justify-content      :  flex-start;
+            background           : #34445C;                             /* .(90601.07.1 Was: #2C3E50, #95A6C6 */
+            text-align           :  left;
+            padding              :   7px;
+            border               :   0px;
+            border-radius        :   3px;
+            margin-top           :   5px;                               /* .(90704.05.1 RAM Added) */
+            margin-bottom        :  35px;                               /* .(90704.05.2 RAM Was: 35).(90710.06.1 RAM Put it back) */
+            margin-left          :   1px;
+            }
+          search {
+            background           : #FFFFFF;
+            border               :    1px solid black;
+            border-radius        :    3px;
+            padding              :   10px;
+            }
+
+      /*  1) Business Location                                           */
+      /*  -------------------------------------------------------------- */
+          search#fld1  {
+            width                :  210px;
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;                              /* .(90528.03.1 RAM Added) */
+            background           : #34445C;                             /* .(90528.03.2 RAM Added to remove 2ndary boxes).(90601.07.2) */
+            }
+          search #inp1 {
+            width                :  185px;
+            background-color     : #EEEEEE;
+            border-radius        :    3px;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            padding              :    5px;
+            }
+
+      /*  2) Business Size                                               */
+      /*  -------------------------------------------------------------- */
+          search#fld2  {
+    /*      width                :  100px;                             *//*#.(90610.01.1 RAM was 105px in dev03).(91003.07.x) */
+            width                :  125px;                               /* .(91003.07.x RAM Casused Help icon to move) */
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;                              /* .(90528.03.3 RAM Added */
+            background           : #34445C;                             /* .(90528.03.4 RAM Added to remove 2ndary boxes).(90601.07.3) */
+            }
+          search #inp2 {
+            width                :   75px;                              /* .(90529.04.1 RAM Changed. Was 80px;) */
+            background-color     : #EEEEEE;
+            border-radius        :    3px;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            padding              :    5px;
+            }
+
+      /*  3) Find Keywords                                               */
+      /*  -------------------------------------------------------------- */
+          search#fld3 {
+            width                :  210px;                              /* .(90519.01.2 RAM was: 200px;).(90610.01.2 RAM was 207px in dev03) */
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;                              /* .(90528.03.5 RAM Added) */
+            background           : #34445C;                             /* .(90528.03.6 RAM Added to remove 2ndary boxes).(90601.07.3) */
+            }
+          search #inp3 {
+            width                :  173px;
+            background-color     : #EEEEEE;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            border-radius        :    3px;
+            border               :    1px solid rgb(149, 149, 149);
+            padding              :    5px;
+            }
+
+      /*  4) Search Button                                               */
+      /*  -------------------------------------------------------------- */
+          search#fld4 {
+            width                :   60px;
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;                              /* .(90528.03.7 RAM Added) */
+            background           : #34445C;                             /* .(90528.03.8 RAM Added to remove 2ndary boxes).(90601.07.4) */
+            }
+
+      /*  5) Debug Checkbox                                              */
+      /*  -------------------------------------------------------------- */
+          search#fld5 {                                                 /* .(90519.01.3 RAM Added) */
+            width                :   70px;
+            position             :  relative;
+            background           : #2C3E50;
+            border               :    0px;
+            padding              :    5px;
+            border               :    0px;                              /* .(90528.03.9  RAM Added) */
+            background           : #34445C;                             /* .(90528.03.10 RAM Added to remove 2ndary boxes).(90601.07.5) */
+            }
+    /*    search #inp5 {
+            -webkit-appearance   :  none;
+            -moz-appearance      :  none;
+            appearance           :  none;
+            height               :  200px;
+            }
+     */
+      /*  6) Submit Button                                               */
+      /*  -------------------------------------------------------------- */
+          input[type="submit"] {
+            -webkit-appearance   :  none;
+            -moz-appearance      :  none;
+            appearance           :  none;
+            width                :   60px;
+            background-color     : #EEEEEE;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            border-radius        :    3px;
+            border               :    1px solid rgb(149, 149, 149);
+            padding              :    5px;
+            height               :   30px;
+            }
+
+      /*  7) State                                                       */
+      /*  -------------------------------------------------------------- */
+          search#fld7 {
+            width                :  100px;
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;
+            background           : #34445C;
+            }
+          search #inp7 {
+            width                :   75px;                               /* .(90610.01.3 RAM was 70px in dev03) */
+            background-color     : #EEEEEE;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            border-radius        :    3px;
+            border               :    1px solid rgb(149, 149, 149);
+            padding              :    5px;
+            }
+
+      /*  8) County                                                      */
+      /*  -------------------------------------------------------------- */
+          search#fld8  {
+            width                :  210px;
+            position             :  relative;
+            padding              :    5px;
+            border               :    0px;
+            background           : #34445C;
+            }
+          search #inp8 {
+            width                :  185px;
+            background-color     : #EEEEEE;
+            border-radius        :    3px;
+            font-family          :  Calibri;
+            font-size            :   14px;
+            padding              :    5px;
+            }
+
+      /*  9+) Add'l Search Fields                                        */
+      /*  -------------------------------------------------------------- */
+          #OthFlds {                                                      /* .(90629.07.1 RAM Beg) */
+            width                :  720px;                                /* .(90701.08.2 RAM 720 = (230 + 10) x 3) */
+            display              :  grid;
+            grid-template-columns:  1fr 1fr 1fr;
+            align-items          :  left;                                 /* .(90701.08.1 RAM No Workie) */
+            margin-left          :  28px;                                 /* .(90701.08.5 RAM) */
+            }
+
+          .barBtn1 {                                                      /* .(90627.04.21 RAM Beg) */
+            float                :  left;
+            color                : #333;
+            width                :  75px;
+            font-size            :  14px;
+            line-height          :  24px;
+            font-weight          :  normal;
+            text-align           :  left;
+            text-decoration      :  none;
+            border               :  1px solid #AAA;
+            min-width            :  14px;
+            padding              :  0 3px 0 7px;
+            margin-top           :  0px;                                   /* .(90629.06.4 RAM For iPad)  */
+/*          margin-left          :  13px;                                *//* .(90629.06.3 RAM Was: 30px, 23px) */
+            box-shadow           :  2px 2px 2px rgba(0,0,0,0.2);
+            background           : #efefef;                                                   /* Old browsers */
+            background           : -moz-linear-gradient(     top, #ffffff 0%, #efefef 100% ); /* FF3.6+ */
+            background           : -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #ffffff ), color-stop( 100%, #efefef ) ); /* Chrome,Safari4+ */
+            background           : -webkit-linear-gradient(  top, #ffffff 0%, #efefef 100% ); /* Chrome10+,Safari5.1+ */
+            background           : -o-linear-gradient(       top, #ffffff 0%, #efefef 100% ); /* Opera11.10+ */
+            background           : -ms-linear-gradient(      top, #ffffff 0%, #efefef 100% ); /* IE10+ */
+            background           :  linear-gradient(         top, #ffffff 0%, #efefef 100% ); /* W3C */
+            }
+          .barBtn {
+            float                :  left;
+            color                : #333;
+            width                :  101px;
+            font-size            :  14px;
+            line-height          :  24px;
+            font-weight          :  normal;
+            text-align           :  left;
+            text-decoration      :  none;
+            border               :  1px solid #AAA;
+            border-left          :  none;                                  /* .(90629.06.3 RAM) */
+            min-width            :  14px;
+            padding              :  0 7px;
+            margin-top           :  0px;                                   /* .(90629.06.4 RAM For iPad) */
+            box-shadow           :  2px 2px 2px rgba(0,0,0,0.2);
+            background           : #efefef;                                                   /* Old browsers */
+            background           : -moz-linear-gradient(     top, #ffffff 0%, #efefef 100% ); /* FF3.6+ */
+            background           : -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #ffffff ), color-stop( 100%, #efefef ) ); /* Chrome,Safari4+ */
+            background           : -webkit-linear-gradient(  top, #ffffff 0%, #efefef 100% ); /* Chrome10+,Safari5.1+ */
+            background           : -o-linear-gradient(       top, #ffffff 0%, #efefef 100% ); /* Opera11.10+ */
+            background           : -ms-linear-gradient(      top, #ffffff 0%, #efefef 100% ); /* IE10+ */
+            background           :  linear-gradient(         top, #ffffff 0%, #efefef 100% ); /* W3C */
+            }
+         .plus {
+            width                :  29px;
+            text-align           :  center;
+            }
+         .minus {
+            width                :  29px;
+            text-align           :  center;
+            }                                                              /* .(90627.04.21 End) */
+
+
+      /*  Help Popup Messages  ??                                        */
+      /*  -------------------------------------------------------------- */
+          search #tip1 {
+            width                :  300px;  /* was:  350px; */
+            z-index              :   50;
+            }
+          search #tip2 {
+            width                :  200px;
+            right                :  -34px;
+            z-index              :   50;
+            }
+          search #tip3 {
+            width                :  265px;  /* was:  300px; */
+            right                :   -8px;
+            z-index              :   50;
+            }
+          search #tip4 {
+            width                :  100px;
+            z-index              :   50;
+            }
+          search #tip7 {
+            width                :  235px;                             /* .(90610.01.4 RAM was 200px in dev03) */
+            right                :  -34px;
+            z-index              :   50;
+            }
+          search #tip8 {
+            width                :  245px;                             /* .(90610.01.5 RAM was 200px in dev03) */
+            right                :  -34px;
+            z-index              :   50;
+            }
+
+      /*  Help Popup Messages Location                                  */
+      /*  ------------------------------------------------------------- */
+          #fld1 > div.help-tip-show {                                   /* .(90525.04.2 RAM Added to place this tip in a different position) */
+            left                 :  130px;
+            }
+          #fld7 > div.help-tip-show {
+            left                 :   47px;
+            }
+          #fld8 > div.help-tip-show {
+            left                 :   47px;
+            }
+
+      /*  Help Icons                                                    */
+      /*  ------------------------------------------------------------- */
+          .help-tip {
+              position           :  absolute;
+              top                :    4px;
+              right              :    7px;                              /* .(90528.02.1 RAM Was 4px; Made it closer to field */
+              text-align         :  center;
+    /*        background-color   : #BCDBEA;                           *//*#.(90519.01.1 RAM Changed) */
+              background-color   :  rgba(0, 26, 255, 0.609);            /* .(90519.01.1 RAM Changed) */
+              border-radius      :   50%;
+              width              :   18px;                              /* .(90519.01.1 RAM Changed. Was 24px) */
+              height             :   18px;                              /* .(90519.01.1 RAM Changed. Was 24px) */
+    /*        font-size          :   14px;                            *//* .(90519.01.1 RAM Removed) */
+              cursor             :  default;
+              }
+          .help-tip:before{
+    /*        content            : '?';   */
+    /*        content            :  url( 'https://api.iconify.design/mdi-question-mark-circle.svg?height=18&color=white' ); *//*#.(90602.01.1) */
+    /*        content            :  url(      '../../_3/IMGs/mdi-question-mark-circle.svg?height=18&color=white'         ); *//*#.(90602.01.1 RAM Store Locally) */
+              content            :  url(            '/3/IMGs/mdi-question-mark-circle.svg?height=18&color=white'         );   /* .(90602.01.1 RAM Store Locally) */
+    /*        content            :  url( '/webs/vnds1.3/IMGs/mdi-question-mark-circle.svg?height=18&color=white'         ); *//* .(90702.09.1 RAM New location ) */
+              }
+    /*    .help-tip:hover p{                                          *//*#.(90522.06.1 RAM Removed) *//*
+              display            :  block;
+              transform-origin   :  100% 0%;
+             -webkit-animation   :  fadeIn 0.3s ease-in-out;
+              animation          :  fadeIn 0.3s ease-in-out;
+              }
+     */
+          .help-tip p{           /* The tooltip popup */
+              display            :  none;                               /* .(90522.06.1 RAM Removed original styles) */
+              }
+
+          .help-tip-show {       /* The tooltip popup */
+              display            :  block;
+    /*        width              :  300px;                            *//*#.(90522.06.1 RAM Removed) */
+
+              transform-origin   :  100% 0%;
+             -webkit-animation   :  fadeIn 0.3s ease-in-out;
+              animation          :  fadeIn 0.3s ease-in-out;
+
+              color              :  white;                              /*#.(90528.01.1 RAM Changed Tooltip text color to white on dark background, Was black) */
+              text-align         :  left;
+              font-family        :  Calibri;
+              font-size          :  14px;
+              line-height        :  1.4;
+              font-weight        :  600;
+
+              background-color   :  #9EaaCD;                            /* .(90528.01.1 RAM Changed Tooltip background color from dark blue) */
+    /*        background-color   :  rgba( 212, 212, 212, 1.0);        *//*#.(90528.01.1 RAM Changed Tooltip background color to   gray     ) */
+              border             :  1px;
+    /*        border-radius      :  3px;                              *//*#.(90522.06.1 RAM Removed) */
+              border-radius      :   5px;                               /* .(90525.05.1 RAM Put back */
+              box-shadow         :   3px 3px 3px rgba(0, 0, 0, 0.2);    /* .(90525.05.1 RAM Changed. Was 1px 1px 1px) */
+
+    /*        padding            :  10px;                             *//*#.(90522.06.1 RAM Removed) */
+              padding-left       :  10px;                               /* .(90522.06.1 RAM Added) */
+              margin             :   0px;                               /* .(90522.06.2 RAM Added) */
+              margin-block-start :   0px;                               /* .(90522.06.3 RAM Added) */
+              margin-block-end   :   0px;                               /* .(90522.06.4 RAM Added) */
+              z-index            :   500;
+
+              position           :  absolute;
+              top                :  12px;                               /* .(90525.05.1 RAM Changed. Was  4px) */
+    /*        right              :   8px;                             *//* .(90525.05.1 RAM Removed. Was -4px) */
+              left               :  50px;                               /* .(90522.06.2 RAM Added) */
+              }
+          .help-tip p:before{    /* The pointer of the tooltip */
+              position           :  absolute;
+              content            : '';
+              width              :   0px;
+              height             :   0px;
+              border             :   6px solid transparent;
+              border-bottom-color:  #1E2021;
+              right              :  10px;
+              top                :- 12px;
+              }
+          .help-tip p:after{     /* Prevents the tooltip from being hidden */
+              width              :  100%;
+              height             :  40px;
+              content            : '';
+              position           :  absolute;
+              top                : -40px;
+              left               :  0;
+              }
+
+      /*  Keyframes ??                                                  */
+      /*  ------------------------------------------------------------- */
+          @-webkit-keyframes fadeIn { /* CSS animation */
+                0% { opacity     :   0 ;  transform: scale(0.6); }
+              100% { opacity     : 100%;  transform: scale(1  ); }
+              }
+          @keyframes fadeIn {
+                0% { opacity     :   0 ; }
+              100% { opacity     : 100%; }
+              }
+
+      /*  Results                                                        */
+      /*  -------------------------------------------------------------- */
+          results {
+            display              :  grid;
+    /*      grid-template-columns:  repeat(3, 1fr); *//* Same as */     /* .(90529.03.1 RAM Changed to 3 from 2) */
+            grid-template-columns:   1fr 1fr 1fr;
+            grid-gap             :   3px;
+            text-align           :  left;
+            margin-left          :  10px;
+            margin-right         :  10px;
+            margin-top           :   5px;                               /* .(90529.06.1 RAM The last sillyness) */
+            }
+          result {
+            height               :  110%;                               /* .(90505.08.2 RAM was: 75px;) */
+            color                : #696969;
+            background           : #FFFFFF;
+            }
+         .result-cell {
+            color                : #696969;
+            background           : #FFFFFF;
+            padding              :  6px;
+            border               :  1px solid #2C3E50;
+            }
+          .results-compname {
+            color                : #2C3E50;
+            font-size            :  18px;
+            font-weight          :  bold;
+            }
+
+      /*  Paging Bar                                                     */
+      /*  -------------------------------------------------------------- */
+         #pagingBar {                                                   /* .(90529.05.1 RAM Put Count Msg beside Paging Bar) */
+            display              : flex;
+            flex-direction       : row;
+            margin-top           :   -20px;
+            margin-left          :  10px;                               /* .(90529.05.1 RAM Move it over more. Was: 10px).(90610.01.6 RAM was 30px in dev03) */
+            margin-bottom        :   5px;
+            }
+         .results-count {
+    /*      margin-top           : -20px;                             *//*#.(90528.04.1 RAM Not Needed. Was -30px;) */
+    /*      margin-left          :  10px;                             */
+    /*      margin-bottom        :   5px;                             */
+    /*      padding-left         :   0px;                             */
+    /*      border-left          :  1px solid #AAA;                   *//*#.(90528.04.2 RAM Moved to its own style) */*
+            background           :  white;                              /* .(90519.02.3 RAM was: lightblue) */
+            }
+         .results-count-border {                                        /* .(90528.04.2 RAM Moved to its own style) */
+            border-left          :  1px solid #AAA;
+            }
+         .results-msg {                                                 /* .(90528.04.3 RAM Added) */
+            padding-top          :   5px;                               /* .(90610.01.7 RAM was 3px in dev03) */
+            margin-left          :   8px;    /* no workie if: "an inline element with display: block; is not allowed to have other block elements inside it: */
+            font-weight          : normal;
+            color                : #444444;                             /* .(90528.04.3 RAM Changes from b4bcc2 */
+            }
+         #nameSearch {                                                  /* .(90627.04.1 RAM Beg Add nameSearch field) */
+            display              :  none;
+            }
+/*       .name-search {
+            display              :  inline;
+            }                                                         *//* .(90627.04.1 End) */
+
+    /*  ---------------------------------------------------------------- */
+    /*  Shrinking Browser Display: 1250 to 768 or 850                   /* .(90529.03.1 RAM Added)
+    /*  ---------------------------------------------------------------- */
+
+        @media screen and ( max-width: 1250px ) {                       /* .(90529.03.2 RAM Less than 1250px; Render two columns) */
+
+         .container {                                                   /* .(90529.02.3 RAM Set max grid width) */
+            max-width            : 1250px;
+            }
+          results {
+            display              : grid;
+            grid-template-columns: 1fr 1fr;
+            }
+
+          }  /* End of iPad Width Display */
+
+
+    /*  ---------------------------------------------------------------- */
+    /*  iPad Display: 780 (768)                                         /* .(90529.03.5 RAM Added)
+    /*  ---------------------------------------------------------------- */
+
+    /*  @media screen and ( max-width: 850px ) {  ... }               *//*#.(90610.04.1 Less than 850px; Render two columns) */
+        @media screen and ( max-width: 780px ) {                        /* .(90610.04.1 RAM RAM Changed to less than 780px from 850) */
+
+         .container {                                                   /* .(90529.02.6 RAM Set max grid width) */
+            max-width            :  780px;                              /* .(90610.04.2 RAM Was 850px; in Dev03) */
+            }
+
+         .logo {                                                        /* .(90528.07.2 RAM Added Smaller one).(90610.01.9 Added to prod3) */
+            background-size      :  500px;
+            height               :   65px !important;
+            padding-bottom       :    0px;
+            }
+         .title2 {                                                      /* .(90602.03.4 RAM) */
+            max-width            :  500px;                              /* .(90602.03.5 RAM Set to 360px to match SearchBar width).(90610.01.10 RAM Was 400 in dev03) */
+            }
+
+          searchbar {                                                   /* .(90610.04.3 RAM Wrap fields to fit iPad widths) */
+            display              :  flex;
+            flex-flow            :  row wrap;                           /* .(90610.04.4 RAM Set flex-direction: row; flex-wrap: wrap) */
+            max-width            :  500px;
+            }
+
+          results {
+            display              :  grid;
+            grid-template-columns:  1fr;
+            }
+
+          #pagingBar {                                                  /* .(90529.05.3 RAM Put count msg below Paging Bar).(90610.01.12 RAM Added) */
+            display              :  flex;
+            flex-direction       :  column;
+            }
+
+          #OthFlds {                                                      /* .(90629.07.1 RAM Beg) */
+            width                :  480px;                                /* .(90701.08.02 RAM 720 = (230 + 10) x 2) */
+            display              :  grid;
+            grid-template-columns:  1fr 1fr;
+            }
+
+          }  /* End of iPad Width Display */
+
+
+    /*  ---------------------------------------------------------------- */
+    /*  Phone Display: under 650 (360)                                   */
+    /*  ---------------------------------------------------------------- */
+
+    /*  @media screen and ( max-width: 650px ) {                      *//*#.(90610.04.5 Less than 650px; Render only one column) */
+        @media screen and ( max-width: 400px ) {                        /* .(90610.04.5 RAM Changed to less than 400px from 650) */
+
+         .container {                                                   /* .(90529.02.4 RAM Set max grid width) */
+            max-width            :  400px;                              /* .(90610.04.2 RAM Was 650px; in Dev03) */
+            }
+
+         .logo {                                                        /* .(90528.07.2 RAM Added Smaller one) */
+     /*     background-image     :  url( '/4/IMGs/NM-Logo-2.png' );   */
+            background-repeat    :  no-repeat;
+            background-size      :  325px;
+     /*     height               :   27px;                            *//*#.(90610.04.6) */
+            height               :   35px !important;                   /* .(90610.04.6 RAM Use !important to make these take effect) */
+            padding-bottom       :    0px;                              /* .(90610.04.7 RAM) */
+            }
+
+         .title1 {                                                      /* .(90610.04.8 Beg RAM Adjust font-size by 75%) */
+            font-size            :  18px;
+            }
+         .title2 {
+            font-size            :  13.5px;
+            }                                                           /* .(90610.04.8 End) */
+
+          searchbar {
+    /*      display              :  flex;                             *//*#.(90528.04.1 RAM Remove single column) *//*
+            flex-direction       :  column;                           */
+            display              :  grid;                               /* .(90528.04.1 RAM Put search fields into 2 x 2 grid) */
+            grid-template-columns:    1fr 1fr;
+    /*      grid-column-gap      :    3px;                            *//* .(90528.04.2 RAM ??) */
+            width                :  328px;
+            }
+
+         #pagingBar {                                                   /* .(90629.06.3 RAM) */
+            margin-left          :    0px;
+            }
+
+          search#fld1{
+            width                :  210px;                              /* .(90525.05.1 RAM Changed to 210. Was: 91%;)  */
+            }
+          search#fld2{
+    /*      width                :  100px;                            *//*#.(90525.05.1 RAM Changed to 110. Was: 91%;).(91003.07.x) */
+            width                :  200px;                              /* .(91003.07.x No intended effect) */
+            }
+          search#fld3{
+            width                :  210px;                              /* .(90525.05.1 RAM Changed to 210. Was: 91%;  */
+            }
+          search#fld7{
+            width                :  100px;                              /* .(90610.01.6 RAM was 210px in dev03) */
+            }
+          search#fld8{
+            width                :  210px;
+            }
+
+      /*  Help Icon / Message Placemant                                  */
+      /*  -------------------------------------------------------------- */
+          .help-tip-show {
+            right                : -110px;
+            }
+
+    /*     #fld2 > div {                                               *//*#.(90528.03.1 RAM ??).(91003.07.x) */
+    /*     left: 90px;
+            }  */
+
+          #fld1 > div.help-tip-show {                                   /* .(90525.04.2 RAM Added to place this tip in a different position) */
+            left                 :   10px;                              /* .(90528.03.2 RAM Changed for phone. Was   30) */
+            width                :  310px;                              /* .(90528.03.3 RAM Changed for phone. Was  290)  */
+            }
+          #fld2 > div.help-tip-show {                                   /* .(90525.04.2 RAM Added to place this tip in a different position) */
+    /*      left                 :   35px;                            *//*#.(90528.03.4 RAM Changed for phone. Was -100).(90610.01.13 Was -110 in dev03).(91003.07.x) */
+            left                 :   15px;                              /* .(91003.07.x No intended effect)  */
+            width                :  210px;                              /* .(90528.03.5 RAM Changed for phone. Was  200)  */
+            }
+          #fld3 > div.help-tip-show {                                   /* .(90525.04.2 RAM Added to place this tip in a different position) */
+            left                 :  -60px;                              /* .(90528.03.6 RAM Changed for phone. Was   55).(90610.01.14 Was  35 in dev03) */
+            width                :  265px;                              /* .(90528.03.7 RAM Changed for phone. Was  265).(90610.01.15 Was 285 in dev03) */
+            }
+          #fld7 > div.help-tip-show {
+            left                 :   35px;
+            width                :  235px;                              /* .(90610.01.15 Was 285 in dev03) */
+            }
+          #fld8 > div.help-tip-show {
+            left                 :  -37px;                              /* .(90610.01.15 Was  35 in dev03) */
+            width                :  245px;                              /* .(90610.01.15 Was 285 in dev03) */
+            }
+
+      /*  Results                                                        */
+      /*  -------------------------------------------------------------- */
+          results {
+            display              :  grid;
+            grid-template-columns:    1fr;
+            margin-top           :    8px;                              /* .(90529.06.2 RAM The last sillyness) */
+            }
+
+      /*  Paging Bar                                                     */
+      /*  -------------------------------------------------------------- */
+          #pagingBar {                                                  /* .(90529.05.3 RAM Put count msg below Paging Bar) */
+            display              :  flex;
+            flex-direction       :  column;
+            }
+          #inp9 {
+            border-left          :  1px solid #AAA;                     /* .(0627.04.x RAM) */
+            }
+    /*    .results-msg {
+            display              :  block;
+            position             :  relative;
+            left:                : -40px;
+            top:                 :  20px;
+            }
+     */
+          #OthFlds {                                                      /* .(90629.07.1 RAM Beg) */
+            width                :  240px;                                /* .(90701.08.2 RAM 720 = (230 + 10) x 1) */
+            display              :  grid;
+            grid-template-columns:  1fr;
+            }
+
+          }  /* End of Phone Width Display */
+
+    /*  --------------------------------------------------------------- */
