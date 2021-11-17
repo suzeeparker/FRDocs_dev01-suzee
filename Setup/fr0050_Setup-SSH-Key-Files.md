@@ -10,7 +10,7 @@ BACK
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Uses of SSH Keys
+## 1.1 Uses of SSH Keys  <a href="purposes/pfr0101_Setup-Developer-Workstation.md"><img src="icons/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;"></a>
 
 ### 1. A Remote Linux Server
 
