@@ -13,28 +13,9 @@
 
 ## 1.3 Clone FormR
 
-#### Change strategy
-
-Master is currently on Robin's git repo and local repo as:  test1-master
-
-Update strategy:
-
-```
-Robin changes on his local and pushes to his git repo.
-
-Robin merges with his local 8020 test-master
-
-Robin pushes to git 8020 test-master
-
-Bruce/Ken git pulls from 8020 test-master to their local test-master
-```
-
 ### 1. Cloning FormR repository
 
-- Create in local repos
-
-- Open Windows Command prompt
-
+1. Create local repos folder in Windows Command prompt
 
 ```
 mkdir C:\repos\FormR
@@ -54,7 +35,7 @@ dir
 
 ![FormR-Clone-02](images/fr0103-FormR-Clone-02.png "FormR-Clone-02")
 
-- Open with VSCode
+2. Open with VSCode
 
 ```
 code formr_test-master.code-workspace
@@ -64,8 +45,9 @@ code formr_test-master.code-workspace
 
 ### 2. Install Node modules
 
-- Right click on the server folder and
-- Click Open in Integrated Terminal, then 
+1. Right click on the server folder
+
+2. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-04](images/fr0103-FormR-Clone-04.png "FormR-Clone-04")
 
@@ -78,8 +60,9 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
-- Right click on the client folder and
-- Click Open in Integrated Terminal, then 
+3. Right click on the client folder
+
+4. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-07](images/fr0103-FormR-Clone-07.png "FormR-Clone-07")
 
@@ -92,15 +75,17 @@ npm install
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
 
-### 3. Install RAuth and World databases in MySQL (Note that the World database has been modified so that all tables contain ID primary key fields)
+### 3. Install RAuth and World databases.
 
-- Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
+(Note that the World database has been modified so that all tables contain ID primary key fields)
 
-- Click the Local Instance under MySQL Connections
+1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
+
+2. Click the Local Instance under MySQL Connections
 
 ![FormR-Clone-10](images/fr0103-FormR-Clone-10.png "FormR-Clone-10")
 
-- Run Script file
+3. Run Script file
 
     - Click on Schemas to show your current databases
 
@@ -109,7 +94,7 @@ npm install
 
 ![FormR-Clone-11](images/fr0103-FormR-Clone-11.png "FormR-Clone-11")
 
-- Navigate to and Open: 
+4. Navigate to and Open: 
 
 ```
  C:\repos\FormR\test-master\_3\SQLs\FormR_RAuth-DB-Create.
@@ -125,17 +110,17 @@ npm install
 
 ![FormR-Clone-13](images/fr0103-FormR-Clone-13.png "FormR-Clone-13")
 
-- Click the Execute icon
+5. Click the Execute icon
 
 ![FormR-Clone-14](images/fr0103-FormR-Clone-14.png "FormR-Clone-14")
 
-- Click the refesh icon above the schema list
+6. Click the refesh icon above the schema list
 
 ![FormR-Clone-15](images/fr0103-FormR-Clone-15.png "FormR-Clone-15")
 
 ![FormR-Clone-16](images/fr0103-FormR-Clone-16.png "FormR-Clone-16")
 
-- IMPORTANT - Repeat these same steps for the World DB file
+7. IMPORTANT - Repeat these same steps for the World DB file
 
 ```
  C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
@@ -143,19 +128,19 @@ npm install
 
 ### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
 
-- Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
+1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
-- Click the Local Instance under MySQL Connections
+2. Click the Local Instance under MySQL Connections
 
 ![FormR-Clone-10](images/fr0103-FormR-Clone-10.png "FormR-Clone-10")
 
-- Click the File tab, then click 'New Query Tab'
+3. Click the File tab, then click 'New Query Tab'
 
 ![FormR-Clone-17](images/fr0103-FormR-Clone-17.png "FormR-Clone-17") 
 
-- Enter the following into the Query window, then
+4. Enter the following into the Query window, then
 
-- Click the Execute icon
+5. Click the Execute icon
 
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
@@ -165,23 +150,23 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 ![FormR-Clone-19](images/fr0103-FormR-Clone-19.png "FormR-Clone-19")
 
-- Close workbench and reopen it, then
+6. Close workbench and reopen it, then
 
-- Right click on the Local Instance, then
+7. Right click on the Local Instance, then
 
-- Click Edit Connection, then
+8. Click Edit Connection, then
 
 ![FormR-Clone-20](images/fr0103-FormR-Clone-20.png "FormR-Clone-20")
 
-- Click Store in Vault, then
+9. Click Store in Vault, then
 
-- Enter the new password: FormR!1234 and click OK
+10. Enter the new password: FormR!1234 and click OK
 
 ![FormR-Clone-20a](images/fr0103-FormR-Clone-20a.png "FormR-Clone-20a")
 
-- Click Test Connection then
+11. Click Test Connection then
 
-- Click Close and then close Workbench
+12. Click Close and then close Workbench
 
 ![FormR-Clone-20b](images/fr0103-FormR-Clone-20b.png "FormR-Clone-20b")
 
@@ -219,7 +204,7 @@ npm start
 
 ### 6. Test the applications
 
-- Test the server, browse to
+1. Test the server, browse to
 
 ```
     localhost:50251
@@ -234,15 +219,11 @@ npm start
     localhost:50251/api/world/countries/1
 ```
 
-- Test the client, browse to
+2. Test the client, browse to
 
 ```
     localhost:50201
 ```
-
-issues
-
-1. test create, read, update and delete
 
 
 <!-- ------------------------------------------------------------------------- -->
