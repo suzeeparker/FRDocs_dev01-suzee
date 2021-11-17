@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
