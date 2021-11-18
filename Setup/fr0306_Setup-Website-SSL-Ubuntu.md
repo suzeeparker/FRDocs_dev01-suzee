@@ -7,7 +7,7 @@
 </div><div class="page-next disabled">
 
 NEXT
-</div><div style="margin-top:35px">&nbsp;</div>
+</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
@@ -167,8 +167,7 @@ unlink /etc/nginx/sites-enabled/default
 
 ### 4. Clone simpleApp using git 
 ```
-cd /webs
-git clone https://github.com/8020data/simpleApp.git simpleApp
+cd /webs https://github.com/brucetroutman-gmail/simpleApp.git simpleApp
 ```
   1. Confim clone
 ```
