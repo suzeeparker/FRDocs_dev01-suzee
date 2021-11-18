@@ -220,7 +220,7 @@ Details
     - `xx SSH -T github`
     - `   keys Set SSH Host 4 github       bruce`
     - `   SSH -T github_bruce`
-    - `   Hi brucetroutman-gmail! You've successfully authenticated, but GitHub does not provide shell access.`
+    - `   Hi 8020data! You've successfully authenticated, but GitHub does not provide shell access.`
    <br>
 
 
@@ -233,7 +233,7 @@ Details
  6. GitHub Host with a Key for a GitHub Account that is different
     - `   keys Set SSH Host 6 github       bruce_suzee`
     - `   SSH -T github_bruce_suzee`
-    - `   Hi brucetroutman-gmail! You've successfully authenticated, but GitHub does not provide shell access.`
+    - `   Hi 8020data! You've successfully authenticated, but GitHub does not provide shell access.`
    <br>
 
 
@@ -303,10 +303,10 @@ Details
    gitr Set Remote github-bruce FormR Main-test
 
    git remote add {RemoteAlias} {RemoteAlias}:{GitAccount}/{RepoName}.git
-   git remote add  github-bruce github-bruce:brucetroutman-gmail/FormR.git
+   git remote add  github-bruce github-bruce:8020data/FormR.git
 
    git remote add -t {Branch} {RemoteAlias} {RemoteAlias}:{GitAccount}/{RepoName}.git
-   git remote add -t Main-test github-bruce github-bruce:brucetroutman-gmail/FormR.git
+   git remote add -t Main-test github-bruce github-bruce:8020data/FormR.git
 ```
 ---------------------------------------------------------------------------
 

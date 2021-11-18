@@ -1,4 +1,5 @@
 <!-- ------------------------------------------------------------------------- -->
+<script src="purposes/formr.js"></script>
 
 <div class="page-back disabled">
 
@@ -10,9 +11,11 @@ BACK
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Uses of SSH Keys
+## 1.1. Uses of SSH Keys  [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
 
-### 1. A Remote Linux Server
+## A1. Uses of SSH Keys  <a href="purposes/pfr0101_Setup-Developer-Workstation.md"><img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;" onclick="return opnPurpose()"></a>
+
+### A101. A Remote Linux Server
 
 1. Make a Private and Public Key pair of files
 

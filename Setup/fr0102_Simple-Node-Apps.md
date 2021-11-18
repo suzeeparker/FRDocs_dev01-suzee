@@ -7,11 +7,12 @@
 </div><div class="page-next">
 
 [Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Simple Node Apps
+## 1.2 Simple Node Apps
+
 #### Introduction
 
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
@@ -20,13 +21,13 @@ The following steps create several basic node applications. There are script, se
 
 ### 1. Test the Node version.
 
-- In VSCode select the myProject folder and open terminal
+1. In VSCode select the myProject folder and open terminal
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal.png "Node-test-terminal")
 
 ![Node-test-terminal-1](images/fr0102-01_Node-test-terminal-1.png "Node-test-terminal-1")
 
-- From terminal enter:
+2. From terminal enter:
 
 ```
      node --version 
@@ -36,11 +37,11 @@ The following steps create several basic node applications. There are script, se
 
 ### 2. Create sub-folders in myProject
 
-- Click on myProject and create a new folder:
+3. Click on myProject and create a new folder:
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder.png "Node-new-folder")
 
-- Create the following myProject sub-folders:
+4. Create the following myProject sub-folders:
 
 ```
      client
@@ -54,11 +55,11 @@ The following steps create several basic node applications. There are script, se
 
 ### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs.
 
-- Click on the scripts folder, then click the new file icon
+1. Click on the scripts folder, then click the new file icon
 
 ![Node-create-empty-file0](images/fr0102-05_Node-create-empty-file0.png "Node-create-empty-file0")
 
-- In the blank area enter:
+2. In the blank area enter:
 
 ```
 batch.js
@@ -66,11 +67,11 @@ batch.js
 
 ![Node-create-empty-file1](images/fr0102-05_Node-create-empty-file1.png "Node-create-empty-file1")
 
-- Click on batch.js to open it in the editor
+3. Click on batch.js to open it in the editor
 
 ![Node-create-empty-file](images/fr0102-05_Node-create-empty-file.png "Node-create-empty-file")
 
-- Add some code to batch.js:
+4. Add some code to batch.js:
 
 ```
 console.log("Hello, World!");
@@ -78,11 +79,11 @@ console.log("Hello, World!");
 
 ![Node-add-to-batch](images/fr0102-06_Node-add-to-batch.png "Node-add-to-batch")
 
-- Right click on batch.js in the scripts folder and select Open in Integrated Terminal and click in the Terminal window 
+5. Right click on batch.js in the scripts folder and select Open in Integrated Terminal and click in the Terminal window 
 
 ![Node-add-to-batch](images/fr0102-06_Node-add-to-batch-1.png "Node-add-to-batch")
 
-- In Terminal window enter:
+6. In Terminal window enter:
 
 ```
 node batch.js
@@ -92,11 +93,11 @@ node batch.js
 
 #### Push your changes to GitHub
 
-- Open Source Control
+1. Open Source Control
 
 ![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
 
-- Add Message:
+2. Add Message:
 
 ```
 Add Node App - batch.js
@@ -106,11 +107,11 @@ Add Node App - batch.js
 
 ![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
 
-- Click on Commit checkmark
+3. Click on Commit checkmark
 
 ![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
 
-- Push
+3. Push
 
 ```
 Click on 3 dots then click Push 
@@ -118,7 +119,7 @@ Click on 3 dots then click Push
 
 ![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
 
-- The following message may show the first time. 
+4. The following message may show the first time. 
 ```
 Click on: Ok, Don't show again
 ```
@@ -130,7 +131,7 @@ Click on: Ok, Don't show again
 ### 4. Create a new file, server.js in the server folder and run it with Nodejs.
 
 
-- Right click on the server folder and Select Open in Intgrated Terminal and enter:
+1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
 
 ![Node-install-express](images/fr0102-09_Node-install-express.png "Node-install-express")
 
@@ -148,9 +149,9 @@ npm install express
 
 ![Node-npm-express](images/fr0102-09_Node-npm-express.png "Node-npm-express") 
 
-- In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
+2. In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
 
-- Create a new file in the myProject folder, .gitignore and add:
+3. Create a new file in the myProject folder, .gitignore and add:
 
 ```
 node_modules
@@ -158,7 +159,7 @@ node_modules
 
 ![Node-gitignore](images/fr0102-08_Node-gitignore.png "Node-gitignore")
 
-- Create a new file, server.js in the server/app01s folder and add this code: 
+4. Create a new file, server.js in the server/app01s folder and add this code: 
 
 ```
 const express = require("express")
@@ -182,24 +183,24 @@ app.listen( PORT, () => {
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js.png "Node-create-server-js")
 
-- Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
+5. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
 
-- Enter:
+6. Enter:
 
 ```
 node server.js
 ```
 
-- Allow Access in Microsoft Firewall and click Private networks
+7. Allow Access in Microsoft Firewall and click Private networks
 
 ![Node-terminal-server-js](images/fr0102-12_Node-terminal-allow-access.png "Node-terminal-server-js")
 
 
-- Terminal shows server running on port 8080
+8. Terminal shows server running on port 8080
 
 ![Node-terminal-server-js](images/fr0102-12_Node-terminal-server-js.png "Node-terminal-server-js")
 
-- Browser to:
+9. Browse to:
 
 ```
 http://localhost:8080/myProject/server/app01s
@@ -216,11 +217,11 @@ http://localhost:8080/myProject/server/app01s
 
 ### 5. Create a basic react app in the client folder and run it with Nodejs.
 
-- Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
+1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Node-client](images/fr0102-16_Node-client.png "Node-client")
 
- - Enter:
+2. Enter:
 
 ```
 npm init
@@ -228,7 +229,7 @@ npm init
 
 ![Node-npm-init](images/fr0102-16_Node-npm-init.png "Node-npm-init")
 
-- Create the react app:
+3. Create the react app:
 
 ```
 npx create-react-app app01c
@@ -238,11 +239,11 @@ npx create-react-app app01c
 
 ![Node-create-react-app-finish](images/fr0102-17_Node-create-react-app-finish.png "Node-create-react-app-finish")
 
-- Right click in the - client/app01c - folder and select Open in Integrated Terminal and click in the Terminal window
+4. Right click in the - client/app01c - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Node-app01c](images/fr0102-18_Node-app01c.png "Node-app01c")
 
-- Enter: 
+5. Enter: 
 
 ```
 npm start
@@ -265,13 +266,13 @@ npm start
 
 ### 6. Create a Nodejs routine to access the local MySQL database and return information.
 
-- Install Sequelize. It will be used to connect to and access information in MySQL. 
+1. Install Sequelize. It will be used to connect to and access information in MySQL. 
 
-- Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
+2. Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Open-Terminal-Server](images/fr0102-19_Open-Terminal-Server.png "Open-Terminal-Server")
 
--Enter:
+3. Enter:
 
 ```
 npm install --save sequelize
@@ -284,35 +285,34 @@ npm install --save mysql2
 ```
 ![Node-install-mysql2](images/fr0102-20_Node-install-mysql2.png "Node-install-mysql2")
 
-- Open Mysql Workbench to create a schema (database) called practice.
+4. Open Mysql Workbench to create a schema (database) called practice.
 
-- Search for Mysql WorkBench and open it
+5. Search for Mysql WorkBench and open it
 
 ![Node-open-mysql-workbench](images/fr0102-20_Node-open-mysql-workbench.png "Node-open-mysql-workbench")
 
-- Right click on the icon and Pin to TaskBar
+6. Right click on the icon and Pin to TaskBar
 
 ![Node-pin-workbench-to-taskbar](images/fr0102-20_Node-pin-workbench-to-taskbar.png "Node-pin-workbench-to-taskbar")
 
-- In Workbench click on the Local Instance that was created when MySQL was installed
+7. In Workbench click on the Local Instance that was created when MySQL was installed
 
 ![Node-click-local-instance](images/fr0102-20_Node-click-local-instance.png "Node-click-local-instance")
 
-- In the query 1 window enter:
+8. In the query 1 window enter:
 
 ```
 CREATE DATABASE practice
-
-Then click the execute icon
 ```
+9. Then click the execute icon
 
 ![Node-create-database](images/fr0102-20_Node-create-database.png "Node-create-database")
 
-- Click on the Schmas tab, then the refresh icon and your new database, practice, will appear 
+10. Click on the Schemas tab, then the refresh icon and your new database, practice, will appear 
 
 ![Node-schemas-refresh](images/fr0102-20_Node-schemas-refresh.png "Node-schemas-refresh")
 
-- In VSCode in the folder server/app01s create a new file, queryDB.js. Enter the following and then use FormR!1234 for the MySQL root login.
+11. In VSCode in the folder server/app01s create a new file, queryDB.js. Enter the following and then use FormR!1234 for the MySQL root login.
 
 ```
 const Sequelize = require("sequelize");
@@ -352,31 +352,29 @@ async function runQuery() {
 }
 ```
 
-- In each step 1 - 6 there is a 'const SQLStr..' line. The symbol // is a comment. For each step, one at a time, remove the comment on  the 'const SQLStr..' line, then go to the terminal and run: node queryDB.js. 
+12. In each step 1 - 6 there is a 'const SQLStr..' line. The symbol // is a comment. For each step, one at a time, remove the comment on  the 'const SQLStr..' line, then go to the terminal and run: node queryDB.js. 
 
-- After the execution of a step, Comment out the 'const SQLStr..' line for this step and uncomment the line in the next step
+13. After the execution of a step, Comment out the 'const SQLStr..' line for this step and uncomment the line in the next step
 
-- Repeat for all steps. 
+14. Repeat for all steps. 
 
 - Be aware, if you execute the same step twice in a row you will get an error. For example, step 1. creates a table. If you run it a second time  You will get an error that tells you that the table already exists.
 
 ![Node-create-queryDB](images/fr0102-21_Node-create-queryDB.png "Node-create-queryDB")
 
-- Uncomment Step 1 Create Table
+15. Uncomment Step 1 Create Table
 
 ![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
 
-4. Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window
+16. Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Open-Terminal-app01s](images/fr0102-19_Open-Terminal-app01s.png "Open-Terminal-app01s")
 
-
-- Enter:
+17. Enter:
 
 (Remember to change to your password)
 
 #### !! Remember to write your passwords in a safe place !!
-
 
 ```
 node queryDB
@@ -384,53 +382,57 @@ node queryDB
 
 ![Node-create-table](images/fr0102-24_Node-create-table.png "Node-create-table")
 
-- Check in Workbench that the customers table was created
+18. Check in Workbench that the customers table was created
 
 ![Node-create-table-workbench](images/fr0102-24_Node-create-table-workbench.png "Node-create-table-workbench")
 
-- Comment out "Create Table" and uncomment "Show Tables" then run node queryDB
+19. Comment out "Create Table" and uncomment "Show Tables" then run node queryDB
 
 ![Node-show-tables](images/fr0102-25_Node-show-tables.png "Node-show-tables")
 
-- Comment out "Show Tables" and uncomment "Insert 1 Row" then run node queryDB
+20. Comment out "Show Tables" and uncomment "Insert 1 Row" then run node queryDB
 
 ![Node-Insert-1-row](images/fr0102-26_Node-Insert-1-row.png "Node-Insert-1-row")
 
-- Check Workbench - Insert
+21. Check Workbench - Insert
 
 ![Node-Insert-1-row-workbench](images/fr0102-26_Node-Insert-1-row-workbench.png "Node-Insert-1-row-workbench")
 
-- Comment out "Insert 1 Row" and uncomment "Update 1 Row" then run node queryDB
+22. Comment out "Insert 1 Row" and uncomment "Update 1 Row" then run node queryDB
 
 ![Node-update-1-row](images/fr0102-27_Node-update-1-row.png "Node-update-1-row")
 
-- Check Workbench - Update
+23. Check Workbench - Update
 
 ![Node-update-1-row-workbench](images/fr0102-27_Node-update-1-row-workbench.png "Node-update-1-row-workbench")
 
-- Comment out "Update 1 Row" and uncomment "Create Stored Procedure" then run node queryDB
+24. Comment out "Update 1 Row" and uncomment "Create Stored Procedure" then run node queryDB
 
 ![Node-create-stored-procedure](images/fr0102-28_Node-create-stored-procedure.png "Node-create-stored-procedure")
 
-- Check Workbench - Create Stored Procedure
+25. Check Workbench - Create Stored Procedure
 
 ![Node-create-stored-procedure-workbench](images/fr0102-28_Node-create-stored-procedure-workbench.png "Node-create-stored-procedure-workbench")
 
-- Comment out "Create Stored Procedure" and uncomment "Execute Stored Procedure" then run node queryDB
+26. Comment out "Create Stored Procedure" and uncomment "Execute Stored Procedure" then run node queryDB
 
 ![Node-execute-stored-procedure](images/fr0102-29_Node-execute-stored-procedure.png "Node-execute-stored-procedure")
 
-- Check Workbench - Create Stored Procedure
+27. Check Workbench - Create Stored Procedure
 
 ![Node-execute-stored-procedure-workbench](images/fr0102-29_Node-execute-stored-procedure-workbench.png "Node-execute-stored-procedure-workbench")
 
-- Comment out "Execute Stored Procedure" and go to workbench and Drop Database practice to reset so these routines can be run again.
+28. Comment out "Execute Stored Procedure" and go to workbench and Drop Database practice to reset so these routines can be run again.
 
 ![Node-clean-up](images/fr0102-30_Node-clean-up.png "Node-clean-up")
 
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
-#### --- Push your changes to Github (see steps above)
+#### --- Push your changes to Github
+     1. Open Souce Control
+     2. Add description of your choice
+     3. Click the checkmark to Commit
+     4. Click Push on the Source Control three dots (...) menu
   
 
 <h3> Congratulations! You have run Node applications that test your development environment.</h3>

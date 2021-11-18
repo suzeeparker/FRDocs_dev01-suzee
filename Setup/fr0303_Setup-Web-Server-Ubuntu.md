@@ -6,65 +6,69 @@
 </div><div class="page-next">
 
 [Install App Server - NEXT](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 ## Setup Instructions for the web server, NGINX, on Ubuntu
 
- ### 0. Restart your Vultr VM and Login
+ ### 1. Restart your Vultr VM and Login
 
- - Login the your Vultr FormR1 console and click the Restart button
+ 1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
- - From your Vultr FormR1 console
- - Copy the root password
- - Click View Console button
+ 2. From your Vultr FormR1 console
+ 
+ 3. Copy the root password
+ 
+ 4. Click View Console button
  
 ![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-Login as root using the Send Clipboard button
+5. Login as root using the Send Clipboard button
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
+### 2. Install nginx
 
-### 1. Install nginx
-- Install
+1. Install
+
 ```
 apt-get install nginx
 ```
 
 ![Install NGINX](./images/fr0303-01_Ubuntu-install-nginx.png "Install NGINX")
 
-- Check
+2. Check
 ```
 nginx -t
 ```
 
 ![Check NGINX](./images/fr0303-02_Ubuntu-check-nginx.png "Check NGINX")
 
-- Enable nginx to auto start
+3. Enable nginx to auto start
+
 ```
 systemctl enable nginx
 ```
 
 ![Enable NGINX](./images/fr0303-03_Ubuntu-enable-nginx.png "Enable NGINX")
 
-- Allow http & https through firewall
+4. Allow http & https through firewall
 ```
 ufw allow 'Nginx Full'
 ```
 
 ![Allow NGINX Ports](./images/fr0303-04_Ubuntu-allow-nginx-ports.png "Allow NGINX Ports")
 
-- Test the default web site by IP. 
+5. Test the default web site by IP. 
 
-- Get the server IP from Vultr
+6. Get the server IP from Vultr
 
 ![Get IP Address](./images/fr0303-05_Ubuntu-get-ip-address.png "Get IP Address")
 
-- Browse to your server's IP address.
+7. Browse to your server's IP address.
 
 ```
 http://xxx.xxx.xxx.xxx
@@ -72,9 +76,9 @@ http://xxx.xxx.xxx.xxx
 
 ![Test Web Site](./images/fr0303-05_Ubuntu-test-web-site.png "Test Web Site")
 
-### 2. Install Certbot
+### 3. Install Certbot
 
-Certbot is used to create SSL certificates using LetsEncrypt.
+1. Certbot is used to create SSL certificates using LetsEncrypt. Install:
 
 ```
 apt-get install python-certbot-nginx
@@ -82,15 +86,16 @@ apt-get install python-certbot-nginx
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
 
+### 4. Create webs directory
 
-### 3. Create webs directory
+1. Create a directory to hold your applications.
 
-- Create a directory to hold your applications.
 ```
 mkdir /webs
 ```
 
-- Check that /webs directory was created
+2. Check that /webs directory was created
+
 ```
 cd /
 ls -ld /webs
@@ -98,10 +103,9 @@ ls -ld /webs
 
 ![Create Webs Directory](./images/fr0303-07_Ubuntu-create-webs-directory.png "Create Webs Directory")
 
-### 4. Create Snapshot of server in Vultr
-```
-Use label: FormR-Installed-Web-Server
-```
+### 5. Create Snapshot of server in Vultr
+
+1. Use label: FormR-Installed-Web-Server
 
 ![Take Snapshot](./images/fr0303-08_Ubuntu-take-snapshot.png "Take Snapshot")
 

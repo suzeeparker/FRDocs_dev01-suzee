@@ -6,29 +6,32 @@
 </div><div class="page-next">
 
 [Install Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 ## Setup Instructions for Data server using MySQL on a Vultr Ubuntu VM
 
-### 0. Restart your Vultr VM and Login
+### 1. Restart your Vultr VM and Login
 
- - Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
- - From your Vultr FormR1 console
- - Copy the root password
- - Click View Console button
+2. From your Vultr FormR1 console
+ 
+3. Copy the root password
+ 
+4. Click View Console button
  
 ![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-Login as root using the Send Clipboard button
+5. Login as root using the Send Clipboard button
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-### 1. Install MySQL from the Vultr FormR1 console
+
+### 2. Install MySQL from the Vultr FormR1 console
 
 - Install MySQL
 ```
@@ -44,7 +47,7 @@ mysql --version
 
 ![Check MySQL](./images/fr0305-02_Ubuntu-check-mysql.png "Check MySQL")
 
-### 2. Secure MySQL
+### 3. Secure MySQL
 
 - Lock down MySQL - Running this script will ask you
 
@@ -137,7 +140,7 @@ systemctl status mysql.service
 
 ![Mysql-setup-check-status](./images/fr0305-09_Ubuntu-check-status-mysql.png "Mysql-setup-check-status")
 
-### 3. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 
+### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 
 
 - From Windows command prompt enter the following: (Use your Vultur server IP address)
 

@@ -6,7 +6,7 @@
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
@@ -16,29 +16,30 @@
  we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 
 
 ### 1. Create New Ubuntu Instance
-- Signin or create an account on vultr.com
 
-- Deploy New Server 
+1. Signin or create an account on vultr.com
+
+2. Deploy New Server 
 
 ![Vultr Deploy New Server](./images/fr0301-01_Vultr-Deploy-New-Server.png "Deploy New Server")
 
-- Choose Server: Cloud Compute
+3. Choose Server: Cloud Compute
 
 ![Vultr Cloud Compute](./images/fr0301-02_Vultr-Cloud-Compute.png "Cloud Compute")
 
-- Server Location
+4. Server Location
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-- Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial)
+5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial)
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
-- Server Size: 25GB SSD
+6. Server Size: 25GB SSD
 
 ![Vultr Server Size](./images/fr0301-05_Vultr-Server-Size.png "Server Size")
 
-- Add SSH Key
+7. Add SSH Key
     - Select your Vultr public key in C:\users\Local_Admin\\.ssh
 
 ![Vultr-Select-Key](./images/fr0301-06_Vultr-Select-Key.png "Vultr-Select-Key")
@@ -51,12 +52,12 @@
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-- Server Host Name and Label: FormRx-Vultr for both
+8. Server Host Name and Label: FormRx-Vultr for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
 
-- Click Deploy Now
+9. Click Deploy Now
 
 ![Vultr Deploy Now](./images/fr0301-07_Vultr-Deploy-Now.png "Deploy Now")
 
@@ -66,11 +67,11 @@
 
 ### 2. Open Vultr VM Console to Log in
 
-- Click on Products, then the Server Name i.e. FormRx-Vultr
+1. Click on Products, then the Server Name i.e. FormRx-Vultr
 
 ![Vultr Open Console](./images/fr0301-09_Vultr-Open-Console.png "Open Console")
 
-- Click the copy password icon
+2. Click the copy password icon
 
 ![Vultr Copy Password](./images/fr0301-10_Vultr-Copy-Password.png "Copy Password")
 
@@ -79,18 +80,18 @@
 #### !! Remember to write your passwords in a safe place !!
 ```
 
-- Click the View Console icon
+3. Click the View Console icon
 
 ![Vultr View Console](./images/fr0301-11_Vultr-View-Console.png "View Console")
 
-- Click in the console window and then enter login: root and press enter
+4. Click in the console window and then enter login: root and press enter
 
-- Click the Send clipboard button and press enter.
+5. Click the Send clipboard button and press enter.
 
 ![Vultr Login](./images/fr0301-12_Vultr-Login.png "Login")
 
 
-- You will see the Welcome screen for Ubuntu and the command prompt:
+6. You will see the Welcome screen for Ubuntu and the command prompt:
 
     root@FormRx-Vultr:~#
 
@@ -106,16 +107,5 @@
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
 </div>
 
-<!-- ------------------------------------------------------------------------- -->
 
-<!--  
-### [BACK - Clone FormR ](/Setup/fr0103_Clone-FormR.md)
-### [NEXT - HardenUbuntu](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
- 
-<a class="page-back" href="Setup/fr0103_Clone-FormR.md">BACK - Clone FormR</a>
-<a class="page-next" href="Setup/fr0302_Setup-Hardening-Ubuntu.md">Harden Ubuntu - NEXT</a>
- 
-<div class="page-back">### [BACK - Clone FormR ](/Setup/fr0103_Clone-FormR.md)</div>
-<div class="page-next">### [NEXT - HardenUbuntu](/Setup/fr0302_Setup-Hardening-Ubuntu.md)</div>
--->
 
