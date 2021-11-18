@@ -168,7 +168,7 @@ unlink /etc/nginx/sites-enabled/default
 ### 4. Clone simpleApp using git 
 ```
 cd /webs
-git clone https://github.com/brucetroutman-gmail/simpleApp.git simpleApp
+git clone https://github.com/8020data/simpleApp.git simpleApp
 ```
   1. Confim clone
 ```

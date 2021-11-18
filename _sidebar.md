@@ -25,5 +25,5 @@
 
 <h>Links</h>
  1. [![Twitter           ](/assets/twitter1.svg)FormR             ](http://twitter.com/formr)
- 2. [![This Site's Github](/assets/github1.svg )FormR Repository  ](https://github.com/brucetroutman-gmail/FormR-test/)
- 3. [![This Site's Github](/assets/github1.svg )This Site's Github](https://github.com/brucetroutman-gmail/FormR-test/docs)
+ 2. [![This Site's Github](/assets/github1.svg )FormR Repository  ](https://github.com/8020data/FormR-test/)
+ 3. [![This Site's Github](/assets/github1.svg )This Site's Github](https://github.com/8020data/FormR-test/docs)
