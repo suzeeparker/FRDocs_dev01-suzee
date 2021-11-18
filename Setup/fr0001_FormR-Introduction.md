@@ -1,3 +1,15 @@
+<!-- ------------------------------------------------------------------------- -->
+
+<div class="page-back disabled">
+
+BACK
+</div><div class="page-next">
+
+[Setuo Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+</div><div style="margin-top:35px">&nbsp;</div>
+
+<!-- ------------------------------------------------------------------------- -->
+
 
 - FormR is a project that defines all the steps required to develop and test Rapid Application Development (RAD) web database applications. The application takes a database connection and table name and generates CRUD functionality. This is the next generation of FormX that was developed for the Microsoft platform and used for 20 years in more than 25 applications for the US federal government. The sponsor for this project is the Institute of Database Developers (IODD). 
 
@@ -64,5 +76,15 @@ Server that can connect to a database server and publish the FormR application.
 - Credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. We especially thank  We especially thank BezKoder.com, Ben Awad, Jared Palmer, Jason Watmore, 
 GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com,
 
-<a class="page-back disabled">BACK</a>
-<a class="page-next" href="Setup/fr0050_Setup-SSH-Key-Files.md">NEXT - SSH Key Files</a>
+<!-- ------------------------------------------------------------------------- -->
+
+<div class="page-back disabled">
+
+
+</div><div class="page-next">
+
+[Setuo Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+</div><div style="margin-top:35px">&nbsp;</div>
+
+<!-- ------------------------------------------------------------------------- -->
+
