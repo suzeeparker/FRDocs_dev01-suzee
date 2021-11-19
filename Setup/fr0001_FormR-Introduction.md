@@ -2,79 +2,97 @@
 
 <div class="page-back disabled">
 
-BACK
 </div><div class="page-next">
 
-[Setuo Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Setup Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 
-- FormR is a project that defines all the steps required to develop and test Rapid Application Development (RAD) web database applications. The application takes a database connection and table name and generates CRUD functionality. This is the next generation of FormX that was developed for the Microsoft platform and used for 20 years in more than 25 applications for the US federal government. The sponsor for this project is the Institute of Database Developers (IODD). 
+## FormR Introduction
+### Renaisance Developer
 
-- FormR is an easy to use application that uses a Sequelize, ExpressJS, React-Admin and NodeJS (MERN) stack. The coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") than  WET ("Write Every Time").
+- Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowlege about the other disciplines. 
 
-- A NodeJS ExpressJS server is used to receive API calls that use Sequelize to perform database tasks using any database server.  
+- The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves web pages that allow access to and manipulation of  data via the Internet.
 
-- A React-Admin client is used to provide authentication of  users and standard create, retrieve, update and delete (CRUD) functions for any database table. JWT and Axios are used for authentication. AdminLTE is used for the user interface (UI) and Formik and YUP for data entry forms.
+- You can do this tutorial, if:
 
+1. You have access to a Windows 10 or higher workstation.
 
+2. You have zero knowlege about computing or you have substantial knowlege about it.
 
+3. You want to spend under $30.
 
-The magic occurs by just providing a connection to a remote or local database, and having the
-application know how to perform the CRUD operations on the columns for any and all table. 
-FormR also can be customized when the default API actions or column schema needs to be customized.
+4. You want to say, "I have completed all the steps to create my own secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
 
-This example connects to an IODD database server that contains a database containing informaton 
-related to developers, members of the Institute of Database Developers, who can provide expert 
-advise on building business database application.
+### Background for FormR
 
-The documentation herein also provides step by step instruction on how to setup a Virtual Private 
-Server that can connect to a database server and publish the FormR application.  
+- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server and web server. The Microsoft product suite included everything from Visual Interdev through .Net MVC. The team focus has always been on Rapid Application Develpment (RAD). 
 
-- Server is configured to serve both scripting and database services. Separating them on different servers would increase the documentation effort and doesn't add to a developer's understanding.
-- Creation of production platforms are outside for our scope, because their multiple security issues are not developer responsibilities and would distract from our goal. 
-- Documentation will include Ubuntu on a local development server (VMFusion), a Vultr server and an AWS server.
-- The documentation is writtem in Markdown and uses Docsify.
-- The primary development tools are:
-    1. VSCode in Windows VM
-    2. Mysql Workbench in Windows VM
-- The products used are:
-    1. Ubuntu 18-04 Server x64
-    2. Mysql Community Edition
-    3. Create React App
-    4. React-Admin
-    5. AdminLTE
-    6. Formik
-    7. GitHub
-- The basic setup tasks include:
-    1. Setup of a developer's workstation
-        1. Setup VSCode
-        2. Install Extensions
-        3. Install BitVise
-        4. GitHub
-        5. Create directories  \repos \remotes
-    
-    2. Setup account in a cloud service
-        1. Add additional user
+### The FormR Tools and Technologies
 
-    3. Setup of Ubuntu server
-        Install
-        Hardening
-        Connecting
+- FormR uses the popular tools and techniques as of 2021. The list contains:
 
-    4. Setup of Mysql on Ubuntu
-        Install
-        Hardening
-        Connecting
+1. Ubuntu Server on the cloud.
+2. Windows 10 development workstation.
+3. VSCode development environment.
+4. MySQL database. (M)
+5. ExpressJS web server. (E)
+6. React-Admin framework. (R)
+7. NodeKS programming technology. (N)
+8. Sequelize database access technology. (S)
 
-    5. Setup Node, Express etc
+- In keeping with current-speak we say that FormR uses a MERNS stack. 
 
-    5. Team Communication
+### The FormR Flow
 
-- Credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. We especially thank  We especially thank BezKoder.com, Ben Awad, Jared Palmer, Jason Watmore, 
-GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com,
+= Developer Workstation
+
+1. You will first create a development workstation.
+2. You will test that all of your tools are working prperly.
+3. You will clone the FormR github repository to your local workstation.
+4. You will test FormR locally.
+
+= Cloud Server
+
+1. You will create an Ubuntu server on the cloud. (Estimated cost $5/mo.)
+2. You will harden your Ubuntu server to make it secure.
+3. You will install and test web, application and database servers.
+4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
+5. You will intall an SSL certificate and access you website from the Internet.
+
+### The FormR Development Strategy
+
+- All coding will be done locally using VSCode
+- Changes will be pushed to your own github repository.
+= Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
+
+### Application Development Strategy
+
+1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using any database server.  
+
+2. A React-Admin client is used to provide authentication of  users and standard create, retrieve, update and delete (CRUD) functions for any database table. 
+
+3. JWT and Axios are used for authentication. 
+
+4. AdminLTE is used for the user interface (UI).
+
+5. Formik and YUP for data forms.
+
+6. The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+
+### Some Final Points
+
+- The example database is the sample MySql World database.
+
+- This documentation is writtem in Markdown and uses Docsify.
+
+- Credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. 
+
+- We especially thank BezKoder, Ben Awad, Jared Palmer, Jason Watmore, 
+GraspingTech, LifeWire, SQL-Hub, W3Schools,
 
 <!-- ------------------------------------------------------------------------- -->
 
@@ -83,7 +101,7 @@ GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com,
 
 </div><div class="page-next">
 
-[Setuo Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Setup Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
