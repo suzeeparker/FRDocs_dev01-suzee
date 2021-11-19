@@ -25,7 +25,7 @@
 
 3. You want to spend under $30.
 
-4. You want to say, "I have completed all the steps to create my own secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
+4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
 
 ### Background for FormR
 
