@@ -67,9 +67,9 @@
 
 - All coding will be done locally using VSCode
 - Changes will be pushed to your own github repository.
-= Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
+- Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
 
-### Application Development Strategy
+### The FormR Application Development Strategy
 
 1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using any database server.  
 
