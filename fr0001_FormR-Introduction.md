@@ -16,8 +16,9 @@
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowlege about the other disciplines. 
 - The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves web pages that allow access to and manipulation of  data via the Internet.
+<br/><br/>
 
-#### You can do this tutorial, if:
+### You can do this tutorial, if:
 <br/>
 
 1. You have access to a Windows 10 or higher workstation.
@@ -69,14 +70,6 @@
 5. You will intall an SSL certificate and access you website from the Internet.
 <br/><br/>
 
-### The FormR Development Strategy
-<br/>
-
-- All coding will be done locally using VSCode
-- Changes will be pushed to your own github repository.
-- Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
-<br/><br/>
-
 ### The FormR Application Development Strategy
 <br/>
 
@@ -89,8 +82,17 @@
 4. AdminLTE is used for the user interface (UI).
 
 5. Formik and YUP for data forms.
+<br/>
 
-6. The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+- The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+<br/><br/>
+
+### The FormR Migration Strategy
+<br/>
+
+- All coding will be done locally using VSCode
+- Changes will be pushed to your own github repository.
+- Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
 <br/><br/>
 
 ### Some Final Points
