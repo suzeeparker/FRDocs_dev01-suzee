@@ -48,7 +48,7 @@
 6. React-Admin framework. (R)
 7. NodeKS programming technology. (N)
 8. Sequelize database access technology. (S)
-<br/><br/>
+&nbsp;  
 - In keeping with "current-speak" we say that FormR uses a MERNS stack. 
 
 ----

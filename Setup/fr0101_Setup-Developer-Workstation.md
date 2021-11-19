@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/Setup/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
 [Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
@@ -17,7 +17,7 @@ The following steps create the development environment on your workstation for d
 #### Important Note about names and capitalization
 
 - In this tutorial please be careful to use the exact spelling and capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
-<br/>
+
 
 ### 1. Create a new user, Local_Admin on your workstation.
 
@@ -853,7 +853,7 @@ https://textpad.com/download
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/Setup/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
 [Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
