@@ -11,7 +11,7 @@
 
 
 ## FormR Introduction
-### Renaisance Developer
+### Renaissance Developer
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowlege about the other disciplines. 
 
