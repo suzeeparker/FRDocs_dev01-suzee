@@ -12,9 +12,9 @@ NEXT
 <!-- ------------------------------------------------------------------------- -->
 
 ## Setup Instructions for creating a simple website with SSL
-
+----
 ### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
-
+----
 1. Open Bitvise Client app 
 
  ![BitVise Open](./images/fr0306-01_Ubuntu-Bitvise-Open.png "BitVise Open")
@@ -67,8 +67,9 @@ FormR1-Vultr-nimda
 
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
+----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords)
-
+----
 1. Open Bitvise profile, FormR-Vultr-nimda, click Log in, then click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
@@ -151,8 +152,9 @@ FormR1-Vultr-nimda
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
+----
 ### 3. Using Bitvice New Terminal console delete nginx default files 
-
+----
 1. Open New Terminal console
 
 ![BitVise New Terminal](./images/fr0306-06_Ubuntu-Bitvise-new-terminal.png "BitVise New Terminal")
@@ -165,7 +167,9 @@ unlink /etc/nginx/sites-enabled/default
 
 ![BitVise Unlink nginx default](./images/fr0306-06_Ubuntu-Bitvise-Unlink-nginx-default.png "BitVise Unlink nginx default")
 
+----
 ### 4. Clone simpleApp using git 
+----
 ```
 cd /webs https://github.com/brucetroutman-gmail/simpleApp.git simpleApp
 ```
@@ -199,9 +203,10 @@ node app.js
 
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
+----
 ### 5. Setup pm2 to run website automatically
-
-1. Go to the Bitvise Terminal console
+----
+1. Go to the Bitvise New terminal console
 2. Navigate to 
 
 ```
@@ -242,8 +247,9 @@ reboot
 
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
+----
 ### 6. Setup nginx proxy 
-
+----
 1. Copy simpleApp.conf file
 
 ```
@@ -269,15 +275,16 @@ systemctl reload nginx
 
 ![BitVise nginx reload](./images/fr0306-08_Ubuntu-Bitvise-nginx-reload.png "BitVise nginx reload")
 
+----
 ### 7. Create a domain for public access to your server (Skip to step 11, if you don't wan't to purchase a domain.) 
+----
+#### Note: 
+- To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
 
-#### Note: To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
+- There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our FormR example we decline all extra services from the domain provider. 
 
-####    There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services.
-
-#### ***In our example we decline all extra services.*** 
-#### (Note that the GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.)
- 
+- The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
+----
 1. Create a new Domain Name e.g. formr-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 
 2. Browse to
@@ -306,9 +313,9 @@ e.g. formr-cbt-00.com
 
 ![Create Domain3](./images/fr0306-09_Ubuntu-create-domain4.png "Create Domain3") 
 
-
+----
 ### 8. Update your DNS record to point YourURL to your server IP address.
-
+----
 1. Login to your GoDaddy.com account
 2. Click Your Account
 3. Click My Products
@@ -354,11 +361,12 @@ http://formr-<yourinitials>-00com
 
 e.g http://formr-cbt-00.com
 ```
-@@@@@@ 01 pic 00
+
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
+----
 ### 9. Modify simpleApp.conf to use your new URL
-
+----
 1. Open Bitvise 
 2. Load Profile: FormR1-Vultr-nimda.tlp
 3. Login
@@ -378,16 +386,67 @@ e.g http://formr-cbt-00.com
  
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
-7. Save this file then Close the SFTP window
+7. Save this file and continue on
 
-### 10. Add SSL certificate using Letsencrypt
+----
+### 10. Personalize the FormR Home Page
+----
+1. From your Bitvise SFTP window navigate to 
 
-1. From your Bitvice New Terminal Console enter (You might use notpad to build yoururl)
+```
+/webs/simpleApp/App.js
+
+```
+2. Click Edit 
+
+![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
+
+3. ASdd something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
+
+![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
+ 
+![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
+
+4. Save this file then Close the SFTP window
+
+----
+### 11. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols
+
+- (This is for SSL security)
+----
+1. From your Bitvise SFTP window navigate to 
+
+```
+/webs/simpleApp/App.js
+
+```
+2. Click Edit 
+
+![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
+
+3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
+
+![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
+ 
+![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
+
+4. Save this file then Close the SFTP window
+
+5. Reboot from the Bitvise New terminal console enter:
+
+```
+reboot
+```
+
+----
+### 12. Add SSL certificate using Letsencrypt
+----
+1. Open Bitvice New Terminal Console and enter (You might use notpad to build yoururl)
 
 ```
 certbot --nginx -d <yoururl>  
 
-yoururl =  formr-<yourinitials>-00.com e.g. formr-cbt-00.com
+<yoururl> =  formr-<yourinitials>-00.com e.g. formr-cbt-00.com
 ```
 2. Enter A to Accept
 
@@ -418,9 +477,10 @@ e.g. https://formr-cbt-00.com
 
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
-### 11. Close Port 5000
-
-1. From the Bitvise Terminal Console enter:
+----
+### 13. Close Port 5000
+----
+1. From the Bitvise New terminal console enter:
 
 ```
    ufw status numbered 

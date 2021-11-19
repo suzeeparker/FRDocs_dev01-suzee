@@ -11,30 +11,32 @@
 
 
 ## FormR Introduction
+
+----
 ### Renaissance Developer 
-<br/>
+----
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowlege about the other disciplines. 
 - The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves web pages that allow access to and manipulation of  data via the Internet.
-<br/><br/>
+----
 
 ### You can do this tutorial, if:
-<br/>
+----
 
 1. You have access to a Windows 10 or higher workstation.
 2. You have zero knowlege about computing or you have substantial knowlege about it.
 3. You want to spend under $30.
 4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
-<br/><br/>
 
+----
 ### Background for FormR
-<br/>
+----
 
 - FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server and web server. The Microsoft product suite included everything from Visual Interdev through .Net MVC. The team focus has always been on Rapid Application Develpment (RAD). 
-<br/><br/>
 
+----
 ### The FormR Tools and Technologies
-
+----
 #### FormR uses the popular tools and techniques as of 2021. The list contains:
 <br/>
 
@@ -46,33 +48,29 @@
 6. React-Admin framework. (R)
 7. NodeKS programming technology. (N)
 8. Sequelize database access technology. (S)
-
-- In keeping with current-speak we say that FormR uses a MERNS stack. 
 <br/><br/>
+- In keeping with "current-speak" we say that FormR uses a MERNS stack. 
 
+----
 ### The FormR Flow
-
+----
 #### Developer Workstation
-<br/>
-
+----
 1. You will first create a development workstation.
 2. You will test that all of your tools are working prperly.
 3. You will clone the FormR github repository to your local workstation.
 4. You will test FormR locally.
-
+----
 #### Cloud Server
-<br/>
-
+----
 1. You will create an Ubuntu server on the cloud. (Estimated cost $5/mo.)
 2. You will harden your Ubuntu server to make it secure.
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
 5. You will intall an SSL certificate and access you website from the Internet.
-<br/><br/>
-
+----
 ### The FormR Application Development Strategy
-<br/>
-
+----
 1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using the database server.  
 
 2. A React-Admin client is used to provide authentication of  users and standard create, retrieve, update and delete (CRUD) functions for any database table. 
@@ -85,18 +83,17 @@
 <br/>
 
 - The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
-<br/><br/>
-
+----
 ### The FormR Migration Strategy
-<br/>
+----
 
 - All coding will be done locally using VSCode
 - Changes will be pushed to your own github repository.
 - Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
-<br/><br/>
 
+----
 ### Some Final Points
-<br/>
+----
 
 - The example database is the sample MySql World database.
 
