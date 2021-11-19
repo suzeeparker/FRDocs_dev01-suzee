@@ -188,7 +188,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mm_v210713_ke
 ```
 Change "FormR1-Vultr_nimda" below to your VM Instance name and login
 
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Formr1-Vultr_nimda_v210713_key" -C "mickey.mouse@Formr1-Vultr_nimda_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@FormR1-Vultr_nimda_v210713_key" -C "mickey.mouse@FormR1-Vultr_nimda_v210713"
 ```
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")

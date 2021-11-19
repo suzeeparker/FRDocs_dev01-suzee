@@ -69,7 +69,7 @@ FormR1-Vultr-nimda
 
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords)
 
-1. Open Bitvise profile, Formr-Vultr-nimda, click Log in, then click New SFTP window icon
+1. Open Bitvise profile, FormR-Vultr-nimda, click Log in, then click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
 
