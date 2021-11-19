@@ -26,12 +26,12 @@
 3. You want to spend under $30.
 
 4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
-<br/>
+
 
 ### Background for FormR
 
 - FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server and web server. The Microsoft product suite included everything from Visual Interdev through .Net MVC. The team focus has always been on Rapid Application Develpment (RAD). 
-<br/>
+
 
 ### The FormR Tools and Technologies
 
@@ -47,7 +47,7 @@
 8. Sequelize database access technology. (S)
 
 - In keeping with current-speak we say that FormR uses a MERNS stack. 
-<br/>
+
 
 ### The FormR Flow
 
@@ -65,7 +65,7 @@
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
 5. You will intall an SSL certificate and access you website from the Internet.
-<br/>
+
 
 ### The FormR Development Strategy
 
