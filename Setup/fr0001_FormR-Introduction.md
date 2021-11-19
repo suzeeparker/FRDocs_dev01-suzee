@@ -17,7 +17,7 @@
 
 - The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves web pages that allow access to and manipulation of  data via the Internet.
 
-- You can do this tutorial, if:
+#### You can do this tutorial, if:
 
 1. You have access to a Windows 10 or higher workstation.
 
@@ -33,7 +33,7 @@
 
 ### The FormR Tools and Technologies
 
-- FormR uses the popular tools and techniques as of 2021. The list contains:
+#### FormR uses the popular tools and techniques as of 2021. The list contains:
 
 1. Ubuntu Server on the cloud.
 2. Windows 10 development workstation.
@@ -48,14 +48,14 @@
 
 ### The FormR Flow
 
-= Developer Workstation
+#### Developer Workstation
 
 1. You will first create a development workstation.
 2. You will test that all of your tools are working prperly.
 3. You will clone the FormR github repository to your local workstation.
 4. You will test FormR locally.
 
-= Cloud Server
+#### Cloud Server
 
 1. You will create an Ubuntu server on the cloud. (Estimated cost $5/mo.)
 2. You will harden your Ubuntu server to make it secure.
@@ -71,7 +71,7 @@
 
 ### The FormR Application Development Strategy
 
-1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using any database server.  
+1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using the database server.  
 
 2. A React-Admin client is used to provide authentication of  users and standard create, retrieve, update and delete (CRUD) functions for any database table. 
 
