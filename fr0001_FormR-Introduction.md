@@ -10,13 +10,13 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## FormR Introduction
+## 0. FormR Introduction
 
 ----
 ### Renaissance Developer 
 ----
 
-- Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowlege about the other disciplines. 
+- Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowledge about the other disciplines. 
 - The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves secure web pages that access and manipulate data via the Internet.
 ----
 
@@ -24,9 +24,13 @@
 ----
 
 1. You have access to a Windows 10 or higher workstation.
-2. You have zero knowlege about computing or you have substantial knowlege about it.
+2. You have zero knowledge about computing or you have substantial knowledge about it.
 3. You want to spend under $30.
-4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-yourinitials-00.com
+4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-myinitials-00.com
+
+<br/>
+
+![FormR](/Setup/images/fr0001-01_FormR.png "FormR")
 
 ----
 ### Background for FormR
@@ -57,7 +61,7 @@
 #### Developer Workstation
 ----
 1. You will first create a development workstation.
-2. You will test that all of your tools are working prperly.
+2. You will test that all of your tools are working properly.
 3. You will clone the FormR github repository to your local workstation.
 4. You will test FormR locally.
 ----
@@ -67,7 +71,7 @@
 2. You will harden your Ubuntu server to make it secure.
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
-5. You will intall an SSL certificate and access you website from the Internet.
+5. You will intall an SSL certificate and access your website from the Internet.
 ----
 ### The FormR Application Development Strategy
 ----
