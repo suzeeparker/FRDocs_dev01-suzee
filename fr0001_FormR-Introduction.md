@@ -26,17 +26,26 @@
 1. You have access to a Windows 10 or higher workstation.
 2. You have zero knowledge about computing or you have substantial knowledge about it.
 3. You want to spend under $30.
-4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" --- My URL is: formr-myinitials-00.com
+4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" 
+
+----
+My URL is: formr-myinitials-00.com
 
 <br/>
 
-![FormR](/Setup/images/fr0001-01_FormR.png "FormR")
+![My FormR](/images/fr0001-01_FormR.png "My FormR")
+
+and it's secure
+
+<br/>
+
+![My FormR Secure](/images/fr0001-01_FormR1.png "My FormR Secure")
 
 ----
 ### Background for FormR
 ----
 
-- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server and web server. The Microsoft product suite included everything from Visual Interdev through .Net MVC. The team focus has always been on Rapid Application Develpment (RAD). 
+- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Develpment (RAD). 
 
 ----
 ### The FormR Tools and Technologies
@@ -47,12 +56,12 @@
 1. Ubuntu Server on the cloud.
 2. Windows 10 development workstation.
 3. VSCode development environment.
-4. MySQL database. (M)
-5. ExpressJS web server. (E)
-6. React-Admin framework. (R)
-7. NodeKS programming technology. (N)
-8. Sequelize database access technology. (S)
-&nbsp;  
+4. MySQL database. ---------------------------------- (M)
+5. ExpressJS web server. ---------------------------- (E)
+6. React-Admin framework. ----------------------- (R)
+7. NodeKS programming technology. -------- (N)
+8. Sequelize database access technology. ---(S)
+<br/><br/>
 - In keeping with "current-speak" we say that FormR uses a MERNS stack. 
 
 ----
