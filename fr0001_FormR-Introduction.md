@@ -51,7 +51,7 @@ and it's very secure
 ----
 ### The FormR Tools and Technologies
 ----
-#### FormR uses the popular tools and techniques as of 2021. The list contains:
+#### FormR uses the tools and techniques popular in 2021. The list contains:
 <br/>
 
 1. Ubuntu Server on the cloud.
