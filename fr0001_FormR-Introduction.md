@@ -17,7 +17,7 @@
 ----
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowledge about the other disciplines. 
-- The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves secure web pages that access and manipulate data via the Internet.
+- The goal of this FormR tutorial is to give you a step by step guide to building a complete environment for a secure server on the cloud serving secure web pages that access and manipulate data via the Internet.
 ----
 
 #### You can do this tutorial:
