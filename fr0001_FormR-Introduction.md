@@ -83,7 +83,7 @@ and it's very secure
 2. You will harden your Ubuntu server to make it secure.
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
-5. You will intall an SSL certificate and access your website from the Internet.
+5. You will intall and test an SSL certificate and access your website from the Internet.
 ----
 ### The FormR Application Development Strategy
 ----
