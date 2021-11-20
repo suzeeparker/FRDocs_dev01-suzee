@@ -20,26 +20,27 @@
 - The goal of this FormR tutorial is to give you a step by step guide to building a complete environment with a secure server on the cloud that serves secure web pages that access and manipulate data via the Internet.
 ----
 
-#### You can do this tutorial, if:
+#### You can do this tutorial:
 ----
 
-1. You have access to a Windows 10 or higher workstation.
-2. You have zero knowledge about computing or you have substantial knowledge about it.
-3. You want to spend under $30.
-4. You want to say, "I have completed all the steps to create my own working secure database web server on the Internet" 
+1. If you have access to a Windows 10 or higher workstation.
+2. If you have zero knowledge about computing 
+3. If you have substantial knowledge about it.
+4. If you want to spend under $30.
+5. If you want to boast:  "I have completed all the steps to build my own live and secure web database server on the Internet" 
 
 ----
-My URL is: formr-myinitials-00.com
+Your URL would be: formr-yourinitials-00.com
 
 <br/>
 
-![My FormR](/images/fr0001-01_FormR.png "My FormR")
+![Your FormR Website](/images/fr0001-01_FormR.png "Your FormR Website")
 
-and it's secure
+and it's very secure
 
 <br/>
 
-![My FormR Secure](/images/fr0001-01_FormR1.png "My FormR Secure")
+![Your FormR Secure](/images/fr0001-01_FormR1.png "Your FormR Secure")
 
 ----
 ### Background for FormR
