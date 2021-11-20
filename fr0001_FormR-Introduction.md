@@ -70,14 +70,14 @@ and it's very secure
 ----
 ### The FormR Flow
 ----
-#### Developer Workstation
+#### Build a Developer Workstation
 ----
 1. You will first create a development workstation.
 2. You will test that all of your tools are working properly.
 3. You will clone the FormR github repository to your local workstation.
 4. You will test FormR locally.
 ----
-#### Cloud Server
+#### Build a secure Cloud Server
 ----
 1. You will create an Ubuntu server on the cloud. (Estimated cost $5/mo.)
 2. You will harden your Ubuntu server to make it secure.
