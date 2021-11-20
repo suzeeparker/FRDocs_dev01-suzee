@@ -33,14 +33,14 @@
 
 ### 2. Install MySQL from the Vultr FormR1 console
 
-- Install MySQL
+1. Install MySQL
 ```
 apt-get install mysql-server
 ```
 
 ![Install MySQL](./images/fr0305-01_Ubuntu-install-mysql.png "Install MySQL")
 
-- Check installation
+2. Check installation
 ```
 mysql --version
 ```
@@ -49,7 +49,7 @@ mysql --version
 
 ### 3. Secure MySQL
 
-- Lock down MySQL - Running this script will ask you
+1. Lock down MySQL - Running this script will ask you
 
 ```
 mysql_secure_installation
@@ -67,7 +67,7 @@ mysql_secure_installation
 
 ![Secure MySQL part 2](./images/fr0305-03_Ubuntu-secure-mysql2.png "Secure MySQL part 2")
 
-- Allow remote access to MySQL 
+2. Allow remote access to MySQL 
 
 ```
 nano /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -78,9 +78,9 @@ to:                  bind-address = 0.0.0.0
 
 ![Mysql-setup-nano-bind-address](./images/fr0305-04_Ubuntu-nano-bind-address-mysql.png "Mysql-setup-nano-bind-address")
 
-- Save the file
+3. Save the file
 
-- Restart mysql and comfirm its running
+4. Restart mysql and comfirm its running
 
 ```
 systemctl restart mysql.service
@@ -89,7 +89,7 @@ netstat -tulnp | grep mysql
 
 ![Mysql-setup-allow-remote-access](./images/fr0305-05_Ubuntu-allow-remote-access-mysql.png "Mysql-setup-allow-remote-access")
 
-- Open firewall rule for port 3306
+5. Open firewall rule for port 3306
 ```
 ufw allow 3306/tcp
 
@@ -98,16 +98,16 @@ ufw status
 
 ![Mysql-setup-open-firewall-port-3360](./images/fr0305-06_Ubuntu-open-firewall-port-3360-mysql.png "Mysql-setup-open-firewall-port-3360")
 
-- Create and Grant Privileges to user account: nimdas with host %
+6. Create and Grant Privileges to user account: nimdas with host %
 (Note: root@localhost has all rights and nimdas@% will have all rights) 
 
-- From the Vultr console prompt enter:
+7. From the Vultr console prompt enter:
 
 ```
 mysql -p
 ```
 
-- Enter : the root password -> FormR!1234
+8. Enter : the root password -> FormR!1234
 
 ```
 password: FormR!1234
@@ -115,7 +115,7 @@ password: FormR!1234
 #### !! Remember to write your passwords in a safe place !!
 ```
 
-- Enter the following:
+9. Enter the following:
 
 ```
 mysql> CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
@@ -124,14 +124,14 @@ mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
 
-- Exit mysql
+10. Exit mysql
 ```
 mysql> \quit
 ```
 
 ![Mysql-quit-to-console](./images/fr0305-08_Ubuntu-quit-to-console-mysql.png "Mysql-quit-to-console")
 
-- Stop, Start and check status of MySQL
+11. Stop, Start and check status of MySQL
 ```
 systemctl stop mysql
 systemctl start mysql
@@ -142,14 +142,14 @@ systemctl status mysql.service
 
 ### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 
 
-- From Windows command prompt enter the following: (Use your Vultur server IP address)
+1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 
 ![Mysql-setup-vultr-ip](./images/fr0305-09_Ubuntu-vultr-ip.png "Mysql-setup-vultr-ip")
 
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 ```
-- Check Version. From the mysql command prompt enter the following:
+2. Check Version. From the mysql command prompt enter the following:
 
 ```
 \sql SELECT VERSION();
@@ -157,7 +157,7 @@ mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 
 ![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local.png "Mysql-setup-login-admin-mysqlsh-local")
  
-- Exit mysqlsh. From the mysql command prompt enter the following:
+3. Exit mysqlsh. From the mysql command prompt enter the following:
 
 ```
 \quit
