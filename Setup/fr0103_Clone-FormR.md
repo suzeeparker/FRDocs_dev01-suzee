@@ -13,8 +13,9 @@
 
 ## 1.3 Clone FormR
 
+----
 ### 1. Cloning FormR repository
-
+----
 1. Create local repos folder in Windows Command prompt
 
 ```
@@ -43,8 +44,9 @@ code formr_test-master.code-workspace
  
 ![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
 
+----
 ### 2. Install Node modules
-
+----
 1. Right click on the server folder
 
 2. Click Open in Integrated Terminal, then 
@@ -74,9 +76,9 @@ npm install
 
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
-
+----
 ### 3. Install RAuth and World databases.
-
+----
 (Note that the World database has been modified so that all tables contain ID primary key fields)
 
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
@@ -126,8 +128,9 @@ npm install
  C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
 ```
 
+----
 ### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
-
+----
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
 2. Click the Local Instance under MySQL Connections
@@ -170,10 +173,12 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 ![FormR-Clone-20b](images/fr0103-FormR-Clone-20b.png "FormR-Clone-20b")
 
+----
  ### 5. Run Client and Server applications
+----
 
-- Right click on the server/1s-world folder and
-- Click Open in Integrated Terminal, then 
+1. Right click on the server/1s-world folder and
+2. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-21](images/fr0103-FormR-Clone-21.png "FormR-Clone-21") 
 
@@ -185,8 +190,8 @@ npm start
 
 ![FormR-Clone22a](images/fr0103-FormR-Clone-22a.png "FormR-Clone-22a")
 
-- Right click on the client/1c-world folder and
-- Click Open in Integrated Terminal, then 
+3. Right click on the client/1c-world folder and
+4. Click Open in Integrated Terminal, then 
 
 (Note: The client application can take up to 15 minutes to start for the first time)
 
@@ -202,9 +207,10 @@ npm start
 
 ![FormR-Clone-24b](images/fr0103-FormR-Clone-24b.png "FormR-Clone-24b")
 
-### 6. Test the applications
-
-1. Test the server, browse to
+----
+### 6. Test the applications on your local workstation
+----
+1. Enter the following in your browser to test the server:
 
 ```
     localhost:50251
@@ -219,11 +225,15 @@ npm start
     localhost:50251/api/world/countries/1
 ```
 
-2. Test the client, browse to
+2.  Enter the following in your browser to test the client:
 
 ```
     localhost:50201
 ```
+
+----
+### Congratulations! You have Cloned FormR successfully.
+----
 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -236,3 +246,4 @@ npm start
 [Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div>
 
+<!-- ------------------------------------------------------------------------- -->
