@@ -427,6 +427,11 @@ FormR-Hardened-Server
 
 ![List Snapshots](./images/fr0302-22_Ubuntu-list-snapshots.png "List Snapshots")
 
+----
+### Congratulations! You have hardened your Ubuntu server on Vultr.
+----
+
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">

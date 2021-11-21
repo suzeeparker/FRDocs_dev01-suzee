@@ -15,8 +15,9 @@
 - In order to test our FormR apps on the Internet
  we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 
 
+----
 ### 1. Create New Ubuntu Instance
-
+----
 1. Signin or create an account on vultr.com
 
 2. Deploy New Server 
@@ -52,7 +53,7 @@
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-8. Server Host Name and Label: FormRx-Vultr for both
+8. Server Host Name and Label: FormR1-Vultr for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
@@ -65,9 +66,10 @@
 
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
+----
 ### 2. Open Vultr VM Console to Log in
-
-1. Click on Products, then the Server Name i.e. FormRx-Vultr
+----
+1. Click on Products, then the Server Name i.e. FormR1-Vultr
 
 ![Vultr Open Console](./images/fr0301-09_Vultr-Open-Console.png "Open Console")
 
@@ -96,6 +98,11 @@
     root@FormRx-Vultr:~#
 
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
+
+----
+### Congratulations! You have created your Ubuntu server on Vultr.
+----
+
 
 <!-- ------------------------------------------------------------------------- -->
 

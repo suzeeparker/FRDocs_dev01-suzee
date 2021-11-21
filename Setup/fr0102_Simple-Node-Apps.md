@@ -18,9 +18,9 @@
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
 <br>
 
-
+----
 ### 1. Test the Node version.
-
+----
 1. In VSCode select the myProject folder and open terminal
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal.png "Node-test-terminal")
@@ -35,13 +35,14 @@ The following steps create several basic node applications. There are script, se
 
 ![Node-test](images/fr0102-02_Node-test.png "Node-test")
 
+----
 ### 2. Create sub-folders in myProject
-
-3. Click on myProject and create a new folder:
+----
+1. Click on myProject and create a new folder:
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder.png "Node-new-folder")
 
-4. Create the following myProject sub-folders:
+2. Create the following myProject sub-folders:
 
 ```
      client
@@ -53,8 +54,9 @@ The following steps create several basic node applications. There are script, se
 
 ![Node-create-folders](images/fr0102-04_Node-create-folders.png "Node-create-folders")
 
+----
 ### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs.
-
+----
 1. Click on the scripts folder, then click the new file icon
 
 ![Node-create-empty-file0](images/fr0102-05_Node-create-empty-file0.png "Node-create-empty-file0")
@@ -128,9 +130,9 @@ Click on: Ok, Don't show again
 
 #### *** End of Push to Github
 
+----
 ### 4. Create a new file, server.js in the server folder and run it with Nodejs.
-
-
+----
 1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
 
 ![Node-install-express](images/fr0102-09_Node-install-express.png "Node-install-express")
@@ -215,8 +217,9 @@ http://localhost:8080/myProject/server/app01s
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
 
+----
 ### 5. Create a basic react app in the client folder and run it with Nodejs.
-
+----
 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Node-client](images/fr0102-16_Node-client.png "Node-client")
@@ -263,9 +266,9 @@ npm start
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
 
-
+----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information.
-
+----
 1. Install Sequelize. It will be used to connect to and access information in MySQL. 
 
 2. Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
@@ -434,8 +437,9 @@ node queryDB
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
   
-
-<h3> Congratulations! You have run Node applications that test your development environment.</h3>
+----
+### Congratulations! You have run the Node applications that test your development environment.
+----
 
 <!-- ------------------------------------------------------------------------- -->
 

@@ -1,12 +1,14 @@
-# Welcome to FormR Awesome Docs
-## Select a topic in the left side-bar to get started.
+## Welcome to FormR Awesome Docs
 
+----
+### Select a topic in the left side-bar to get started.
+----
 ?> If you don't see any side-bar, you can unhide it (and hide it again) with the 'burger' button.
 
 ![hamburger.png](assets/fr300-01_Hamburger.jpg)
 <br/>
 
-## Questions, answers, and feedback (Please)
+### Questions, answers, and feedback (Please)
 <br/>
 
 Please tell us if you spot any mistakes or if you have suggestions for improvements. We appreciate all feedback.

@@ -125,6 +125,10 @@ Use label: FormR-Installed-App-Server
 
 ![Take Snapshot](./images/fr0304-12_Ubuntu-take-snapshot.png "Take Snapshot")
 
+----
+### Congratulations! You have installed an Application server on your Ubuntu server.
+----
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">

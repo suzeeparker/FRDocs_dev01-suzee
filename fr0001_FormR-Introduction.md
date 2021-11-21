@@ -10,10 +10,10 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 0. FormR Introduction
+## FormR Introduction
 
 ----
-### Renaissance Developer 
+### The Renaissance Developer 
 ----
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowledge about the other disciplines. 
@@ -62,7 +62,7 @@ and it's very secure
 6. React-Admin framework. ----------------------- (R)
 7. NodeKS programming technology. -------- (N)
 8. Sequelize database access technology. ---(S)
-9. Bitvise for cloud server access
+9. Bitvise ssh client for cloud server access
 10. MySQL Workbench for database access
 <br/><br/>
 - In keeping with "current-speak" we say that FormR uses a MERNS stack. 

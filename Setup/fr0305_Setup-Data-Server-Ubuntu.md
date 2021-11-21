@@ -163,6 +163,10 @@ mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 \quit
 ```
 
+----
+### Congratulations! You have installed a Database server on your Ubuntu server.
+----
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">

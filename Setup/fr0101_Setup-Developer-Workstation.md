@@ -18,9 +18,9 @@ The following steps create the development environment on your workstation for d
 
 - In this tutorial please be careful to use the exact spelling and capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 
-
+----
 ### 1. Create a new user, Local_Admin on your workstation.
-
+----
 - This account will be used througout the documentation. 
 
 - IMPORTANT--If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
@@ -89,13 +89,15 @@ The following steps create the development environment on your workstation for d
 
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
-
+----
 ### 2. Install any updates to your workstation.
+----
 
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
+----
 ### 3. Create 3 folders, change View Options,  Setup ssh and Create keys
-
+----
 1. In C:\ add repos and remotes 
 
 ```
@@ -197,8 +199,9 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@FormR1-Vultr_nimda_
 
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
+----
 ### 4. Install or open Chrome browser
-
+----
 1. Download and install Chrome from:
 
 ```
@@ -241,8 +244,9 @@ chrome://extensions/
 
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
+----
 ### 5. Create an account or sign into GitHub then Add your ssh key.
-
+----
 1. Sign in to GitHub. (Create an account, if you don't habe one.)
 
 ```
@@ -355,8 +359,9 @@ Note: On the first try when prompted enter "yes"
 
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
-### 7. Download Git, if not already installed
-
+----
+### 6. Download Git, if not already installed
+----
 
 ```
  https://git-scm.com/download/win
@@ -401,9 +406,9 @@ git config --global user.email = "mickey.mouse@gmail.com"
 
 ![Git-for-Windows6](./images/fr0101-06_Git-for-Windows6.png "Git-for-Windows6")
 
-
-### 8. Open or Install VSCode
-
+----
+### 7. Open or Install VSCode
+----
 
 ```
 https://code.visualstudio.com/download
@@ -479,8 +484,9 @@ https://code.visualstudio.com/download
 
 9. Close VSCode
 
-### 9. Clone myProject
-
+----
+### 8. Clone myProject
+----
 1. Using File Explorer open git bash in c/repos folder
 
 ```
@@ -529,9 +535,9 @@ code .
 
 ![VSCode9a](./images/fr0101-08_VSCode9a.png "VSCode9a")
 
-
-### 10. Markdown Preview test
-
+----
+### 9. Markdown Preview test
+----
 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
 ```
@@ -556,8 +562,9 @@ code .
 
 ![Markdown-Preview6](./images/fr0101-09_Markdown-Preview6.png "Markdown-Preview6")
 
-### 11. From VSCode push and pull with GitHub
-
+----
+### 10. From VSCode push and pull with GitHub
+----
 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
 ![Github-push](./images/fr0101-10_Github-push.png "Github-push")
@@ -625,8 +632,9 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
-### 12. Install Node for Windows
-
+----
+### 11. Install Node for Windows
+----
 1. Be sure to CLOSE VSCode before installing Node
 
 2. To download browse to: 
@@ -659,8 +667,9 @@ nodejs.org/en/
 ```
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-check.png "Nodejs-install-check")
 
-### 13. Install MySql for windows
-
+----
+### 12. Install MySql for windows
+----
 1. Browse to: 
 
 ```
@@ -793,8 +802,9 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 
 ![MySQL-shell-show-databases](./images/fr0101-12_MySQL-shell-show-databases.png "MySQL-shell-show-databases")
 
-### 14. Install BitVise ssh client
-
+----
+### 13. Install BitVise ssh client
+----
 1. Install Bitvise from: 
 
 ```
@@ -811,8 +821,9 @@ https://bitvise.com/ssh-client-download
 
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
-###    15. Install TextPad
-
+----
+### 14. Install TextPad
+----
 1. Install Textpad from: 
 
 ```
@@ -844,11 +855,12 @@ https://textpad.com/download
 ![Textpad-download-10](./images/fr0101-14_Textpad-download-10.png "Textpad-download-10")
 
 
-
+----
 ### Congratulations! Your Developer Workstation is setup.
 
  After all installations on a new Windows 10 machine, 26GB was used on Drive C:.
 
+----
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">

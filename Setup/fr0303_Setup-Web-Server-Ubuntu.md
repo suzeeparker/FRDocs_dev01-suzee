@@ -109,6 +109,10 @@ ls -ld /webs
 
 ![Take Snapshot](./images/fr0303-08_Ubuntu-take-snapshot.png "Take Snapshot")
 
+----
+### Congratulations! You have installed a Web server on your Ubuntu server.
+----
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
