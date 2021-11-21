@@ -34,14 +34,14 @@
 
 ### 2. Install nodejs
 
-- Install
+1. Install
 ```
 apt-get install nodejs
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs.png "Install NodeJS")
 
-- Check
+2. Check
 ```
 nodejs --version
 ```
@@ -50,14 +50,14 @@ nodejs --version
 
 ### 3. Install npm
 
-- Install
+1. Install
 ```
 apt-get install npm
 ```
 
 ![Install NPM](./images/fr0304-03_Ubuntu-install-npm.png "Install NPM")
 
-- Check
+2. Check
 ```
 npm --version
 ```
@@ -66,21 +66,21 @@ npm --version
 
 ### 4. Install  pm2
 
-- Install
+1. Install
 ```
 npm install -g pm2
 ```
 
 ![Install PM2](./images/fr0304-05_Ubuntu-install-pm2.png "Install PM2")
 
-- Check
+2. Check
 ```
 ps -aux | egrep 'pm2'
 ```
 
 ![Check PM2](./images/fr0304-06_Ubuntu-check-pm2.png "Check PM2")
 
-- Configure pm2 to start automatically on system startup
+3. Configure pm2 to start automatically on system startup
 ```
 pm2 startup systemd
 ```
@@ -94,7 +94,7 @@ pm2 startup systemd
 
 ![Install Docsify](./images/fr0304-08_Ubuntu-install-docsify.png "Install Docsify")
 
-- Check
+1. Check
 ```
 ps -aux | egrep 'docsify'
 ```
