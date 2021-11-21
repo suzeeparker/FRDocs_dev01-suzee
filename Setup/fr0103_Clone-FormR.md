@@ -122,7 +122,7 @@ npm install
 
 ![FormR-Clone-16](images/fr0103-FormR-Clone-16.png "FormR-Clone-16")
 
-7. IMPORTANT - Repeat these same steps for the World DB file
+7. IMPORTANT - Go back to Step 4. and repeat these same steps for the World DB file
 
 ```
  C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
@@ -210,7 +210,7 @@ npm start
 ----
 ### 6. Test the applications on your local workstation
 ----
-1. Enter the following in your browser to test the server:
+1. Enter each of the following in your browser to test the server:
 
 ```
     localhost:50251
@@ -232,7 +232,7 @@ npm start
 ```
 
 ----
-### Congratulations! You have Cloned FormR successfully.
+### Congratulations! You have Cloned FormR successfully to your local workstation.
 ----
 
 

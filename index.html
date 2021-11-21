@@ -13,7 +13,7 @@
          <meta charset="utf-8">
          <meta name="description" content="FormR Awesome (Plaintext) Docs">
 
-         <title>FormR_Docs</title>
+         <title>FormR Docs</title>
 
 
     <!-- ****** faviconit.com favicons ****** -->
@@ -22,7 +22,7 @@
     <!-- ****** faviconit.com favicons ****** -->
 
     <!-- 1. Theme -->
-         <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
+    <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css"> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css"> -->
 
@@ -43,7 +43,7 @@
      // 4. Docsify Configuration
 
         window.$docsify  = {
-            name         : 'FormR Awesome Docs',
+            name         : 'FormR Docs',
      //     repo         : 'https://github.com/formr/awesome-docs',
      //     coverpage    : 'coverpage.md',
             homepage     : '_home.md',
@@ -110,8 +110,8 @@
                 hook.beforeEach( function( html ) {
 
                   var url           = 'https://github.com/8020data/FormR_docs/tree/main/_home.md' 
-                  var delimiter     = '<span>???\n\n</span>'
-                  var footer        = '<span>Built with docsify by &copy; <a href="https://formr.net">www.formr.net</a>\n</span>'
+                  var delimiter     = '<span>\n\n</span>'
+                  var footer        = '<span>Built with docsify by &copy; <a href="https://formr.net">formr.net</a>\n</span>'
                   var lastModified  = '<span class="last-modified">Last modified {docsify-updated} \n</span>'
                   var editButton    = '<a class="edit-button" href="' + url +'" target="_blank">Edit this file on GitHub</a>\n'
                   var metaContainer = '<div class="meta-container">' + delimiter + footer + lastModified + editButton + '</div>\n'
