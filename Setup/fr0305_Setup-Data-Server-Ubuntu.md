@@ -12,8 +12,9 @@
 
 ## Setup Instructions for Data server using MySQL on a Vultr Ubuntu VM
 
+----
 ### 1. Restart your Vultr VM and Login
-
+----
 1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
@@ -30,9 +31,9 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-
+----
 ### 2. Install MySQL from the Vultr FormR1 console
-
+----
 1. Install MySQL
 ```
 apt-get install mysql-server
@@ -47,8 +48,9 @@ mysql --version
 
 ![Check MySQL](./images/fr0305-02_Ubuntu-check-mysql.png "Check MySQL")
 
+----
 ### 3. Secure MySQL
-
+----
 1. Lock down MySQL - Running this script will ask you
 
 ```
@@ -140,8 +142,9 @@ systemctl status mysql.service
 
 ![Mysql-setup-check-status](./images/fr0305-09_Ubuntu-check-status-mysql.png "Mysql-setup-check-status")
 
+----
 ### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 
-
+----
 1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 
 ![Mysql-setup-vultr-ip](./images/fr0305-09_Ubuntu-vultr-ip.png "Mysql-setup-vultr-ip")

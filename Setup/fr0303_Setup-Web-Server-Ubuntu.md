@@ -12,8 +12,9 @@
 
 ## Setup Instructions for the web server, NGINX, on Ubuntu
 
+----
  ### 1. Restart your Vultr VM and Login
-
+----
  1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
@@ -30,10 +31,11 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
+----
 ### 2. Install nginx
 
 1. Install
-
+----
 ```
 apt-get install nginx
 ```
@@ -76,9 +78,10 @@ http://xxx.xxx.xxx.xxx
 
 ![Test Web Site](./images/fr0303-05_Ubuntu-test-web-site.png "Test Web Site")
 
+----
 ### 3. Install Certbot
-
-1. Certbot is used to create SSL certificates using LetsEncrypt. Install:
+----
+1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.)
 
 ```
 apt-get install python-certbot-nginx
@@ -86,8 +89,9 @@ apt-get install python-certbot-nginx
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
 
+----
 ### 4. Create webs directory
-
+----
 1. Create a directory to hold your applications.
 
 ```
@@ -102,12 +106,6 @@ ls -ld /webs
 ```
 
 ![Create Webs Directory](./images/fr0303-07_Ubuntu-create-webs-directory.png "Create Webs Directory")
-
-### 5. Create Snapshot of server in Vultr
-
-1. Use label: FormR-Installed-Web-Server
-
-![Take Snapshot](./images/fr0303-08_Ubuntu-take-snapshot.png "Take Snapshot")
 
 ----
 ### Congratulations! You have installed a Web server on your Ubuntu server.

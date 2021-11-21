@@ -16,8 +16,9 @@
 
 - Tip: To clear the console at the console prompt enter: clear
 
+----
 ### 1. Restart your Vultr VM and Login
-
+----
 1. Login the your Vultr FormR1 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
@@ -34,9 +35,9 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-
+----
 ### 2. Create a new sudo user
-
+----
 1. Create a new user alias with root privileges. This user will login remotely.
 
 ```
@@ -76,8 +77,9 @@ cat /etc/passwd
 
 ![Check User Info](./images/fr0302-03_Ubuntu-Check-User-Info.png "Check User Info")
 
+----
 ### 3. Update and upgrade server
-
+----
 1. Enter Y when asked by the following:
 
 ```
@@ -86,8 +88,9 @@ apt-get update && apt-get upgrade
 
 ![Update and Upgrade](./images/fr0302-04_Ubuntu-Update-Upgrade.png "Update and Upgrade")
 
+----
 ### 4. Install and Configure unattended-updates
-
+----
 1. Install
 ```
 apt-get install unattended-upgrades
@@ -166,8 +169,9 @@ reboot (or you can Click the Send CtrlAltDel button)
 After reboot login again as root, copy the password from the Vultr and click the Send Clipboard button
 ```
 
+----
 ### 5. Secure Shared Memory
-
+----
 1. Edit  fstab
 
 ```
@@ -196,8 +200,9 @@ reboot  (or you can Click the Send CtrlAltDel button)
 After reboot login again as root, copy the password from the Vultr and click the Send Clipboard button
 ```
 
+----
 ### 6. Enable SSH Login for Specific Users Only
-
+----
 1. Get your IP address at:
 
 ```
@@ -229,6 +234,7 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 systemctl restart sshd
 ```
 
+
 #### - Test local access to your Vultr FormR VM. 
 
 6. Get the VM IP address from your Vultr FormR1 console i.e 45.76.252.191
@@ -245,8 +251,9 @@ ssh nimda@<your VM IP address>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
+----
 ### 7. Include a Security Login Banner
-
+----
 1. Create a banner file
 
 ```
@@ -312,8 +319,9 @@ systemctl restart sshd
 
 11. When someone logs into your server using SSH, they see your newly added banner warning them of any consequences of further action. 
 
+----
 ### 8. Fail2ban
-
+----
 1. Install (Enter Y or y when asked to continue.)
 
 ```
@@ -353,8 +361,9 @@ systemctl restart fail2ban
 
 7. Attempts to login to the server and fail the three times, access is blocked from the IP address. 
 
+----
 ### 9. Enable firewall
-
+----
 1. Allow ssh connections through firewall
 
 ```
@@ -375,8 +384,9 @@ ufw status
 
 ![Enable Firewall](./images/fr0302-18_Ubuntu-enable-firewall.png "Enable Firewall")
 
+----
 ### 10. Set the server time zone
-
+----
 1. Enter into the cpnsole:
 
 ```
@@ -391,8 +401,9 @@ timedatectl
 
 ![Set Time Zone](./images/fr0302-19_Ubuntu-set-timezone.png "Set Time Zone")
 
+----
 ### 11. Test local access after Hardening
-
+----
 1. Test local access to your Vultr FormR VM. 
 
 2. Get the VM IP address from your Vultr FormR1 console i.e 45.76.252.191
@@ -406,26 +417,6 @@ ssh nimda@<your VM IP address>
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
-
-### 12. Create Snapshot of server in Vultr 
-
-(Note: Snapshots can take up to 20 minutes to complete)
-
-1. From Vultr console select snapshots
-
-![Select Snapshots](./images/fr0302-20_Ubuntu-select-snapshots.png "Select Snapshots")
-
-2. Add a label, take snapshot
-
-```
-FormR-Hardened-Server
-```
-
-![Take Snapshot](./images/fr0302-21_Ubuntu-take-snapshot.png "Take Snapshot")
-
-3. List Snapshots
-
-![List Snapshots](./images/fr0302-22_Ubuntu-list-snapshots.png "List Snapshots")
 
 ----
 ### Congratulations! You have hardened your Ubuntu server on Vultr.
