@@ -10,10 +10,10 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 0. FormR Introduction
+## FormR Introduction
 
 ----
-### Renaissance Developer 
+### The Renaissance Developer 
 ----
 
 - Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowledge about the other disciplines. 

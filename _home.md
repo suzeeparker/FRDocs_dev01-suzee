@@ -1,4 +1,4 @@
-## Welcome to FormR Docs
+## Welcome to FormR Awesome Docs
 
 ----
 ### Select a topic in the left side-bar to get started.
