@@ -105,7 +105,11 @@ pm2 startup systemd
 
 ![Install Docsify](./images/fr0304-08_Ubuntu-install-docsify.png "Install Docsify")
 
+<<<<<<< HEAD
+2. Check
+=======
 1. Check
+>>>>>>> 7b7aba18848d28d977b244ee51e345c0c82acaf3
 ```
 ps -aux | egrep 'docsify'
 ```
