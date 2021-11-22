@@ -1,1 +1,0 @@
-- [![](assets/home.svg)Home](/ "FormR Awesome Plaintext Docs")
