@@ -16,15 +16,15 @@
 ### The Renaissance Developer 
 ----
 
-- Shouldn't every computer developer understand the total picture? Whether your expertise is infrastucture, database or presentation, you can't go wrong with more knowledge about the other disciplines. 
-- The goal of this FormR tutorial is to give you a step by step guide to building a complete environment for a secure server on the cloud serving secure web pages that access and manipulate data via the Internet.
+- Shouldn't every computer professional understand the total picture? Whether your expertise is infrastucture, database, presentation or project management, you can't go wrong with more knowledge about the other disciplines. 
+- The goal of this FormR tutorial is to give you a step by step guide to building a complete environment for a secure server on the cloud serving web pages that access and manipulate data via the Internet.
 ----
 
 #### You can do this tutorial:
 ----
 
 1. If you have access to a Windows 10 or higher workstation.
-2. If you have zero knowledge about computing 
+2. If you have zero knowledge about computing.
 3. If you have substantial knowledge about it.
 4. If you want to spend under $30.
 5. If you want to boast:  "I have completed all the steps to build my own live and secure web database server on the Internet" 
