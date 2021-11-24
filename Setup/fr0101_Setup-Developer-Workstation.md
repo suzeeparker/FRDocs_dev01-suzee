@@ -775,11 +775,26 @@ Enter this password -> FormR!1234 and click the Check button
 
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
-15. In the Query 1 pane enter SHOW DATABASES, then Click the Exceute icon
+15. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
+(Note: root@localhost has all rights and nimdas@% will have all rights) 
 
-![MySQL-workbench-show-databases](./images/fr0101-12_MySQL-workbench-show-databases.png "MySQL-workbench-show-databases")
+- Open New Query tab
 
-![MySQL-workbench-show-databases-1](./images/fr0101-12_MySQL-workbench-show-databases-1.png "MySQL-workbench-show-databases-1")
+![MySQL-workbench-nimdas](./images/fr0101-12_MySQL-workbench-nimdas.png "MySQL-workbench-nimdas")
+
+- Paste the following
+
+```
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
+GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+```
+
+![MySQL-workbench-nimdas1](./images/fr0101-12_MySQL-workbench-nimdas1.png "MySQL-workbench-nimdas1")
+
+- Click the execute icon
+
+![MySQL-workbench-nimdas2](./images/fr0101-12_MySQL-workbench-nimdas2.png  "MySQL-workbench-nimdas2")
 
 16. Select the MySql Shell window
 
@@ -801,6 +816,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 ```
 
 ![MySQL-shell-show-databases](./images/fr0101-12_MySQL-shell-show-databases.png "MySQL-shell-show-databases")
+
 
 ----
 ### 13. Install BitVise ssh client
