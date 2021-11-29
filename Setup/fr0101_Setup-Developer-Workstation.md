@@ -141,7 +141,7 @@ From DOS command prompt run ssh.
 
 ![Install-OpenSSH3](./images/fr0101-02_Install-OpenSSH3.png "Install-OpenSSH3")
 
-6. OpenSSH client is installed
+6. OpenSSH client
 
 ![OpenSSH-is-installed](./images/fr0101-02_OpenSSH-is-installed.png "OpenSSH-is-installed")
 
@@ -152,12 +152,12 @@ Format:
 
 ssh-keygen -t rsa -f
 "<local user folder>/.ssh/
-<key owner name>@<host name>_<host user name>_v<date>_key"
--C "<key owner name>@<host name>_<host user name>_v<date>"
+<key owner name>@<host name>_<host user handle>_v<date>_key"
+-C "<key owner name>@<host name>_<host user handle>_v<date>"
 
 Example: 
 
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mm_v210713_key" -C "mickey.mouse@github_mm_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 
 ```
 
@@ -165,14 +165,14 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mm_v210713_k
 In the following change the following to your info:
 
 - "mickey.mouse" to <your Key Owner Name> 
-- "mm" to your <Host User Name> i.e. kff
+- "mick" to your <Host User Handle> i.e. kff or cbt or bill, etc.
 - "v210713" to the <current date>
 ```
 
 8. Key pairs for Github:
 
 ```
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mm_v210713_key" -C "mickey.mouse@github_mm_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 ```
 
 ![Create New ssh key1](./images/fr0101-03_Create-New-ssh-key1.png "Create New ssh key1")
@@ -180,7 +180,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mm_v210713_k
 9. Key pairs for Cloud Provider:
 
 ```
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mm_v210713_key" -C "mickey.mouse@Vultr_mm_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_key" -C "mickey.mouse@Vultr_mick_v210713"
 ```
 
 ![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
@@ -336,12 +336,12 @@ Click the pencil
 Create .ssh/config file in C:/users/Local_Admin/.ssh. Make sure it is saved without the .txt extention, then open with notepad and add the following:
 
 Be sure to change the following:
-- "github-mm"  to "github-<your initials>"
+- "github-mick"  to "github-<your initials>"
 - IdentityFile to the name of your github key file in C:/Users/Local_Admin/.ssh
 
-Host github-mm
+Host github-mick
     HostName       github.com
-    IdentityFile   C:/Users/Local_Admin/.ssh/mickey.mouse@github_mm_v210713_key
+    IdentityFile   C:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key
     User           git
 ```
 
@@ -350,7 +350,7 @@ Host github-mm
 14. From the DOS command window, test the connection to github.
 
 ```
-ssh github-mm
+ssh github-mick
 
 Note: On the first try when prompted enter "yes" 
 ```
@@ -381,16 +381,18 @@ Note: On the first try when prompted enter "yes"
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
+
 4. Open Git Bash
 
 ![Git-for-Windows4](./images/fr0101-06_Git-for-Windows4.png "Git-for-Windows4")
 
-5. Add Username for github
+
+5. From Git Bash prompt add Username for github
 
 ```
 Change Mickey Mouse to <your name>:
 
-git config --global user.name = "Mickey Mouse"
+git config --global user.name = "Mickey Mouse"  i.e. 
 ```
 
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
@@ -405,6 +407,31 @@ git config --global user.email = "mickey.mouse@gmail.com"
 ```
 
 ![Git-for-Windows6](./images/fr0101-06_Git-for-Windows6.png "Git-for-Windows6")
+
+7. Add git to System path: 
+
+- Enter env from Windows search charm, then click Edit the System Environment Variables
+
+![Git-for-Windows7](./images/fr0101-06_Git-for-Windows7.png "Git-for-Windows7")
+
+- Click Environment Variables on System Properties window
+
+![Git-for-Windows8](./images/fr0101-06_Git-for-Windows8.png "Git-for-Windows8")
+
+-In the System (not user) Variables section click Path and then the Edit button
+
+![Git-for-Windows9](./images/fr0101-06_Git-for-Windows9.png "Git-for-Windows9")
+
+- Click the New button, then add:
+
+```
+C:\Program Files\Git\bin
+```
+
+![Git-for-Windows10](./images/fr0101-06_Git-for-Windows10.png "Git-for-Windows10")
+
+- Then click the OK button and close the next 2 windows
+
 
 ----
 ### 7. Open or Install VSCode
@@ -499,10 +526,10 @@ Navigate to repos, right click and Open Git Bash here
 
 ```
 Change:
-    github-mm to github-<your handle> that you created above
+    github-mick to github-<your handle> that you created above
     mickeymouse-gmail to <your github account name>
 
-git clone github-mm:mickeymouse-gmail/myProject.git
+git clone github-mick:mickeymouse-gmail/myProject.git
 ```
 
 ![Clone-from-GitHub](./images/fr0101-08_Clone-from-GitHub.png "Clone-from-GitHub")

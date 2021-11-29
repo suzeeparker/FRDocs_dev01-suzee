@@ -422,6 +422,9 @@ ssh nimda@<your VM IP address>
 ### Congratulations! You have hardened your Ubuntu server on Vultr.
 ----
 
+#### NOTE: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.
+----
+
 
 <!-- ------------------------------------------------------------------------- -->
 
