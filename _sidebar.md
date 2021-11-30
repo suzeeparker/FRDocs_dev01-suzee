@@ -16,10 +16,11 @@
  6. [Website SSL                ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 
 <h>3. Setup FormR Applications</h>
- 1. [World Database Access      ](/FormR/fr0401_World-Database-Access.md)
- 2. [Authentication             ](/FormR/fr0402_Authentication.md)
- 3. [User Administration        ](/FormR/fr0403_User-Administration.md)
- 4. [Complete World Application ](/FormR/fr0404_Complete-World-Application.md)
+ 1. [FormR Tools Setup](/FormR/fr0401_FRTools-Setup.md)
+ 2. [World Database Access      ](/FormR/fr0401_World-Database-Access.md)
+ 3. [Authentication             ](/FormR/fr0402_Authentication.md)
+ 4. [User Administration        ](/FormR/fr0403_User-Administration.md)
+ 5. [Complete World Application ](/FormR/fr0404_Complete-World-Application.md)
 
 <h>4. Customize FormR Applications</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
