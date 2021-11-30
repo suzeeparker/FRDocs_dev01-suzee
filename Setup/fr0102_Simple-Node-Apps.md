@@ -19,7 +19,7 @@ The following steps create several basic node applications. There are script, se
 <br>
 
 ----
-### 1. Test the Node version.
+### 1. Test the Node version and update.
 ----
 1. In VSCode select the myProject folder and open terminal
 
@@ -260,6 +260,11 @@ npm start
 
 ![Node-start-app](images/fr0102-18_Node-start-3.png "Node-start-app")
 
+6. Adjust package.json for React-Scripts
+
+- npm audit will return vulnerabilities list for react-scripts
+
+     1. In vscode edit package.json
 #### Push your changes to GitHub
      1. Open Souce Control
      2. Add description of your choice
