@@ -4,11 +4,10 @@
 <div class="page-back">
 
 [BACK - Install Database Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
-</div><div class="page-next disabled">
+</div><div class="page-next">
 
-NEXT
-</div>
-
+[Install React App - NEXT](/Setup/fr0307_Setup-React-App-Ubuntu.md)
+</div><div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
 ## Setup Instructions for creating a simple website with SSL
@@ -171,7 +170,7 @@ unlink /etc/nginx/sites-enabled/default
 ### 4. Clone simpleApp using git 
 ----
 ```
-cd /webs https://github.com/brucetroutman-gmail/simpleApp.git simpleApp
+cd /webs https://github.com/8020Data/simpleApp.git simpleApp
 ```
 1. Confim clone
 ```
