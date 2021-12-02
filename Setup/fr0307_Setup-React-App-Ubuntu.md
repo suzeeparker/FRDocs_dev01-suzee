@@ -16,7 +16,21 @@ NEXT
 
 #### Introduction
 
+- blah, blah
 
+```
+ cd repos
+ mkdir MTReact
+ cd MTReact 
+
+ git  clone  https://github.com/robinmattern/MTReact_dev03-robin.git  dev03-robin 
+
+ cd dev03-robin/client
+ npm install
+
+ cd 0c-react
+ npm start 
+ ```
 
 <!-- ------------------------------------------------------------------------- -->
 
