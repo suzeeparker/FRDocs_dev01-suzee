@@ -460,7 +460,7 @@ certbot --nginx -d <yoururl>
 ```
 ssllabs.com/ssltest/analyze.html?d=<yoururl>
 
-e.g. ssllabs.com/ssltest/analyze.html?d=formr-cbt.01.com
+e.g. ssllabs.com/ssltest/analyze.html?d=formr-cbt.00.com
 ```
 
 ![BitVise Add SSL3](./images/fr0306-11_Ubuntu-Bitvise-add-ssl3.png "BitVise Add SSL3")
