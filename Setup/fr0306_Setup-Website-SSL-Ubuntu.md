@@ -39,6 +39,10 @@ Vultr-FormR00-nimda
 
  ![BitVise IP](./images/fr0306-01_Ubuntu-Bitvise-IP.png "BitVise IP")
 
+
+---- @@@@@ Need new pictures from here down for Vultr-FormR00 NOT FormR1-Vultr
+----
+
 5. then enter:
 
 ```
@@ -60,7 +64,7 @@ Vultr-FormR00-nimda
 ![BitVise Click Login2](./images/fr0306-03_Ubuntu-Bitvise-Click-Login2.png "BitVise Click Login2")
 
 
-7. Click Save profile icon and save as Vultr-FormR00-nimda
+7. Click Save profile icon as Vultr-FormR00-nimda
 
 ![BitVise Save Profile](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
