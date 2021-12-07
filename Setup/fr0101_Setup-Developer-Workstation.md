@@ -19,7 +19,7 @@ The following steps create the development environment on your workstation for d
 - In this tutorial please be careful to use the exact spelling and capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 
 ----
-### 1. Create a new user, Local_Admin on your workstation.
+### 1. Create a new user, Local_Admin on your workstation. (<10 min)
 ----
 - This account will be used througout the documentation. 
 
@@ -90,13 +90,13 @@ The following steps create the development environment on your workstation for d
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
 ----
-### 2. Install any updates to your workstation.
+### 2. Install any updates to your workstation. (<5 min)
 ----
 
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
 ----
-### 3. Create 3 folders, change View Options,  Setup ssh and Create keys
+### 3. Create 3 folders, change View Options,  Setup ssh and Create keys (<15 min)
 ----
 1. In C:\ add repos and remotes 
 
@@ -203,6 +203,8 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR00_nimda
 ### 4. Install or open Chrome browser
 ----
 1. Download and install Chrome from:
+
+- Make Chrome your default browser -- Remember this is for the Local_Admin account
 
 ```
 https://google.com/chrome
