@@ -25,7 +25,7 @@
 3. Enter new profile name: 
 
 ```
-FormR1-Vultr-nimda
+Vultr-FormR00-nimda
 ```
 
 ![BitVise New Profile Name](./images/fr0306-01_Ubuntu-Bitvise-New-Profile-Name.png "BitVise New Profile Name")
@@ -60,7 +60,7 @@ FormR1-Vultr-nimda
 ![BitVise Click Login2](./images/fr0306-03_Ubuntu-Bitvise-Click-Login2.png "BitVise Click Login2")
 
 
-7. Click Save profile icon and save as FormR1-Vultr-nimda
+7. Click Save profile icon and save as Vultr-FormR00-nimda
 
 ![BitVise Save Profile](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
@@ -367,7 +367,7 @@ e.g http://formr-cbt-00.com
 ### 9. Modify simpleApp.conf to use your new URL
 ----
 1. Open Bitvise 
-2. Load Profile: FormR1-Vultr-nimda.tlp
+2. Load Profile: Vultr-FormR00-nimda.tlp
 3. Login
 4. From your Bitvise SFTP window navigate to 
 
