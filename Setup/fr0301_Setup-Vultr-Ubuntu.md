@@ -53,7 +53,7 @@
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-8. Server Host Name and Label: FormR1-Vultr for both
+8. Server Host Name and Label: Vultr-FormR00 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
@@ -69,7 +69,7 @@
 ----
 ### 2. Open Vultr VM Console to Log in
 ----
-1. Click on Products, then the Server Name i.e. FormR1-Vultr
+1. Click on Products, then the Server Name i.e. Vultr-FormR00
 
 ![Vultr Open Console](./images/fr0301-09_Vultr-Open-Console.png "Open Console")
 
@@ -95,7 +95,7 @@
 
 6. You will see the Welcome screen for Ubuntu and the command prompt:
 
-    root@FormRx-Vultr:~#
+    root@Vultr-FormR00:~#
 
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 
