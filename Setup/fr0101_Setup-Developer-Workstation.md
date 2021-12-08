@@ -90,13 +90,13 @@ The following steps create the development environment on your workstation for d
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
 ----
-### 2. Install any updates to your workstation. (<5 min)
+### 2. Install any updates to your workstation. (<5 mins)
 ----
 
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
 ----
-### 3. Create 3 folders, change View Options,  Setup ssh and Create keys (<15 min)
+### 3. Create 3 folders, change View Options,  Setup ssh and Create keys (<15 mins)
 ----
 1. In C:\ add repos and remotes 
 
@@ -200,7 +200,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR00_nimda
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
 ----
-### 4. Install or open Chrome browser
+### 4. Install or open Chrome browser (<10 mins)
 ----
 1. Download and install Chrome from:
 
@@ -247,9 +247,9 @@ chrome://extensions/
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
 ----
-### 5. Create an account or sign into GitHub then Add your ssh key.
+### 5. Create an account or sign into GitHub then Add your ssh key. (<10 mins)
 ----
-1. Sign in to GitHub. (Create an account, if you don't habe one.)
+1. Sign in to GitHub. (Create an account, if you don't have one.)
 
 ```
 https://github.com
