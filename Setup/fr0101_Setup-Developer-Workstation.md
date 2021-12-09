@@ -83,6 +83,10 @@ The following steps create the development environment on your workstation for d
 
 13. Sign out
 
+- Click the Start charm on the taskbar
+- then click your login name 
+- then click Sign out
+
 ![Windows-Signout](./images/fr0101-00_Windows-Signout.png "Windows-Signout")
 
 14. Sign in as Local_Admin
