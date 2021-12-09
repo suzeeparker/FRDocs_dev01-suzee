@@ -247,7 +247,7 @@ chrome://extensions/
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
 ----
-### 5. Create an account or sign into GitHub then Add your ssh key. (<10 mins)
+### 5. Create an account or sign into GitHub then Add your ssh key. (<15 mins)
 ----
 1. Sign in to GitHub. (Create an account, if you don't have one.)
 
@@ -330,7 +330,9 @@ Click the pencil
 
 ![GitHub-myProject-readme4](./images/fr0101-04_GitHub-myProject-readme4.png "GitHub-myProject-readme4")
 
-13. Configure ssh Access to Github
+    - Close your browser.
+
+13. Configure ssh Access to Github on your Windows workstation
 
 - Create a Host for github connection in the .ssh/config file.
 
@@ -352,7 +354,7 @@ Host github-mick
 14. From the DOS command window, test the connection to github.
 
 ```
-ssh github-mick
+ssh github-mick  e.g. replace mick with your initials
 
 Note: On the first try when prompted enter "yes" 
 ```
@@ -362,7 +364,7 @@ Note: On the first try when prompted enter "yes"
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
 ----
-### 6. Download Git, if not already installed
+### 6. Download Git, if not already installed (<10 mins)
 ----
 
 ```
@@ -379,7 +381,7 @@ Note: On the first try when prompted enter "yes"
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
-3. Finish Install
+3. Finish Install check Launch Git Bash
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
@@ -394,7 +396,7 @@ Note: On the first try when prompted enter "yes"
 ```
 Change Mickey Mouse to <your name>:
 
-git config --global user.name = "Mickey Mouse"  i.e. 
+git config --global user.name = "Mickey Mouse"  i.e. <your name>
 ```
 
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
@@ -434,9 +436,10 @@ C:\Program Files\Git\bin
 
 - Then click the OK button and close the next 2 windows
 
+- Close the git bash window
 
 ----
-### 7. Open or Install VSCode
+### 7. Open or Install VSCode  (<10 mins)
 ----
 
 ```
@@ -474,13 +477,13 @@ https://code.visualstudio.com/download
 
 7. Change default terminal and add Autosave
 
-        - Using Notepad, edit: 
+        - Using File Explorer create or edit settings.json: 
 
 ```
  C:\Users\Local_Admin\AppData\Roaming\Code\User\settings.json
 ```
 
-        - Delete all line and Add these lines:
+        - Delete all lines and Add these lines:
 
 ```
 {
@@ -514,7 +517,7 @@ https://code.visualstudio.com/download
 9. Close VSCode
 
 ----
-### 8. Clone myProject
+### 8. Clone myProject  (<5 mins)
 ----
 1. Using File Explorer open git bash in c/repos folder
 
@@ -565,7 +568,7 @@ code .
 ![VSCode9a](./images/fr0101-08_VSCode9a.png "VSCode9a")
 
 ----
-### 9. Markdown Preview test
+### 9. Markdown Preview test (<5 mins)
 ----
 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
@@ -592,7 +595,7 @@ code .
 ![Markdown-Preview6](./images/fr0101-09_Markdown-Preview6.png "Markdown-Preview6")
 
 ----
-### 10. From VSCode push and pull with GitHub
+### 10. From VSCode push and pull with GitHub (<10 mins)
 ----
 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
@@ -662,7 +665,7 @@ Added Workspace and Updated Readme.md
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
 ----
-### 11. Install Node for Windows
+### 11. Install Node for Windows (<5 mins)
 ----
 1. Be sure to CLOSE VSCode before installing Node
 
@@ -697,7 +700,7 @@ nodejs.org/en/
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-check.png "Nodejs-install-check")
 
 ----
-### 12. Install MySql for windows
+### 12. Install MySql for windows (< 45 mins)
 ----
 1. Browse to: 
 
@@ -755,6 +758,8 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 ![MySQL-product-configuration-1](./images/fr0101-12_MySQL-product-configuration-1.png "MySQL-product-configuration-1")
 
 ![MySQL-product-configuration-2](./images/fr0101-12_MySQL-product-configuration-2.png "MySQL-product-configuration-2")
+
+- Use the password: FormR!1234
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
 
@@ -848,7 +853,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 
 
 ----
-### 13. Install BitVise ssh client
+### 13. Install BitVise ssh client (<5 mins)
 ----
 1. Install Bitvise from: 
 
@@ -867,7 +872,7 @@ https://bitvise.com/ssh-client-download
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
 ----
-### 14. Install TextPad
+### 14. Install TextPad (<5 mins)
 ----
 1. Install Textpad from: 
 
