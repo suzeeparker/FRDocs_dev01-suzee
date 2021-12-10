@@ -19,7 +19,7 @@ The following steps create several basic node applications. There are script, se
 <br>
 
 ----
-### 1. Test the Node version and update.
+### 1. Test the Node version. (<5 mins)
 ----
 1. In VSCode select the myProject folder and open terminal
 
@@ -36,7 +36,7 @@ The following steps create several basic node applications. There are script, se
 ![Node-test](images/fr0102-02_Node-test.png "Node-test")
 
 ----
-### 2. Create sub-folders in myProject
+### 2. Create sub-folders in myProject (<5 mins)
 ----
 1. Click on myProject and create a new folder:
 
@@ -55,7 +55,7 @@ The following steps create several basic node applications. There are script, se
 ![Node-create-folders](images/fr0102-04_Node-create-folders.png "Node-create-folders")
 
 ----
-### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs.
+### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs. (<10 mins)
 ----
 1. Click on the scripts folder, then click the new file icon
 
@@ -131,7 +131,7 @@ Click on: Ok, Don't show again
 #### *** End of Push to Github
 
 ----
-### 4. Create a new file, server.js in the server folder and run it with Nodejs.
+### 4. Create a new file, server.js in the server folder and run it with Nodejs. (<10 mins)
 ----
 1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
 
@@ -218,7 +218,7 @@ http://localhost:8080/myProject/server/app01s
      4. Click Push on the Source Control three dots (...) menu
 
 ----
-### 5. Create a basic react app in the client folder and run it with Nodejs.
+### 5. Create a basic react app in the client folder and run it with Nodejs. (<10 mins)
 ----
 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
 
