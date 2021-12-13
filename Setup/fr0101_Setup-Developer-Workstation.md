@@ -5,7 +5,7 @@
 [BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
-[Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
+[Create a Simple Node App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -929,7 +929,7 @@ https://textpad.com/download
 [BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
-[Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
+[Create a Simple Node App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
