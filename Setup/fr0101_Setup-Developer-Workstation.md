@@ -365,6 +365,13 @@ Note: On the first try when prompted enter "yes"
 
 ![Test ssh to github-1st-yes](./images/fr0101-03_Test-ssh-to-github-1st-yes.png "Test ssh to github-1st-yes") 
 
+- Change directory to repos, connect again and you will be successfully authenticated.
+
+```
+ssh github-mick  e.g. replace mick with your initials
+```
+
+
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
 ----

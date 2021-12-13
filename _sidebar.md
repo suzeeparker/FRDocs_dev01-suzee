@@ -5,7 +5,8 @@
  
  1. [Setup Workstation			](/Setup/fr0101_Setup-Developer-Workstation.md)  
  2. [Simple Node Apps 			](/Setup/fr0102_Simple-Node-Apps.md)             
- 3. [Clone FormR from GitHub    ](/Setup/fr0103_Clone-FormR.md)										
+ 3. [Simple React Apps 			](/Setup/fr0102_Simple-React-Apps.md)             
+ 4. [Clone FormR from GitHub    ](/Setup/fr0103_Clone-FormR.md)										
 
 <h>2. Setup Remote Server</h>
  1. [Vultr-Ubuntu               ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
