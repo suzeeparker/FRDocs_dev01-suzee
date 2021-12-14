@@ -17,7 +17,7 @@
  6. [Website SSL                ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
  7. [React App                  ](/Setup/fr0307_Setup-React-App-Ubuntu.md)
 
-<h>3. Setup FormR Apps</h>
+<h>3. FormR Apps</h>
  1. [FormR Tools                ](/FormR/fr0401_FRTools-Setup.md)
  2. [World Database             ](/FormR/fr0401_World-Database-Access.md)
  3. [Authentication             ](/FormR/fr0402_Authentication.md)
