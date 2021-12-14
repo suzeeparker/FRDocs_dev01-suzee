@@ -20,7 +20,9 @@
 3. React noAPI
 4. React with API
 
-
+  . 
+### Infrastructure Diagram
+![Simple-React-Apps-Infrastructure](images/fr0102-51_Simple-React-Apps-Infrastructure.png "Simple-React-Apps-Infrastructure")
 
 <!-- ------------------------------------------------------------------------- -->
 
