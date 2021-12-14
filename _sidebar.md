@@ -1,14 +1,14 @@
 
 <h>[Introduction                        ](/fr0001_FormR-Introduction.md)
 
-<h>1. Setup Developer Workstation</h>
+<h>1. Developer Workstation</h>
  
  1. [Workstation			    ](/Setup/fr0101_Setup-Developer-Workstation.md)  
  2. [Simple Node Apps 			](/Setup/fr0102_Simple-Node-Apps.md)             
  3. [Simple React Apps 			](/Setup/fr0102_Simple-React-Apps.md)             
  4. [Clone FormR                ](/Setup/fr0103_Clone-FormR.md)										
 
-<h>2. Setup Remote Server</h>
+<h>2. Remote Server</h>
  1. [Vultr-Ubuntu               ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
  2. [Hardening Ubuntu           ](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
  3. [Web Server                 ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
