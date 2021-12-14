@@ -93,42 +93,6 @@ node batch.js
 
 ![Node-run-batch](images/fr0102-07_Node-run-batch.png "Node-run-batch")
 
-#### Push your changes to GitHub
-
-1. Open Source Control
-
-![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
-
-2. Add Message:
-
-```
-Add Node App - batch.js
-```
-
-![Node-github-message](images/fr0102-14_Node-github-message.png "Node-github-message")
-
-![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
-
-3. Click on Commit checkmark
-
-![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
-
-3. Push
-
-```
-Click on 3 dots then click Push 
-```
-
-![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
-
-4. The following message may show the first time. 
-```
-Click on: Ok, Don't show again
-```
-
-![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
-
-#### *** End of Push to Github
 
 ----
 ### 4. Create a new file, server.js in the server folder and run it with Nodejs. (<10 mins)
@@ -212,10 +176,41 @@ http://localhost:8080/myProject/server/app01s
 
 
 #### Push your changes to GitHub
-     1. Open Souce Control
-     2. Add description of your choice
-     3. Click the checkmark to Commit
-     4. Click Push on the Source Control three dots (...) menu
+
+1. Open Source Control
+
+![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
+
+2. Add Message:
+
+```
+Add Node App - batch.js
+```
+
+![Node-github-message](images/fr0102-14_Node-github-message.png "Node-github-message")
+
+![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
+
+3. Click on Commit checkmark
+
+![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
+
+3. Push
+
+```
+Click on 3 dots then click Push 
+```
+
+![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
+
+4. The following message may show the first time. 
+```
+Click on: Ok, Don't show again
+```
+
+![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
+
+#### *** End of Push to Github
 
 ----
 ### 5. Create a basic react app in the client folder and run it with Nodejs. (<10 mins)
@@ -266,7 +261,7 @@ npm start
 
      1. In vscode edit package.json
 #### Push your changes to GitHub
-     1. Open Souce Control
+     1. Open Source Control
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
@@ -324,7 +319,7 @@ CREATE DATABASE practice
 
 ```
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("practice", "root", FormR!1234, {
+const sequelize = new Sequelize("practice", "root", "FormR!1234", {
   host: "localhost", 
   dialect: "mysql", 
 });
