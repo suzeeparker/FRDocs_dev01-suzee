@@ -21,7 +21,7 @@
       "command": "docsify",
       "args": [
         "serve",
-        "../docs",
+        "",
         "-o=true",
         "-p=${config:docsify.port}"
       ]
