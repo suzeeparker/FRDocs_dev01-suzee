@@ -10,7 +10,8 @@
 </div><div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## Setup Instructions for creating a simple website with SSL
+## 2.6 Setup Instructions for creating a simple website with SSL [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+
 ----
 ### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
 ----

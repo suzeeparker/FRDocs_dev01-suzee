@@ -11,19 +11,9 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Simple React Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
-
+## 1.3 Simple React Apps
 
 #### Introduction
-
-1. Empty
-2. React Button
-3. React noAPI
-4. React with API
-
-  . 
-### Infrastructure Diagram
-![Simple-React-Apps-Infrastructure](images/fr0102-51_Simple-React-Apps-Infrastructure.png "Simple-React-Apps-Infrastructure")
 
 <!-- ------------------------------------------------------------------------- -->
 

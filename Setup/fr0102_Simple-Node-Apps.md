@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Simple Node Apps
+## 1.2 Simple Node Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0102_Simple-Node-Apps.md)
 
 #### Introduction
 

@@ -10,7 +10,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Setup Instructions for the web server, NGINX, on Ubuntu
+## 2.3 Setup Instructions for the web server, NGINX, on Ubuntu [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+
 
 ----
  ### 1. Restart your Vultr VM and Login

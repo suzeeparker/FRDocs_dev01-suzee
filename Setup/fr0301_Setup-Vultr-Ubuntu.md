@@ -10,7 +10,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Instructions for creating an Ubuntu server on Vultr
+## 2.1 Instructions for creating an Ubuntu server on Vultr [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+
 
 - In order to test our FormR apps on the Internet
  we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 

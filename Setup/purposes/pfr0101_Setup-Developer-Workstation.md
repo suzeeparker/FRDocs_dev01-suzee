@@ -4,4 +4,4 @@
 </div><div class="page-next">
 
 
-## Purpose for Setup Worstation
+## Purpose for Setup Workstation

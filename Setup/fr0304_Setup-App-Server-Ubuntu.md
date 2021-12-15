@@ -11,7 +11,8 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## Setup Instructions for application server, NodeJS, on Ubuntu
+## 2.4 Setup Instructions for application server, NodeJS, on Ubuntu [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+
 
 ----
 ### 1. Restart your Vultr VM and Login

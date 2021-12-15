@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Setup Workstation (<150 mins) [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 1.1 Setup Workstation (<150 mins) [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 #### Introduction
 The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps. The total disk space required is 7 GB.
 

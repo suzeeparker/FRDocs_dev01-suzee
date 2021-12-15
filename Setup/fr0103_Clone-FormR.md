@@ -11,7 +11,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Clone FormR
+## 1.4 Clone FormR [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+
 
 ----
 ### 1. Cloning FormR repository
@@ -128,6 +129,8 @@ npm install
  C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
 ```
 
+8. Close Workbench
+
 ----
 ### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
 ----
@@ -143,11 +146,12 @@ npm install
 
 4. Enter the following into the Query window, then
 
-5. Click the Execute icon
-
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 ```
+
+5. Click the Execute icon
+
 
 ![FormR-Clone-18](images/fr0103-FormR-Clone-18.png "FormR-Clone-18")
 
@@ -169,9 +173,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 11. Click Test Connection then
 
+![FormR-Clone-20b](images/fr0103-FormR-Clone-20b.png "FormR-Clone-20b")
+
 12. Click Close and then close Workbench
 
-![FormR-Clone-20b](images/fr0103-FormR-Clone-20b.png "FormR-Clone-20b")
 
 ----
  ### 5. Run Client and Server applications
