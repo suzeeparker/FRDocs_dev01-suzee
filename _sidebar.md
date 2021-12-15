@@ -15,7 +15,7 @@
  4. [App Server                 ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
  5. [Data Server                ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
  6. [Website SSL                ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
- 7. [React App                  ](/Setup/fr0307_Setup-React-App-Ubuntu.md)
+ 7. [Simple React Apps          ](/Setup/fr0307_Setup-React-App-Ubuntu.md)
 
 <h>3. FormR Apps</h>
  1. [FormR Tools                ](/FormR/fr0401_FRTools-Setup.md)

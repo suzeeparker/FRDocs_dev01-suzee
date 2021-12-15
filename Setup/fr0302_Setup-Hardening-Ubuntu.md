@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.2 Instructions for Hardening the Ubuntu server. [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 2.2 Instructions for Hardening the Ubuntu server. [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 
 
 - IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.

@@ -12,7 +12,7 @@ NEXT
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.7 Install React App [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 2.7 Install React App [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0307_Setup-React-App-Ubuntu.md)
 
 
 #### Introduction

@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.4 Setup Instructions for application server, NodeJS, on Ubuntu [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 2.4 Setup Instructions for application server, NodeJS, on Ubuntu [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
 
 
 ----

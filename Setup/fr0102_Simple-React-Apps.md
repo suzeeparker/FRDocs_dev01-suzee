@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Simple React Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 1.3 Simple React Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0102_Simple-React-Apps.md)
 
 
 #### Introduction

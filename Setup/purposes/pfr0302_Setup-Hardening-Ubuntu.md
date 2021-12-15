@@ -2,15 +2,15 @@
 
 <div class="page-back">
 
-[BACK - Setup-Vultr-Ubuntu](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[BACK - Setup-Vultr-Ubuntu](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Web Server - NEXT](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
+[Install Web Server - NEXT](/Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Instructions for Hardening the Ubuntu server.
+## Purpose for 2.2 Hardening the Ubuntu server.
 
 - IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.
 
@@ -20,10 +20,10 @@
 
 <div class="page-back">
 
-[BACK - Setup-Vultr-Ubuntu](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[BACK - Setup-Vultr-Ubuntu](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Web Server - NEXT](/Setip/fr0303_Setup-Web-Server-Ubuntu.md)
+[Install Web Server - NEXT](/Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Instructions for creating an Ubuntu server on Vultr [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 2.1 Instructions for creating an Ubuntu server on Vultr [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 
 
 - In order to test our FormR apps on the Internet
