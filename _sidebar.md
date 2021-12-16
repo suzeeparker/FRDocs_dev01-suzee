@@ -27,5 +27,7 @@
 <h>4. Customize FormR Apps</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
 
+<!-- 
 <h>5. Deploy FormR Apps</h>
  1. [Deploy to Remote Server    ](/FormR/fr0601_Deloy-To-Remote_Server.md)
+ -->

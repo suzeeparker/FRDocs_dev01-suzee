@@ -13,7 +13,7 @@ NEXT
 
 
 ## 2.7 First React Apps
-#### [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-App-Ubuntu.md)
+#### [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 
 
 #### Introduction
