@@ -4,8 +4,8 @@
 <h>1. Developer Workstation</h>
  
  1. [Workstation			    ](/Setup/fr0101_Setup-Developer-Workstation.md)  
- 2. [Simple Node Apps 			](/Setup/fr0102_Simple-Node-Apps.md)             
- 3. [Simple React Apps 			](/Setup/fr0102_Simple-React-Apps.md)             
+ 2. [Test Node Apps 			](/Setup/fr0102_Test-Node-Apps.md)             
+ 3. [Test React Apps 			](/Setup/fr0102_Test-React-Apps.md)             
  4. [Clone FormR                ](/Setup/fr0103_Clone-FormR.md)										
 
 <h>2. Remote Server</h>
@@ -15,7 +15,7 @@
  4. [App Server                 ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
  5. [Data Server                ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
  6. [Website SSL                ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
- 7. [Simple React Apps          ](/Setup/fr0307_Setup-React-App-Ubuntu.md)
+ 7. [Test React Apps            ](/Setup/fr0307_Test-React-App-Ubuntu.md)
 
 <h>3. FormR Apps</h>
  1. [FormR Tools                ](/FormR/fr0401_FRTools-Setup.md)

@@ -10,7 +10,7 @@
 </div><div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 2.6 Setup for creating a simple website with SSL
+## Purpose for 2.6 Setup for creating a Test website with SSL
 
 <!-- ------------------------------------------------------------------------- -->
 

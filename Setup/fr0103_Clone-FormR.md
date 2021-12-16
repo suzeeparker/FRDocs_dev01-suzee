@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Simple-React-Apps.md)
+[BACK - Create Simple React Apps](/Setup/fr0102_Test-React-Apps.md)
 </div><div class="page-next">
 
 [Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
@@ -11,7 +11,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Clone FormR [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0103_Clone-FormR.md)
+## 1.4 Clone FormR #### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 
 
 ----
@@ -245,7 +245,7 @@ npm start
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Simple-React-Apps.md)
+[BACK - Create Simple React Apps](/Setup/fr0102_Test-React-Apps.md)
 </div><div class="page-next">
 
 [Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)

@@ -5,7 +5,7 @@
 BACK
 </div><div class="page-next">
 
-[Create a Simple Node App - NEXT](/Setup/purposes/pfr0102_Simple-Node-Apps.md)
+[Create a Test Node App - NEXT](/Setup/purposes/pfr0102_Test-Node-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -23,7 +23,7 @@ BACK
 [BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
-[Create a Simple Node App - NEXT](/Setup/purposes/pfr0102_Simple-Node-Apps.md)
+[Create a Test Node App - NEXT](/Setup/purposes/pfr0102_Test-Node-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

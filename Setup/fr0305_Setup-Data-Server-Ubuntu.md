@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.5 Setup Instructions for Data server using MySQL on a Vultr Ubuntu VM [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
+## 2.5 Setup Instructions for Data server using MySQL on a Vultr Ubuntu VM #### [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 
 
 ----

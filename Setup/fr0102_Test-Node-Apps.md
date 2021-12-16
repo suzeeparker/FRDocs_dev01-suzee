@@ -6,17 +6,16 @@
 [BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Create Simple React Apps - NEXT](/Setup/fr0102_Simple-React-Apps.md)
+[Create Simple React Apps - NEXT](/Setup/fr0102_Test-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Simple Node Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0102_Simple-Node-Apps.md)
+## 1.2 Test Node Apps #### [Purpose and Background](../Setup/purposes/pfr0102_Test-Node-Apps.md)
 
 #### Introduction
 
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
-<br>
 
 ----
 ### 1. Test the Node version. (<5 mins)
@@ -448,7 +447,7 @@ node queryDB
 [BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Create Simple React Apps - NEXT](/Setup/fr0102_Simple-React-Apps.md)
+[Create Simple React Apps - NEXT](/Setup/fr0102_Test-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

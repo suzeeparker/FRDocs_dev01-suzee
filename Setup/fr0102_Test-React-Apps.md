@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Create a Simple Node App](/Setup/fr0102_Simple-Node-Apps.md)
+[BACK - Create a Simple Node App](/Setup/fr0102_Test-Node-Apps.md)
 </div><div class="page-next">
 
 [Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Simple React Apps [<img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;">](../Setup/purposes/pfr0102_Simple-React-Apps.md)
+## 1.3 Simple React Apps #### [Purpose and Background](../Setup/purposes/pfr0102_Test-React-Apps.md)
 
 
 #### Introduction
@@ -23,13 +23,13 @@
 
   . 
 ### Infrastructure Diagram
-![Simple-React-Apps-Infrastructure](images/fr0102-51_Simple-React-Apps-Infrastructure.png "Simple-React-Apps-Infrastructure")
+![Test-React-Apps-Infrastructure](images/fr0102-51_Test-React-Apps-Infrastructure.png "Test-React-Apps-Infrastructure")
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - Create a Simple Node App](/Setup/fr0102_Simple-Node-Apps.md)
+[BACK - Create a Simple Node App](/Setup/fr0102_Test-Node-Apps.md)
 </div><div class="page-next">
 
 [Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
