@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 2.2 Hardening the Ubuntu server.
+## Purpose for 2.2 Harden Ubuntu
 
 - IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.
 

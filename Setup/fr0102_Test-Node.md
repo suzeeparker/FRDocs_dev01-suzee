@@ -3,15 +3,16 @@
 
 <div class="page-back">
 
-[BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
+[BACK - Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Create Simple React Apps - NEXT](/Setup/fr0102_Test-React-Apps.md)
+[First  React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Test Node Apps #### [Purpose and Background](../Setup/purposes/pfr0102_Test-Node-Apps.md)
+## 1.2 Test Node 
+#### [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
 
 #### Introduction
 
@@ -447,7 +448,7 @@ node queryDB
 [BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Create Simple React Apps - NEXT](/Setup/fr0102_Test-React-Apps.md)
+[First  React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

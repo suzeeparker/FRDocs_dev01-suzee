@@ -5,13 +5,14 @@
 [BACK - Install Web Server     ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Database Server - NEXT](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+[Install Data Server - NEXT](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.4 Setup Instructions for application server, NodeJS, on Ubuntu #### [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
+## 2.4 Install App Server 
+#### [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
 
 
 ----
@@ -148,7 +149,7 @@ npm install express
 [BACK - Install Web Server     ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Database Server - NEXT](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+[Install Data Server - NEXT](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

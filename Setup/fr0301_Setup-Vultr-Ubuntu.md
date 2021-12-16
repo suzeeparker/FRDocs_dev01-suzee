@@ -10,7 +10,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Instructions for creating an Ubuntu server on Vultr #### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+## 2.1 Vultr Ubuntu 
+#### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 
 
 - In order to test our FormR apps on the Internet

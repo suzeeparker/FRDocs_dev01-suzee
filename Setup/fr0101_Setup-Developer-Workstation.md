@@ -5,13 +5,14 @@
 [BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
-[Create  Node App - NEXT](/Setup/fr0102_Test-Node-Apps.md)
+[Test Node- NEXT](/Setup/fr0102_Test-Node.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 1.1 Setup Workstation (<150 mins) #### [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 1.1 Workstation (<150 mins) 
+#### [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 
 #### Introduction
 The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps. The total disk space required is 7 GB.
@@ -931,7 +932,7 @@ https://textpad.com/download
 [BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
 </div><div class="page-next">
 
-[Create a Simple Node App - NEXT](/Setup/fr0102_Test-Node-Apps.md)
+[Test Node - NEXT](/Setup/fr0102_Test-Node.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

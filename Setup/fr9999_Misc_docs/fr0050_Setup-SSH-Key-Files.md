@@ -6,7 +6,7 @@
 BACK
 </div><div class="page-next">
 
-[Setup Developer Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -306,7 +306,7 @@ BACK
 [BACK]()
 </div><div class="page-next">
 
-[Setup Developer Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div>
 
 

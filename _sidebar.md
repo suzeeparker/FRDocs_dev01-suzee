@@ -4,18 +4,18 @@
 <h>1. Developer Workstation</h>
  
  1. [Workstation			    ](/Setup/fr0101_Setup-Developer-Workstation.md)  
- 2. [Test Node Apps 			](/Setup/fr0102_Test-Node-Apps.md)             
- 3. [Test React Apps 			](/Setup/fr0102_Test-React-Apps.md)             
+ 2. [Test Node 			](/Setup/fr0102_Test-Node.md)             
+ 3. [First React Apps 			](/Setup/fr0102_First-React-Apps.md)             
  4. [Clone FormR                ](/Setup/fr0103_Clone-FormR.md)										
 
 <h>2. Remote Server</h>
- 1. [Vultr-Ubuntu               ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
- 2. [Hardening Ubuntu           ](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
- 3. [Web Server                 ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
- 4. [App Server                 ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
- 5. [Data Server                ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+ 1. [Vultr Ubuntu               ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+ 2. [Harden Ubuntu              ](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
+ 3. [Install Web Server         ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
+ 4. [Install App Server         ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
+ 5. [Install Data Server        ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
  6. [Website SSL                ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
- 7. [Test React Apps            ](/Setup/fr0307_Test-React-App-Ubuntu.md)
+ 7. [First React Apps           ](/Setup/fr0307_First-React-App-Ubuntu.md)
 
 <h>3. FormR Apps</h>
  1. [FormR Tools                ](/FormR/fr0401_FRTools-Setup.md)

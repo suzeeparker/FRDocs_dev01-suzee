@@ -5,12 +5,13 @@
 [BACK - Install App Server ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+[Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.5 Setup Instructions for Data server using MySQL on a Vultr Ubuntu VM #### [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
+## 2.5 Install Data Server 
+#### [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 
 
 ----
@@ -178,7 +179,7 @@ mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 [BACK - Install App Server ](/Setup/fr0304_Setup-App-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+[Website SSL - NEXT](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

@@ -3,7 +3,7 @@
 <div class="page-back">
 
 
-[Back - Install Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
+[Back - Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
 NEXT
@@ -12,7 +12,7 @@ NEXT
 <!-- ------------------------------------------------------------------------- -->
 
 
-## Purpose for 2.7 Install React App
+## Purpose for 2.7 First React Apps
 
 #### Introduction
 
@@ -23,7 +23,7 @@ NEXT
 
 <div class="page-back">
 
-[Back - Install Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
+[Back - Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
 NEXT

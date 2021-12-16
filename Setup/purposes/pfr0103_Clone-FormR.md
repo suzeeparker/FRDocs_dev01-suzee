@@ -3,10 +3,10 @@
 
 <div class="page-back">
 
-[BACK - Create Test React Apps](/Setup/purposes/pfr0102_Test-React-Apps.md)
+[BACK - First React Apps](/Setup/purposes/pfr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -18,10 +18,10 @@
 
 <div class="page-back">
 
-[BACK - Create Test React Apps](/Setup/purposes/pfr0102_Test-React-Apps.md)
+[BACK - First React Apps](/Setup/purposes/pfr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

@@ -3,16 +3,17 @@
 <div class="page-back">
 
 
-[Back - Install Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+[Back - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
 NEXT
-</div>
+</div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.7 Install React App #### [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-App-Ubuntu.md)
+## 2.7 First React Apps
+#### [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-App-Ubuntu.md)
 
 
 #### Introduction
@@ -21,12 +22,12 @@ NEXT
 
 ```
  cd repos
- mkdir MTReact
- cd MTReact 
+ mkdir ?????
+ cd ?????
 
- git  clone  https://github.com/robinmattern/MTReact_dev03-robin.git  dev03-robin 
+ git  clone  https://github.com/8020data/?????.git  $$$$$$$ 
 
- cd dev03-robin/client
+ cd $$$$$$/client
  npm install
 
  cd 0c-react
@@ -37,7 +38,7 @@ NEXT
 
 <div class="page-back">
 
-[Back - Install Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+[Back - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
 NEXT

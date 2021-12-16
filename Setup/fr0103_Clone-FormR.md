@@ -3,16 +3,16 @@
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Test-React-Apps.md)
+[BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Clone FormR #### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
-
+## 1.4 Clone FormR 
+#### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 
 ----
 ### 1. Cloning FormR repository
@@ -245,10 +245,10 @@ npm start
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Test-React-Apps.md)
+[BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

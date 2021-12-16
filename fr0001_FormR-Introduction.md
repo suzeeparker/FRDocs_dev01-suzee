@@ -4,7 +4,7 @@
 
 </div><div class="page-next">
 
-[Setup Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -127,7 +127,7 @@ GraspingTech, LifeWire, SQL-Hub, W3Schools,
 
 </div><div class="page-next">
 
-[Setup Development Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
+[Workstation - NEXT](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->

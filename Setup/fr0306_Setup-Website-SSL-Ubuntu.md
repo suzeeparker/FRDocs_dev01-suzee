@@ -3,14 +3,16 @@
 
 <div class="page-back">
 
-[BACK - Install Database Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+[BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Install React App - NEXT](/Setup/fr0307_Setup-React-App-Ubuntu.md)
-</div><div style="margin-top:35px">&nbsp;</div>
+[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
+</div>
+<div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.6 Setup Instructions for creating a simple website with SSL #### [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
+## 2.6 Website SSL 
+#### [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 
 ----
 ### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
@@ -504,10 +506,9 @@ e.g. https://formr-cbt-00.com
 
 <div class="page-back">
 
-[BACK - Install Database Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+[BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next disabled">
 
-NEXT
+[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
 </div>
-
 <!-- ------------------------------------------------------------------------- -->

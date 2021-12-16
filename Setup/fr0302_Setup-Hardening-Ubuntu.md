@@ -10,7 +10,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.2 Instructions for Hardening the Ubuntu server. #### [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
+## 2.2 Harden Ubuntu 
+#### [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 
 
 - IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.

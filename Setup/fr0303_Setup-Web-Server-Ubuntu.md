@@ -10,7 +10,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.3 Setup Instructions for the web server, NGINX, on Ubuntu #### [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
+## 2.3 Install Web Server 
+#### [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
 
 
 ----
