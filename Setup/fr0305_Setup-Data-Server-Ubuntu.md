@@ -169,7 +169,7 @@ mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 ```
 
 ----
-### Congratulations! You have installed a Database server on your Ubuntu server.
+#### Congratulations! You have installed a Database server on your Ubuntu server.
 ----
 
 <!-- ------------------------------------------------------------------------- -->

@@ -110,7 +110,7 @@ ls -ld /webs
 ![Create Webs Directory](./images/fr0303-07_Ubuntu-create-webs-directory.png "Create Webs Directory")
 
 ----
-### Congratulations! You have installed a Web server on your Ubuntu server.
+#### Congratulations! You have installed a Web server on your Ubuntu server.
 ----
 
 <!-- ------------------------------------------------------------------------- -->

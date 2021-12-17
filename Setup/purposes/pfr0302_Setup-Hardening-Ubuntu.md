@@ -12,9 +12,20 @@
 
 ## Purpose for 2.2 Harden Ubuntu
 
-- IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.
+#### Introduction  (*This section is not complete*)
+----
 
-- Tip: To clear the console at the console prompt enter: clear
+1. Restart Your Vultr VM And Login
+2. Create A New Sudo User
+3. Update And Upgrade Server
+4. Install And Configure Unattended-Updates
+5. Secure Shared Memory
+6. Enable SSH Login For Specific Users Only
+7. Include A Security Login Banner
+8. Install Fail2ban
+9. Enable Firewall
+10. Set The Server Time Zone
+11. Test Local Access After Hardening
 
 <!-- ------------------------------------------------------------------------- -->
 

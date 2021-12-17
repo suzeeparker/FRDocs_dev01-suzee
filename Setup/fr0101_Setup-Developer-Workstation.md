@@ -920,7 +920,7 @@ https://textpad.com/download
 
 
 ----
-### Congratulations! Your Developer Workstation is setup.
+#### Congratulations! Your Developer Workstation is setup.
 
  After all installations on a new Windows 10 machine, 7 GB was added to Drive C:.
 

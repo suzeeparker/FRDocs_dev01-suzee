@@ -12,10 +12,11 @@
 
 ## Purpose for 2.1 Vultr Ubuntu
 
-- In order to test our FormR apps on the Internet
- we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 
+#### Introduction  (*This section is not complete*)
+----
 
-
+1. Create New Ubuntu Instance
+2. Open Vultr VM Console To Log In
 
 <!-- ------------------------------------------------------------------------- -->
 

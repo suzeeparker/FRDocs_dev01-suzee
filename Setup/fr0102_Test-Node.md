@@ -438,7 +438,7 @@ node queryDB
      4. Click Push on the Source Control three dots (...) menu
   
 ----
-### Congratulations! You have run the Node applications that test your development environment.
+#### Congratulations! You have run the Node applications that test your development environment.
 ----
 
 <!-- ------------------------------------------------------------------------- -->

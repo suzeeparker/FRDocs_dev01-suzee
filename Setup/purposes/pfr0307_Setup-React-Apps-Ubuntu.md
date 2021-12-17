@@ -14,9 +14,9 @@ NEXT
 
 ## Purpose for 2.7 First React Apps
 
-#### Introduction
+#### Introduction  (*This section is not complete*)
+----
 
-- blah, blah
 
 
 <!-- ------------------------------------------------------------------------- -->

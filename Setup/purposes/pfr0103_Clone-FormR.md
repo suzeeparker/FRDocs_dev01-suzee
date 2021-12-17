@@ -13,6 +13,15 @@
 
 ## Purpose for 1.4 Clone FormR
 
+#### Introduction  (*This section is not complete*)
+----
+
+1. Cloning FormR Repository
+2. Install Node Modules
+3. Install RAuth And World Databases.
+4. Make Sure That Your MySQL Password For Root Is Set To: FormR!1234
+5. Run Client And Server Applications
+6. Test The Applications On Your Local Workstation
 
 <!-- ------------------------------------------------------------------------- -->
 

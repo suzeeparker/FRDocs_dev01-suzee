@@ -102,7 +102,7 @@
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 
 ----
-### Congratulations! You have created your Ubuntu server on Vultr.
+#### Congratulations! You have created your Ubuntu server on Vultr.
 ----
 
 

@@ -12,6 +12,13 @@
 
 ## Purpose for 2.5 Install Data Server
 
+#### Introduction  (*This section is not complete*)
+----
+
+1. Restart Your Vultr VM And Login
+2. Install MySQL From The Vultr FormR1 Console
+3. Secure MySQL
+
 
 <!-- ------------------------------------------------------------------------- -->
 

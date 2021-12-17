@@ -13,7 +13,14 @@
 
 ## Purpose for 1.3 First React Apps
 
-#### Introduction
+#### Introduction  (*This section is not complete*)
+----
+
+
+1. Empty
+2. React Button
+3. React noAPI
+4. React with API
 
 <!-- ------------------------------------------------------------------------- -->
 

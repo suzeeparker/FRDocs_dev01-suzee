@@ -322,7 +322,7 @@ systemctl restart sshd
 11. When someone logs into your server using SSH, they see your newly added banner warning them of any consequences of further action. 
 
 ----
-### 8. Fail2ban
+### 8. Install Fail2ban
 ----
 1. Install (Enter Y or y when asked to continue.)
 
@@ -421,7 +421,7 @@ ssh nimda@<your VM IP address>
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
 ----
-### Congratulations! You have hardened your Ubuntu server on Vultr.
+#### Congratulations! You have hardened your Ubuntu server on Vultr.
 ----
 
 #### NOTE: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.

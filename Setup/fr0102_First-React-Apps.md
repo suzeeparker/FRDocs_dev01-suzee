@@ -14,8 +14,8 @@
 ## 1.3 First React Apps 
 #### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 
-
-#### Introduction
+#### Introduction  (*This section is not complete*)
+----
 
 1. Empty
 2. React Button

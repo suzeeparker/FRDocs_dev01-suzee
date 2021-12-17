@@ -13,6 +13,16 @@
 
 ## Purpose for 2.4 Install App Server
 
+#### Introduction  (*This section is not complete*)
+----
+
+1. Restart Your Vultr VM And Login
+2. Install Nodejs
+3. Install Npm
+4. Install Pm2
+5. Install Docsify
+6. Install Express
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
