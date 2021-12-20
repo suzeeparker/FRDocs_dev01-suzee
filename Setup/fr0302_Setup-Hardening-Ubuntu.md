@@ -13,11 +13,13 @@
 ## 2.2 Harden Ubuntu 
 #### [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 
-
+#### Introduction
 - IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.
-
 - Tip: To clear the console at the console prompt enter: clear
 
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 ----
 ### 1. Restart your Vultr VM and Login
 ----
@@ -121,7 +123,7 @@ nano /etc/apt/apt.conf.d/50unattended-upgrades
 
 ![Modify apt.conf.d](./images/fr0302-07_Ubuntu-Modify-apt-conf-d.png "Modify apt.conf.d")
 
-5.  Uncomment and modify:
+5.  Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
 
 ```
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
