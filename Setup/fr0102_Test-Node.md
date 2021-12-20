@@ -177,7 +177,7 @@ http://localhost:8080/myProject/server/app01s
 
 #### Push your changes to GitHub
 
-1. Open Source Control
+1. Click the Source Control charm
 
 ![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
 
@@ -261,13 +261,13 @@ npm start
 
      1. In vscode edit package.json
 #### Push your changes to GitHub
-     1. Open Source Control
+     1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
 
 ----
-### 6. Create a Nodejs routine to access the local MySQL database and return information.
+### 6. Create a Nodejs routine to access the local MySQL database and return information. (<10 min)
 ----
 1. Install Sequelize. It will be used to connect to and access information in MySQL. 
 
@@ -315,7 +315,7 @@ CREATE DATABASE practice
 
 ![Node-schemas-refresh](images/fr0102-20_Node-schemas-refresh.png "Node-schemas-refresh")
 
-11. In VSCode in the folder server/app01s create a new file, queryDB.js. Enter the following and then use FormR!1234 for the MySQL root login.
+11. From VSCode Explorer navigate to the folder server/app01s and create a new file, queryDB.js, then enter the following code:
 
 ```
 const Sequelize = require("sequelize");
@@ -363,8 +363,6 @@ async function runQuery() {
 
 - Be aware, if you execute the same step twice in a row you will get an error. For example, step 1. creates a table. If you run it a second time  You will get an error that tells you that the table already exists.
 
-![Node-create-queryDB](images/fr0102-21_Node-create-queryDB.png "Node-create-queryDB")
-
 15. Uncomment Step 1 Create Table
 
 ![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
@@ -374,10 +372,6 @@ async function runQuery() {
 ![Open-Terminal-app01s](images/fr0102-19_Open-Terminal-app01s.png "Open-Terminal-app01s")
 
 17. Enter:
-
-(Remember to change to your password)
-
-#### !! Remember to write your passwords in a safe place !!
 
 ```
 node queryDB
