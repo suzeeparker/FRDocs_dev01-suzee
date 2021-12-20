@@ -426,7 +426,7 @@ node queryDB
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
 #### --- Push your changes to Github
-     1. Open Souce Control
+     1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
