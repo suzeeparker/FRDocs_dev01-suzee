@@ -15,6 +15,17 @@
 #### Introduction  (*This section is not complete*)
 ----
 
+Why Nginx
+
+https://www.nginx.com/resources/wiki/community/why_use_it/
+
+Why Certbot 
+
+https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+
+
+
+
 1. Restart Your Vultr VM And Login
 2. Install Nginx
 3. Install Certbot

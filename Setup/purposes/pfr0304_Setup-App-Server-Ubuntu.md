@@ -15,6 +15,28 @@
 
 #### Introduction  (*This section is not complete*)
 ----
+Why Node
+
+https://relevant.software/blog/why-and-when-to-use-node-js/
+
+Why Npm
+
+https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/
+
+Why PM2
+
+https://medium.com/we-code-we-write/why-and-how-you-should-use-pm2-for-a-node-js-application-in-production-5fa19dd3a856
+
+Why Docsify
+
+https://dev.to/erikmelone/centralize-your-documentation-with-docsify-fdf
+
+Why Express
+
+https://www.besanttechnologies.com/what-is-expressjs
+
+
+
 
 1. Restart Your Vultr VM And Login
 2. Install Nodejs

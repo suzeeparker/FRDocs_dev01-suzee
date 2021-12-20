@@ -15,6 +15,19 @@
 #### Introduction  (*This section is not complete*)
 ----
 
+Harden Ubuntu
+https://www.lifewire.com/harden-ubuntu-server-security-4178243
+
+Linux Hardening
+https://linux-audit.com/linux-server-hardening-most-important-steps-to-secure-systems/
+
+Lynis
+https://cisofy.com/documentation/lynis/
+
+Hardening Install upgrades
+https://linux-audit.com/using-unattended-upgrades-on-debian-and-ubuntu/
+
+
 1. Restart Your Vultr VM And Login
 2. Create A New Sudo User
 3. Update And Upgrade Server

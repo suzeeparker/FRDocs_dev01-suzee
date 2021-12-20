@@ -15,6 +15,19 @@
 #### Introduction  (*This section is not complete*)
 ----
 
+The remote environment:
+
+Why Vultr
+
+https://digital.com/best-web-hosting/vultr/
+
+Why Ubuntu
+
+https://fossbytes.com/reasons-to-use-ubuntu-linux-advantage/
+
+
+
+
 1. Create New Ubuntu Instance
 2. Open Vultr VM Console To Log In
 

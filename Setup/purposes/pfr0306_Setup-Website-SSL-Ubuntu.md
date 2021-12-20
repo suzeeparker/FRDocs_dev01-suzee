@@ -14,9 +14,8 @@
 #### Introduction  (*This section is not complete*)
 ----
 
-2.6 Website SSL
+
 1. Use Bitvise Securely. Open Bitvise On Your Local Workstation And Login As Nimda To The Ubuntu Server
-—- @@@@@ Need New Pictures From Here Down For Vultr-FormR00 NOT FormR1-Vultr
 2. Configure Login Via Public Key (SSH Keys Are More Secure Than Passwords)
 3. Using Bitvice New Terminal Console Delete Nginx Default Files
 4. Clone SimpleApp Using Git

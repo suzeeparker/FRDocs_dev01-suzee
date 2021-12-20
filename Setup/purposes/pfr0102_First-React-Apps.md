@@ -15,6 +15,13 @@
 
 #### Introduction  (*This section is not complete*)
 ----
+Why React
+
+https://www.freecodecamp.org/news/why-use-react-for-web-development/
+
+React Security
+
+https://relevant.software/blog/react-js-security-guide/
 
 
 1. Empty

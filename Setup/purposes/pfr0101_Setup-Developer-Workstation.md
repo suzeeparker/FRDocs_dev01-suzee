@@ -15,10 +15,6 @@ BACK
 
 The development environment:
 
-Why Javascript
-
-https://www.zdnet.com/article/top-programming-languages-most-popular-and-fastest-growing-choices-for-developers/
-
 Why MySQL
 
 http://www.databasequest.com/index.php/product-service/mysql-dbquest
@@ -31,17 +27,13 @@ Why React
 
 https://www.freecodecamp.org/news/why-use-react-for-web-development/
 
-The remote environment:
+Why Node
 
-Why Vultr
+https://relevant.software/blog/why-and-when-to-use-node-js/
 
-https://digital.com/best-web-hosting/vultr/
+Why Javascript
 
-Why Ubuntu
-
-https://fossbytes.com/reasons-to-use-ubuntu-linux-advantage/
-
-
+https://www.zdnet.com/article/top-programming-languages-most-popular-and-fastest-growing-choices-for-developers/
 
 
 
