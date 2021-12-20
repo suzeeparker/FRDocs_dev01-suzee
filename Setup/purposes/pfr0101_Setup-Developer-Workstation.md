@@ -12,6 +12,40 @@ BACK
 
 ## Purpose for 1.1 Workstation 
 #### Introduction  (*This section is not complete*)
+
+The development environment:
+
+Why Javascript
+
+https://www.zdnet.com/article/top-programming-languages-most-popular-and-fastest-growing-choices-for-developers/
+
+Why MySQL
+
+http://www.databasequest.com/index.php/product-service/mysql-dbquest
+
+Why Express
+
+https://www.besanttechnologies.com/what-is-expressjs
+
+Why React
+
+https://www.freecodecamp.org/news/why-use-react-for-web-development/
+
+The remote environment:
+
+Why Vultr
+
+https://digital.com/best-web-hosting/vultr/
+
+Why Ubuntu
+
+https://fossbytes.com/reasons-to-use-ubuntu-linux-advantage/
+
+
+
+
+
+
 ----
 
 1. Create A New User, Local_Admin On Your Workstation. (<10 Min)
