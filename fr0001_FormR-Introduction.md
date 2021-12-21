@@ -46,7 +46,7 @@ and it's very secure
 ### Background for FormR
 ----
 
-- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Develpment (RAD). 
+- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Development (RAD). 
 
 ----
 ### The FormR Tools and Technologies
