@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 1.1 Workstation (<150 mins) 
+## 1.1 Workstation (<2 hrs 30 mins) 
 #### [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 
 #### Introduction

@@ -23,7 +23,7 @@
 
 
 ----
-### 1. Cloning FormR repository
+### 1. Cloning FormR repository  (< 5 mins)
 ----
 1. Create local repos folder in Windows Command prompt
 
@@ -50,11 +50,13 @@ dir
 ```
 code formr_test-master.code-workspace
 ```
- 
+
+- If prompted, click "Yes I trust the authors".
+
 ![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
 
 ----
-### 2. Install Node modules
+### 2. Install Node modules  (<10 mins)
 ----
 1. Right click on the server folder
 
@@ -86,9 +88,11 @@ npm install
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
 ----
-### 3. Install RAuth and World databases.
+### 3. Install RAuth and World databases (<5 mins)
 ----
-(Note that the World database has been modified so that all tables contain ID primary key fields)
+Note: The World sample database has been modified so that all tables contain ID primary key fields.
+
+----
 
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -140,7 +144,7 @@ npm install
 8. Close Workbench
 
 ----
-### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
+### 4. Make sure that your MySQL password for root  is set to:  FormR!1234  (<5 mins)
 ----
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 

@@ -23,6 +23,7 @@ https://linux-audit.com/linux-server-hardening-most-important-steps-to-secure-sy
 
 Lynis
 https://cisofy.com/documentation/lynis/
+https://vitux.com/how-to-use-lynis-linux-security-audit-tool-on-ubuntu/
 
 Hardening Install upgrades
 https://linux-audit.com/using-unattended-upgrades-on-debian-and-ubuntu/

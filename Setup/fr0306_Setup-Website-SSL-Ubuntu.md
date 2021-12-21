@@ -166,7 +166,7 @@ Vultr-FormR00-nimda
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
 ----
-### 3. Using Bitvice New Terminal console delete nginx default files 
+### 3. Using Bitvise New Terminal console delete nginx default files 
 ----
 1. Open New Terminal console
 
@@ -454,7 +454,7 @@ reboot
 ----
 ### 12. Add SSL certificate using Letsencrypt
 ----
-1. Open Bitvice New Terminal Console and enter (You might use notpad to build yoururl)
+1. Open Bitvise New Terminal Console and enter (You might use notpad to build yoururl)
 
 ```
 certbot --nginx -d <yoururl>  
