@@ -105,7 +105,7 @@ and it's very secure
 
 - All coding will be done locally using VSCode
 - Changes will be pushed to your own github repository.
-- Changes to your code on your web server can be made by Bitvise or @@@@@@ robin
+- Changes to your code on your web server will access the github repository.
 
 ----
 ### Some Final Points
