@@ -61,11 +61,11 @@ and it's very secure
 5. ExpressJS web server. ---------------------------- (E)
 6. React-Admin framework. ----------------------- (R)
 7. NodeKS programming technology. -------- (N)
-8. Sequelize database access technology. ---(S)
+8. Sequelize database access technology.
 9. Bitvise ssh client for cloud server access
 10. MySQL Workbench for database access
 <br/><br/>
-- In keeping with "current-speak" we say that FormR uses a MERNS stack. 
+- In keeping with "current-speak" we say that FormR uses a MERN stack. 
 
 ----
 ### The FormR Flow
@@ -87,6 +87,9 @@ and it's very secure
 ----
 ### The FormR Application Development Strategy
 ----
+
+![FormR Stack Diagram](/images/fr0001-01_FormR-Stack-Diagram.png "FormR Stack Diagram")
+
 1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using the database server.  
 
 2. A React-Admin client is used to provide authentication of  users and standard create, retrieve, update and delete (CRUD) functions for any database table. 
@@ -98,7 +101,16 @@ and it's very secure
 5. Formik and YUP for data forms.
 <br/>
 
-- The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+- Client-side
+
+![FormR Front End Diagram](/images/fr0001-01_FormR-Front-End-Diagram.png "FormR Front End Diagram")
+
+- Server-side
+
+![FormR Back End Diagram](/images/fr0001-01_FormR-Back-End-Diagram.png "FormR Back End Diagram")
+
+
+#### The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
 ----
 ### The FormR Migration Strategy
 ----
@@ -115,7 +127,7 @@ and it's very secure
 
 - This documentation is writtem in Markdown and uses Docsify.
 
-- Credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. 
+- Credit is given to all whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. 
 
 - We especially thank BezKoder, Ben Awad, Jared Palmer, Jason Watmore, 
 GraspingTech, LifeWire, SQL-Hub, W3Schools,
