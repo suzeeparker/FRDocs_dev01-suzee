@@ -14,8 +14,8 @@
 ## 1.3 First React Apps 
 #### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 
-#### Introduction  (*This section is not complete*)
-#### Introduction
+#### Introduction  (*This section is not complete*) Needs finalized FRApps_prod-master
+
 
 #### Important note about names, capitalization and pictures
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

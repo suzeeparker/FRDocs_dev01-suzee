@@ -9,11 +9,8 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-
-## FormR Introduction
-
 ----
-### The Renaissance Developer 
+### FormR - The Renaissance Developer 
 ----
 
 - Shouldn't every computer professional understand the total picture? Whether your expertise is infrastructure, database, presentation or project management, you can't go wrong with more knowledge about the other disciplines. 
@@ -111,6 +108,8 @@ and it's very secure
 
 
 #### The FormR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+
+#### We have chosen the most popular Javascript ES6 for this project. This allows the same programming language to be used in modern browsers, Node servers, scripting tools and Windows and Unix based operating systems.
 ----
 ### The FormR Migration Strategy
 ----

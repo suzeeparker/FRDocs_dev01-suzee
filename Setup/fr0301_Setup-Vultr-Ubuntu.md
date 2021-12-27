@@ -10,12 +10,12 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Vultr Ubuntu 
+## 2.1 Vultr Ubuntu (<20 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 
 #### Introduction
-- In order to test our FormR apps on the Internet
- we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 
+- In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
+- Vultr costs only $5 per month. Once you complete your secure website you can
 
 #### Important note about names, capitalization and pictures
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -23,7 +23,7 @@
 
 
 ----
-### 1. Create New Ubuntu Instance
+### 1. Create New Ubuntu Instance  (<10 mins)
 ----
 1. Signin or create an account on vultr.com
 
@@ -74,7 +74,7 @@
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Open Vultr VM Console to Log in
+### 2. Open Vultr VM Console to Log in (<10 mins)
 ----
 1. Click on Products, then the Server Name i.e. Vultr-FormR00
 

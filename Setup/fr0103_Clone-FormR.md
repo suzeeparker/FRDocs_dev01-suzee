@@ -11,10 +11,10 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Clone FormR 
+## 1.4 Clone FormR  (< 45 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 
-#### Introduction
+#### Introduction  (*This section is not complete*) @@@@@ Needs Updated Prod-Master
 
 
 #### Important note about names, capitalization and pictures
@@ -191,7 +191,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 
 ----
- ### 5. Run Client and Server applications
+ ### 5. Run Client and Server applications (<10 mins)
 ----
 
 1. Right click on the server/1s-world folder and
@@ -225,7 +225,7 @@ npm start
 ![FormR-Clone-24b](images/fr0103-FormR-Clone-24b.png "FormR-Clone-24b")
 
 ----
-### 6. Test the applications on your local workstation
+### 6. Test the applications on your local workstation (<10 mins)
 ----
 1. Enter each of the following in your browser to test the server:
 
