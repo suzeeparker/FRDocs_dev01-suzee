@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.4 Install App Server 
+## 2.4 Install App Server (<30 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
 
 #### Introduction
@@ -22,13 +22,13 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Restart your Vultr VM and Login
+### 1. Restart your Vultr VM and Login (<5 mins)
 ----
-1. Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr FormR1 console
+2. From your Vultr FormR0 console
  
 3. Copy the root password
  
@@ -41,7 +41,7 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Install nodejs
+### 2. Install nodejs (<5 mins)
 ----
 
 1. Install
@@ -59,7 +59,7 @@ nodejs --version
 ![Check NodeJS](./images/fr0304-02_Ubuntu-check-nodejs.png "Check NodeJS")
 
 ----
-### 3. Install npm
+### 3. Install npm (<5 mins)
 ----
 
 1. Install
@@ -77,7 +77,7 @@ npm --version
 ![Check NPM](./images/fr0304-04_Ubuntu-check-npm.png "Check NPM")
 
 ----
-### 4. Install  pm2
+### 4. Install  pm2 (<5 mins)
 ----
 
 1. Install
@@ -102,7 +102,7 @@ pm2 startup systemd
 ![Autostart PM2](./images/fr0304-07_Ubuntu-autostart-pm2.png "Autostart PM2")
 
 ----
-### 5. Install Docsify
+### 5. Install Docsify (<5 mins)
 ----
 
 1. Install
@@ -122,7 +122,7 @@ ps -aux | egrep 'docsify'
 ![Check Docsify](./images/fr0304-09_Ubuntu-check-docsify.png "Check Docsify")
 
 ----
-### 6. Install Express
+### 6. Install Express (<5 mins)
 ----
 
 1. Install 

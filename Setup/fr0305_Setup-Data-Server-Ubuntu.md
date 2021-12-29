@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.5 Install Data Server 
+## 2.5 Install Data Server (<25 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 
 #### Introduction
@@ -21,13 +21,13 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Restart your Vultr VM and Login
+### 1. Restart your Vultr VM and Login (<5 mins)
 ----
-1. Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr FormR1 console
+2. From your Vultr FormR0 console
  
 3. Copy the root password
  
@@ -40,7 +40,7 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Install MySQL from the Vultr FormR1 console
+### 2. Install MySQL from the Vultr FormR0 console  (<5 mins)
 ----
 1. Install MySQL
 ```
@@ -57,12 +57,13 @@ mysql --version
 ![Check MySQL](./images/fr0305-02_Ubuntu-check-mysql.png "Check MySQL")
 
 ----
-### 3. Secure MySQL
+### 3. Secure MySQL (<10 mins)
 ----
 1. Lock down MySQL - Running this script will ask you
 
 ```
 mysql_secure_installation
+```
 
       - Add VALIDATE PASSWORD PLUGIN: Yes
       - Enter a "password validation policy level": 2
@@ -71,7 +72,7 @@ mysql_secure_installation
       - Disallow root login remotely? No (Yes on a production server)
       - Remove test database and access to it? No 
       - Reload privilege tables now? Yes
-```
+
 
 ![Secure MySQL](./images/fr0305-03_Ubuntu-secure-mysql.png "Secure MySQL")
 
@@ -100,6 +101,7 @@ netstat -tulnp | grep mysql
 ![Mysql-setup-allow-remote-access](./images/fr0305-05_Ubuntu-allow-remote-access-mysql.png "Mysql-setup-allow-remote-access")
 
 5. Open firewall rule for port 3306
+
 ```
 ufw allow 3306/tcp
 
@@ -151,7 +153,7 @@ systemctl status mysql.service
 ![Mysql-setup-check-status](./images/fr0305-09_Ubuntu-check-status-mysql.png "Mysql-setup-check-status")
 
 ----
-### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 
+### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- (<5 mins)
 ----
 1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 

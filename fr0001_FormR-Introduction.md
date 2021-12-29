@@ -37,7 +37,7 @@ and it's very secure
 
 <br/>
 
-![Your FormR Secure](/images/fr0001-01_FormR1.png "Your FormR Secure")
+![Your FormR Secure](/images/fr0001-01_FormR0.png "Your FormR Secure")
 
 ----
 ### Background for FormR

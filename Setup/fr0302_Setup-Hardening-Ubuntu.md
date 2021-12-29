@@ -23,11 +23,11 @@
 ----
 ### 1. Restart your Vultr VM and Login (<5 mins)
 ----
-1. Login the your Vultr FormR1 console and click the Restart button
+1. Login the your Vultr FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr FormR1 console
+2. From your Vultr FormR0 console
  
 3. Copy the root password
  
@@ -162,6 +162,10 @@ unattended-upgrades --dry-run --debug
 
 ![Check Unattended Upgrades](./images/fr0302-10_Ubuntu-Check-Unattended-Upgrades.png "Check Unattended Upgrades")
 
+- Reboot Warnings will occur on the console. Here is a sample:
+
+![Sample Console Warning](./images/fr0302-10_Ubuntu-Sample-Console-Warning.png "Sample Console Warning")
+
 11. Reboot the server
 
 ```
@@ -241,7 +245,7 @@ systemctl restart sshd
 
 #### - Test local access to your Vultr FormR VM. 
 
-6. Get the VM IP address from your Vultr FormR1 console i.e 45.76.252.191
+6. Get the VM IP address from your Vultr FormR0 console i.e 45.76.252.191
 
 7. Open the Windows command prompt on your Develper Workstation
 

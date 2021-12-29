@@ -35,7 +35,7 @@
 3. Enter new profile name: 
 
 ```
-Vultr-FormR00-nimda
+Vultr-FormR0-nimda
 ```
 
 ![BitVise New Profile Name](./images/fr0306-01_Ubuntu-Bitvise-New-Profile-Name.png "BitVise New Profile Name")
@@ -50,7 +50,7 @@ Vultr-FormR00-nimda
  ![BitVise IP](./images/fr0306-01_Ubuntu-Bitvise-IP.png "BitVise IP")
 
 
----- @@@@@ Need new pictures from here down for Vultr-FormR00 NOT FormR1-Vultr
+---- @@@@@ Need new pictures from here down for Vultr-FormR00 NOT FormR0-Vultr
 ----
 
 5. then enter:
