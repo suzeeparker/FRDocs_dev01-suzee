@@ -21,7 +21,7 @@ http://www.databasequest.com/index.php/product-service/mysql-dbquest
 
 
 1. Restart Your Vultr VM And Login
-2. Install MySQL From The Vultr FormR0 Console
+2. Install MySQL From The Vultr-FormR0 Console
 3. Secure MySQL
 
 

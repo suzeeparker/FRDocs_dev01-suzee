@@ -23,11 +23,11 @@
 ----
 ### 1. Restart your Vultr VM and Login (<5 mins)
 ----
-1. Login the your Vultr FormR0 console and click the Restart button
+1. Login the your Vultr-FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr FormR0 console
+2. From your Vultr-FormR0 console
  
 3. Copy the root password
  
@@ -40,7 +40,7 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Install MySQL from the Vultr FormR0 console  (<5 mins)
+### 2. Install MySQL from the Vultr-FormR0 console  (<5 mins)
 ----
 1. Install MySQL
 ```
@@ -162,6 +162,9 @@ systemctl status mysql.service
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 ```
+
+- Enter the password FormR!12324
+
 2. Check Version. From the mysql command prompt enter the following:
 
 ```

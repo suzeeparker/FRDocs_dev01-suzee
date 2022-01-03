@@ -23,11 +23,11 @@
 ----
 ### 1. Restart your Vultr VM and Login (<5 mins)
 ----
-1. Login the your Vultr FormR0 console and click the Restart button
+1. Login the your Vultr-FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr FormR0 console
+2. From your Vultr-FormR0 console
  
 3. Copy the root password
  
@@ -245,7 +245,7 @@ systemctl restart sshd
 
 #### - Test local access to your Vultr FormR VM. 
 
-6. Get the VM IP address from your Vultr FormR0 console i.e 45.76.252.191
+6. Get the VM IP address from your Vultr-FormR0 console i.e 45.76.252.191
 
 7. Open the Windows command prompt on your Develper Workstation
 
