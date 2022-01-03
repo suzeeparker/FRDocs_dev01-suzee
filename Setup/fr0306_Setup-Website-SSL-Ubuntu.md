@@ -22,7 +22,7 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
+### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server (<5 mins)
 ----
 1. Open Bitvise Client app 
 
@@ -32,7 +32,7 @@
  
 ![BitVise New Profile](./images/fr0306-01_Ubuntu-Bitvise-New-Profile.png "BitVise New Profile")
 
-3. Enter new profile name: 
+3. Navigate to the Local_Admin\.shh folder and enter new profile name: 
 
 ```
 Vultr-FormR0-nimda
@@ -49,49 +49,59 @@ Vultr-FormR0-nimda
 
  ![BitVise IP](./images/fr0306-01_Ubuntu-Bitvise-IP.png "BitVise IP")
 
-
----- @@@@@ Need new pictures from here down for Vultr-FormR00 NOT FormR0-Vultr
-----
-
 5. then enter:
 
 ```
   Port: 22
   Username: nimda
   Initial Method: password
+  Check the box: "Store encrypted password in profile
   Password: FormR!1234
 ```
 
-```
 #### !! Remember to write your passwords in a safe place !!
-```
+
 ![BitVise Initial Login](./images/fr0306-02_Ubuntu-Bitvise-Initial-Login.png "BitVise Initial Login")
   
-6. Click log In (You will see Warning message and then be logged in via password)
+6. Click log In (You will see Host Key, Warning message and then be logged in via password)
+
+- Host key - Click Accept and Save (This will only happen on the first logon.)
+
+![BitVise Click Login Host Key](./images/fr0306-03_Ubuntu-Bitvise-Click-Login-Host-Key.png "BitVise Click Login Host Key")
+
+- Warning Banner - Click the X to close it
 
 ![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
+
+- Authenticated Completion 
 
 ![BitVise Click Login2](./images/fr0306-03_Ubuntu-Bitvise-Click-Login2.png "BitVise Click Login2")
 
 
-7. Click Save profile icon as Vultr-FormR00-nimda
+7. Click Save profile icon
 
 ![BitVise Save Profile](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
+- Select - Any account on this computer - and click OK
+
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
+8, Close Bitvise
+
 ----
-### 2. Configure Login via Public Key (SSH keys are more secure than passwords)
+### 2. Configure Login via Public Key (SSH keys are more secure than passwords) (<15 mins)
 ----
-1. Open Bitvise profile, FormR-Vultr-nimda, click Log in, then click New SFTP window icon
+1. Open Bitvise, the profile, Vultr-FormR0-nimda, should load. 
+- Click Log in, then 
+- Click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
 
 ![BitVise New SFTP window2](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window2.png "BitVise New SFTP window2")
 
-2. Right click in remote files pane (right)
+2. Click in remote files pane (right) and enter: /root
 
-3. create folder: /root/.ssh
+3. Right in blank space and click Create Folder, then enter: .ssh
 
 ![BitVise Create SSH Folder](./images/fr0306-05_Ubuntu-Bitvise-Create-SSH-Folder.png "BitVise Create SSH Folder")
 
@@ -104,8 +114,7 @@ Vultr-FormR0-nimda
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
 5. In local files panes (left)
-6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for FormR_Vultr_nimda
-
+6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_FormR0_nimda
 7. Right click and select Edit
 
     (Note you may need to expand the name column to see the .pub extension)
@@ -162,11 +171,12 @@ Vultr-FormR0-nimda
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
 #### IMPORTANT -- Click Save Profile !!!
+</br>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
 ----
-### 3. Using Bitvise New Terminal console delete nginx default files 
+### 3. Using Bitvise New Terminal console delete nginx default files (<5 mins)
 ----
 1. Open New Terminal console
 
@@ -181,10 +191,14 @@ unlink /etc/nginx/sites-enabled/default
 ![BitVise Unlink nginx default](./images/fr0306-06_Ubuntu-Bitvise-Unlink-nginx-default.png "BitVise Unlink nginx default")
 
 ----
-### 4. Clone simpleApp using git 
+### 4. Using Bitvise New Terminal console Clone simpleApp using git (<5 mins)
 ----
+
+
 ```
-cd /webs https://github.com/8020Data/simpleApp.git simpleApp
+cd /webs 
+
+git clone https://github.com/8020Data/simpleApp.git simpleApp
 ```
 1. Confim clone
 ```
@@ -198,8 +212,11 @@ ufw allow 5000
 
 ![BitVise Clone simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Clone-simpleApp.png "BitVise Clone simpleApp")
 
-3. Start app.js on the server
+3. Install and start app.js on the server
+
 ```
+npm install
+
 node app.js
 ```
 
@@ -381,7 +398,7 @@ e.g http://formr-cbt-00.com
 ### 9. Modify simpleApp.conf to use your new URL
 ----
 1. Open Bitvise 
-2. Load Profile: Vultr-FormR00-nimda.tlp
+2. Load Profile: Vultr-FormR0-nimda.tlp
 3. Login
 4. From your Bitvise SFTP window navigate to 
 

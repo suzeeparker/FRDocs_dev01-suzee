@@ -196,9 +196,9 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 10. Key pairs for access to Remote Server on Cloud Provider:
 
 ```
-Change "Vultr-FormR00_nimda" below to your VM Instance name and login
+Change "Vultr-FormR0_nimda" below to your VM Instance name and login
 
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR00_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR00_nimda_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR0_nimda_v210713"
 ```
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
