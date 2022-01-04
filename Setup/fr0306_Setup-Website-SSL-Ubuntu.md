@@ -86,13 +86,18 @@ Vultr-FormR0-nimda
 
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
-8, Close Bitvise
+8.  Close Bitvise by clicking X in upper right corner
 
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) (<15 mins)
 ----
 1. Open Bitvise, the profile, Vultr-FormR0-nimda, should load. 
 - Click Log in, then 
+- Warning Banner - Click the X to close it
+
+![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
+
+
 - Click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
@@ -174,6 +179,10 @@ Vultr-FormR0-nimda
 </br>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
+
+- Select - Any account on this computer - and click OK
+
+![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
 ----
 ### 3. Using Bitvise New Terminal console delete nginx default files (<5 mins)
@@ -272,7 +281,7 @@ reboot
 
 ![BitVise PM2 save](./images/fr0306-08_Ubuntu-Bitvise-PM2-save.png "BitVise PM2 save")
 
-6. Test from local browser, 
+6. Wait a few minutes for server to reboot then test from local browser, 
 
 ```
 <your server ip address here>:5000
@@ -312,7 +321,7 @@ systemctl reload nginx
 ![BitVise nginx reload](./images/fr0306-08_Ubuntu-Bitvise-nginx-reload.png "BitVise nginx reload")
 
 ----
-### 7. Create a domain for public access to your server (Skip to step 11, if you don't wan't to purchase a domain.) (<15 mins)
+### 7. Create a domain for public access to your server (<15 mins)
 ----
 #### Note: 
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
@@ -457,7 +466,7 @@ http:<your VM IP>:5000
 
 ![BitVise appjs3](./images/fr0306-10_Ubuntu-Bitvise-appjs3.png "BitVise appjs3")
 
-7. Close Bitvise
+7. Close Bitvise by clicking X in upper right corner
 
 ----
 ### 11. Add SSL certificate using Letsencrypt (<5 mins)
