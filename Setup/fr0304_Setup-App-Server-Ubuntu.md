@@ -45,13 +45,18 @@
 ----
 
 1. Install
+
 ```
 apt-get install nodejs
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs.png "Install NodeJS")
 
 2. Check
+
 ```
 nodejs --version
 ```
@@ -63,13 +68,18 @@ nodejs --version
 ----
 
 1. Install
+
 ```
 apt-get install npm
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install NPM](./images/fr0304-03_Ubuntu-install-npm.png "Install NPM")
 
 2. Check
+
 ```
 npm --version
 ```

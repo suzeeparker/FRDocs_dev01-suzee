@@ -84,10 +84,12 @@ cat /etc/passwd
 ----
 ### 3. Update and upgrade server (<5 mins)
 ----
-1. Enter Y when asked by the following:
+1. Update
 
 ```
 apt-get update && apt-get upgrade
+
+(Enter Y when asked to continue)
 ```
 
 ![Update and Upgrade](./images/fr0302-04_Ubuntu-Update-Upgrade.png "Update and Upgrade")
@@ -96,8 +98,12 @@ apt-get update && apt-get upgrade
 ### 4. Install and Configure unattended-updates (<10 mins)
 ----
 1. Install
+
 ```
 apt-get install unattended-upgrades
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install Unattended Upgrades](./images/fr0302-05_Ubuntu-Install-Unattended-Upgrades.png "Install Unattended Upgrades")
@@ -247,6 +253,9 @@ systemctl restart sshd
 
 6. Get the VM IP address from your Vultr-FormR0 console i.e 45.76.252.191
 
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
+
+
 7. Open the Windows command prompt on your Develper Workstation
 
 8. Paste the following:
@@ -254,6 +263,9 @@ systemctl restart sshd
 ```
 ssh nimda@<your VM IP address>
 ```
+- If you are asked to continue enter: yes 
+
+![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
 9. Enter the password: FormR!1234
 
@@ -268,7 +280,7 @@ ssh nimda@<your VM IP address>
 nano /etc/issue.net
 ```
 
-2. - Add a warning message
+2. - Remove the "Ubuntu..." line and add the following warning message
 
 ```
 ************************************************************************
@@ -310,7 +322,7 @@ nano /etc/ssh/sshd_config
 8. Replace
 
 ```
-#Banner none   with    
+#Banner none   with    (Remove the #)
 
 Banner  /etc/issue.net
 ```
@@ -334,6 +346,9 @@ systemctl restart sshd
 
 ```
 apt-get install fail2ban
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install Fail2Ban](./images/fr0302-16_Ubuntu-install-fail2ban.png "Install Fail2Ban")
@@ -420,7 +435,9 @@ timedatectl
 ----
 1. Test local access to your Vultr FormR VM. 
 
-2. Get the VM IP address from your Vultr FormR0 console i.e 45.76.252.191
+2. Get the VM IP address from your Vultr-FormR0 console 
+
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 3. Open the Windows command prompt on your Develper Workstation
 
@@ -447,7 +464,7 @@ ssh nimda@<your VM IP address>
 [BACK - Setup-Vultr-Ubuntu](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div><div class="page-next">
 
-[Install Web Server - NEXT](/Setip/fr0303_Setup-Web-Server-Ubuntu.md)
+[Install Web Server - NEXT](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

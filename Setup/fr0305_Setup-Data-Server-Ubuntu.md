@@ -43,8 +43,12 @@
 ### 2. Install MySQL from the Vultr-FormR0 console  (<5 mins)
 ----
 1. Install MySQL
+
 ```
 apt-get install mysql-server
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install MySQL](./images/fr0305-01_Ubuntu-install-mysql.png "Install MySQL")
@@ -68,6 +72,7 @@ mysql_secure_installation
       - Add VALIDATE PASSWORD PLUGIN: Yes
       - Enter a "password validation policy level": 2
       - Enter a password for the user, root, to login to MySQL: FormR!1234
+      - Enter to save password: Yes
       - Remove anonymous users? Yes
       - Disallow root login remotely? No (Yes on a production server)
       - Remove test database and access to it? No 
@@ -89,12 +94,13 @@ to:                  bind-address = 0.0.0.0
 
 ![Mysql-setup-nano-bind-address](./images/fr0305-04_Ubuntu-nano-bind-address-mysql.png "Mysql-setup-nano-bind-address")
 
-3. Save the file
+3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
 4. Restart mysql and comfirm its running
 
 ```
 systemctl restart mysql.service
+
 netstat -tulnp | grep mysql
 ```
 
@@ -123,16 +129,19 @@ mysql -p
 
 ```
 password: FormR!1234
+```
 
 #### !! Remember to write your passwords in a safe place !!
-```
+----
 
-9. Enter the following:
+9. Enter the following from the mysql prompt:
 
 ```
-mysql> CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
-mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
+
+GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
+
+SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
 
@@ -157,7 +166,7 @@ systemctl status mysql.service
 ----
 1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 
-![Mysql-setup-vultr-ip](./images/fr0305-09_Ubuntu-vultr-ip.png "Mysql-setup-vultr-ip")
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306

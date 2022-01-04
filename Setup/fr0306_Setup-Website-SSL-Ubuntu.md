@@ -47,7 +47,7 @@ Vultr-FormR0-nimda
   Host IP address: Your Vultr Ubuntu server IP 
 ```
 
- ![BitVise IP](./images/fr0306-01_Ubuntu-Bitvise-IP.png "BitVise IP")
+ ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 5. then enter:
 
@@ -99,9 +99,9 @@ Vultr-FormR0-nimda
 
 ![BitVise New SFTP window2](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window2.png "BitVise New SFTP window2")
 
-2. Click in remote files pane (right) and enter: /root
+2. Click in Remote files pane (right) and enter: /root
 
-3. Right in blank space and click Create Folder, then enter: .ssh
+3. Right click in blank space and click Create Folder, then enter: .ssh
 
 ![BitVise Create SSH Folder](./images/fr0306-05_Ubuntu-Bitvise-Create-SSH-Folder.png "BitVise Create SSH Folder")
 
@@ -113,7 +113,7 @@ Vultr-FormR0-nimda
 
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
-5. In local files panes (left)
+5. In Local files panes (left)
 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_FormR0_nimda
 7. Right click and select Edit
 
@@ -194,13 +194,16 @@ unlink /etc/nginx/sites-enabled/default
 ### 4. Using Bitvise New Terminal console Clone simpleApp using git (<5 mins)
 ----
 
+1. Open New Terminal console
 
 ```
 cd /webs 
 
 git clone https://github.com/8020Data/simpleApp.git simpleApp
 ```
-1. Confim clone
+
+-  Confim clone
+
 ```
 cd simpleApp
 ls -l
@@ -234,7 +237,7 @@ node app.js
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 5. Setup pm2 to run website automatically
+### 5. Setup pm2 to run website automatically (<5 mins)
 ----
 1. Go to the Bitvise New terminal console
 2. Navigate to 
@@ -278,9 +281,12 @@ reboot
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 6. Setup nginx proxy 
+### 6. Setup nginx proxy (<5 mins)
 ----
-1. Copy simpleApp.conf file
+
+1. Go to the Bitvise New terminal console
+
+- Copy simpleApp.conf file
 
 ```
 cp /webs/simpleApp/etc/nginx/sites-available/simpleApp.conf /etc/nginx/sites-available/simpleApp.conf
@@ -306,7 +312,7 @@ systemctl reload nginx
 ![BitVise nginx reload](./images/fr0306-08_Ubuntu-Bitvise-nginx-reload.png "BitVise nginx reload")
 
 ----
-### 7. Create a domain for public access to your server (Skip to step 11, if you don't wan't to purchase a domain.) 
+### 7. Create a domain for public access to your server (Skip to step 11, if you don't wan't to purchase a domain.) (<15 mins)
 ----
 #### Note: 
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
@@ -344,7 +350,7 @@ e.g. formr-cbt-00.com
 ![Create Domain3](./images/fr0306-09_Ubuntu-create-domain4.png "Create Domain3") 
 
 ----
-### 8. Update your DNS record to point YourURL to your server IP address.
+### 8. Update your DNS record to point YourURL to your server IP address. (<10 mins)
 ----
 1. Login to your GoDaddy.com account
 2. Click Your Account
@@ -369,9 +375,9 @@ e.g. formr-cbt-00.com
 
 10. Change the Points to = Parked to - the IP address of your Vultr server
 
-11. Get your IP address from the Bitvise console
+11. Get your IP address from the Vultr console
 
-![BitVise Browse simpleApp0](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp0.png "BitVise Browse simpleApp0")
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 12. Change Parked
 
@@ -395,7 +401,7 @@ e.g http://formr-cbt-00.com
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify simpleApp.conf to use your new URL
+### 9. Modify simpleApp.conf to use your new URL (<5 mins)
 ----
 1. Open Bitvise 
 2. Load Profile: Vultr-FormR0-nimda.tlp
@@ -403,10 +409,9 @@ e.g http://formr-cbt-00.com
 4. From your Bitvise SFTP window navigate to 
 
 ```
-/etc/nginx/sites-available/simpleApp.conf
-
+/etc/nginx/sites-available
 ```
-5. Click Edit 
+5. On "simpleApp.conf" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
@@ -416,26 +421,25 @@ e.g http://formr-cbt-00.com
  
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
-7. Save this file and continue on
+7. Save this file
 
 ----
-### 10. Personalize the FormR Home Page
+### 10. Personalize the FormR Home Page (<5 mins)
 ----
 1. From your Bitvise SFTP window navigate to 
 
 ```
-/webs/simpleApp/App.js
+/webs/simpleApp/
 
 ```
-2. Click Edit 
+2. On "app.js" right click and select Edit 
 
-![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
+![BitVise appjs1](./images/fr0306-10_Ubuntu-Bitvise-appjs1.png "BitVise appjs1")
 
-3. ASdd something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
+3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
 
-![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
+![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
-![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
 4. Save this file then Close the SFTP window
 
@@ -444,23 +448,11 @@ e.g http://formr-cbt-00.com
 
 - (This is for SSL security)
 ----
-1. From your Bitvise SFTP window navigate to 
+1. https://libre-software.net/tls-nginx/#tls4. 
 
-```
-/webs/simpleApp/App.js
 
-```
-2. Click Edit 
 
-![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
-
-3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
-
-![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
- 
-![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
-
-4. Save this file then Close the SFTP window
+Save this file then Close the SFTP window
 
 5. Reboot from the Bitvise New terminal console enter:
 

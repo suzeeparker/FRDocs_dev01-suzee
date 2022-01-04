@@ -44,8 +44,12 @@
 
 1. Install
 ----
+
 ```
 apt-get install nginx
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install NGINX](./images/fr0303-01_Ubuntu-install-nginx.png "Install NGINX")
@@ -76,7 +80,7 @@ ufw allow 'Nginx Full'
 
 6. Get the server IP from Vultr
 
-![Get IP Address](./images/fr0303-05_Ubuntu-get-ip-address.png "Get IP Address")
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 7. Browse to your server's IP address.
 
@@ -93,6 +97,8 @@ http://xxx.xxx.xxx.xxx
 
 ```
 apt-get install python-certbot-nginx
+
+(Enter Y when asked to continue)
 ```
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
