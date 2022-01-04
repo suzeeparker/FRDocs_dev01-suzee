@@ -444,24 +444,7 @@ e.g http://formr-cbt-00.com
 4. Save this file then Close the SFTP window
 
 ----
-### 11. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols
-
-- (This is for SSL security)
-----
-1. https://libre-software.net/tls-nginx/#tls4. 
-
-
-
-Save this file then Close the SFTP window
-
-5. Reboot from the Bitvise New terminal console enter:
-
-```
-reboot
-```
-
-----
-### 12. Add SSL certificate using Letsencrypt
+### 11. Add SSL certificate using Letsencrypt (<5 mins)
 ----
 1. Open Bitvise New Terminal Console and enter (You might use notpad to build yoururl)
 
@@ -478,6 +461,49 @@ certbot --nginx -d <yoururl>
 
 ![BitVise Add SSL2](./images/fr0306-11_Ubuntu-Bitvise-add-ssl2.png "BitVise Add SSL2")
 
+4. Browse to your web via https
+
+```
+https://yoururl
+
+e.g. https://formr-cbt-00.com
+
+```
+
+![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
+
+----
+### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols
+
+- This is for improved SSL security
+----
+1. Edit nginx.conf
+
+```
+nano /etc/nginx/nginx.conf
+```
+
+2. Modify SSL Settings
+
+```
+Remove
+
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+
+Add
+
+ssl_protocols TLSv1.2 TLSv1.3;
+```
+
+3. Save this file then Close the SFTP window
+
+
+4. Edit options-ssl-nginx.conf
+
+```
+nano /etc/letsencrypt/options-ssl-nginx.conf
+```
+
 4. Test your SSL certificate by browsing to:
 
 ```
@@ -488,16 +514,6 @@ e.g. ssllabs.com/ssltest/analyze.html?d=formr-cbt.00.com
 
 ![BitVise Add SSL3](./images/fr0306-11_Ubuntu-Bitvise-add-ssl3.png "BitVise Add SSL3")
 
-5. Browse to your web via https
-
-```
-https://yoururl
-
-e.g. https://formr-cbt-00.com
-
-```
-
-![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
 ----
 ### 13. Close Port 5000
