@@ -88,6 +88,9 @@ Vultr-FormR0-nimda
 
 8.  Close Bitvise by clicking X in upper right corner
 
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) (<15 mins)
 ----
@@ -468,6 +471,9 @@ http:<your VM IP>:5000
 
 7. Close Bitvise by clicking X in upper right corner
 
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
 ----
 ### 11. Add SSL certificate using Letsencrypt (<5 mins)
 ----
@@ -508,20 +514,29 @@ e.g. https://formr-cbt-00.com
 nano /etc/nginx/nginx.conf
 ```
 
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS1.png "BitVise TLS")
+
 2. Modify SSL Settings
 
+- Remove
+
 ```
-Remove
-
 ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+```
 
-Add
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS2.png "BitVise TLS")
 
+
+- Add
+
+```
 ssl_protocols TLSv1.2 TLSv1.3;
 ```
 
-3. Save this file then Close the SFTP window
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS3.png "BitVise TLS")
 
+
+3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
 4. Edit options-ssl-nginx.conf
 
@@ -529,17 +544,65 @@ ssl_protocols TLSv1.2 TLSv1.3;
 nano /etc/letsencrypt/options-ssl-nginx.conf
 ```
 
-4. Test your SSL certificate by browsing to:
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS4.png "BitVise TLS")
+
+6. Modify SSL Settings
+
+- Remove
 
 ```
-ssllabs.com/ssltest/analyze.html?d=<yoururl>
-
-e.g. ssllabs.com/ssltest/analyze.html?d=formr-cbt.00.com
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
 ```
 
-![BitVise Add SSL3](./images/fr0306-11_Ubuntu-Bitvise-add-ssl3.png "BitVise Add SSL3")
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS5.png "BitVise TLS")
 
 
+- Add
+
+```
+ssl_protocols TLSv1.2 TLSv1.3;
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS6.png "BitVise TLS")
+
+
+7. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+
+8. Test nginx and reload it
+
+```
+nginx -t
+
+service nginx reload
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS7.png "BitVise TLS")
+
+
+9.  Close Bitvise by clicking X in upper right corner
+
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
+
+10. Test your SSL settings by browsing to:
+
+```
+ssllabs.com/ssltest/
+```
+
+- Enter your URL e.g. formr-cbt.00.com
+
+![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
+
+- Your test results
+
+![SSL Test](./images/fr0306-11_Ubuntu-SSL-test2.png "SSL Test")
+
+----
+#### Email us your test results picture. We would love to hear from you!!
+#### 8020data@gmail.com
+----
 ----
 ### 13. Close Port 5000
 ----
