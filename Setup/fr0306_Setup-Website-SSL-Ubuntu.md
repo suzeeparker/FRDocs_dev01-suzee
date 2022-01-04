@@ -443,6 +443,22 @@ e.g http://formr-cbt-00.com
 
 4. Save this file then Close the SFTP window
 
+5. Reboot from the Bitvise New terminal console (Bitvise will reconnect when server is back up)
+
+```
+reboot
+```
+
+6. Browse to your IP e.g. 155.138.210.79:5000
+
+```
+http:<your VM IP>:5000
+```
+
+![BitVise appjs3](./images/fr0306-10_Ubuntu-Bitvise-appjs3.png "BitVise appjs3")
+
+7. Close Bitvise
+
 ----
 ### 11. Add SSL certificate using Letsencrypt (<5 mins)
 ----
