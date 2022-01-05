@@ -24,10 +24,6 @@
 
 ----
 
-1. Empty
-2. React Button
-3. React noAPI
-4. React with API
 
 ### 1 Clone FRApps_prod_master (<5 min)
 ----
@@ -63,6 +59,15 @@ code FRApps.code-workspace
 ![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
 
+client npm install npm audit npm audit fix --force
+
+server npm install npm audit npm audit fix --force
+
+
+1. Empty
+2. React Button
+3. React noAPI
+4. React with API
 
 <!-- ------------------------------------------------------------------------- -->
 
