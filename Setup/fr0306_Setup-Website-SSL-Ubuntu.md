@@ -344,7 +344,7 @@ godaddy.com
 3. Enter domain name
 
 ```
-formr-<your initiatls>-00.com
+formr-<your initials>-00.com
 
 e.g. formr-cbt-00.com
 ```
@@ -405,7 +405,7 @@ To Your server IP address and Save
 14. Browse to your web site via http
 
 ```
-http://formr-<yourinitials>-00com
+http://formr-<your initials>-00.com
 
 e.g http://formr-cbt-00.com
 ```
