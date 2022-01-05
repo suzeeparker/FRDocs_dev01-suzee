@@ -25,20 +25,18 @@
 ----
 ### 1. Cloning FormR repository  (< 5 mins)
 ----
-1. Create local repos folder in Windows Command prompt
+1. Clone into the local repos folder using the Windows Command prompt
 
 ```
-mkdir C:\repos\FormR
-
-cd C:\repos\FormR
+cd C:\repos\
 ```
  
 ![FormR-Clone-01](images/fr0103-FormR-Clone-01.png "FormR-Clone-01")
  
 ```
-git clone https://github.com/8020data/FormR_test-master.git test-master
+git clone https://github.com/8020data/FormR_prod-master.git FormR
 
-cd test-master
+cd FormR
 
 dir
 ```
@@ -48,7 +46,7 @@ dir
 2. Open with VSCode
 
 ```
-code formr_test-master.code-workspace
+code formr_prod-master.code-workspace
 ```
 
 - If prompted, click "Yes I trust the authors".
@@ -112,12 +110,12 @@ Note: The World sample database has been modified so that all tables contain ID 
 4. Navigate to and Open: 
 
 ```
- C:\repos\FormR\test-master\_3\SQLs\FormR_RAuth-DB-Create.
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_RAuth-DB-Create.
  sql
 
  then repeat these steps for:
 
- C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_World-DB-Create.sql
  
 ```
 
@@ -138,7 +136,7 @@ Note: The World sample database has been modified so that all tables contain ID 
 7. IMPORTANT - Go back to Step 4. and repeat these same steps for the World DB file
 
 ```
- C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_World-DB-Create.sql
 ```
 
 8. Close Workbench

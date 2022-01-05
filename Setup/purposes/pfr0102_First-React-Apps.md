@@ -24,6 +24,9 @@ React Security
 https://relevant.software/blog/react-js-security-guide/
 
 
+### Infrastructure Diagram
+![First-React-Apps-Infrastructure](images/fr0102-51_First-React-Apps-Infrastructure.png "First-React-Apps-Infrastructure")
+
 1. Empty
 2. React Button
 3. React noAPI

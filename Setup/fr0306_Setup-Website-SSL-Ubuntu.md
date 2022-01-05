@@ -11,7 +11,7 @@
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.6 Website SSL 
+## 2.6 Website SSL (<1 hr 35 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 
 #### Introduction
@@ -504,7 +504,7 @@ e.g. https://formr-cbt-00.com
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
 ----
-### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols
+### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols (<10 mins)
 
 - This is for improved SSL security
 ----
@@ -604,7 +604,7 @@ ssllabs.com/ssltest/
 #### 8020data@gmail.com
 ----
 ----
-### 13. Close Port 5000
+### 13. Close Port 5000 (< 5 mins)
 ----
 1. From the Bitvise New terminal console enter:
 
@@ -627,7 +627,7 @@ ssllabs.com/ssltest/
 <div class="page-back">
 
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
-</div><div class="page-next disabled">
+</div><div class="page-next">
 
 [First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
 </div>
