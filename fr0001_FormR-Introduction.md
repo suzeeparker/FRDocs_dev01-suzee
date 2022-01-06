@@ -37,7 +37,7 @@ and it's very secure
 
 <br/>
 
-![Your FormR Secure](/images/fr0001-01_FormR0.png "Your FormR Secure")
+![Your FormR Secure](/images/fr0001-01_FormR1.png "Your FormR Secure")
 
 ----
 ### Background for FormR
@@ -47,16 +47,16 @@ and it's very secure
 
 ----
 ### How is this FormR tutorial funded
-
+----
 - We are funded by $10 referral fees from Vultr and by donations from you.
 
-- If you find this tutorial valuable, then please Zelle $5 - $20 to bruce.troutman@gmail.com. This helps us keep FormR updated.
-----
+- If you find this tutorial valuable, then please donate $5, $10 or $20 via Zelle to 8020data@gmail.com. Thank you! This helps us keep FormR updated.
+
 
 ----
 ### The FormR Tools and Technologies
 ----
-#### FormR uses the tools and techniques popular in 2021. The list contains:
+- FormR uses the tools and techniques popular in 2021. The list contains:
 <br/>
 
 1. Ubuntu Server on the cloud.
