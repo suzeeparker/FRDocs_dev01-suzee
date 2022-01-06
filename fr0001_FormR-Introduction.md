@@ -46,6 +46,14 @@ and it's very secure
 - FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Development (RAD). 
 
 ----
+### How is this FormR tutorial funded
+
+- We are funded by $10 referral fees from Vultr and by donations from you.
+
+- If you find this tutorial valuable, then please Zelle $5 - $20 to bruce.troutman@gmail.com. This helps us keep FormR updated.
+----
+
+----
 ### The FormR Tools and Technologies
 ----
 #### FormR uses the tools and techniques popular in 2021. The list contains:

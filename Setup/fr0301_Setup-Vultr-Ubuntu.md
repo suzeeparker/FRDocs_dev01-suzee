@@ -25,7 +25,13 @@
 ----
 ### 1. Create New Ubuntu Instance  (<10 mins)
 ----
-1. Signin or create an account on vultr.com
+1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the FormR tutorial.)
+
+- Browse to:
+
+```
+https://www.vultr.com/?ref=8778592
+```
 
 2. Deploy New Server 
 
@@ -39,7 +45,7 @@
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial)
+5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial. If this version is not available in the future, then choose the lowest version, since it is the most tested.)
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
