@@ -26,7 +26,7 @@ Please contact us at:
 
 ---
 
-*This work is licensed licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) unless stated otherwise.*
+*This work is licensed licensed under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) unless stated otherwise.*
 <br/><br/>
 
 <!--
