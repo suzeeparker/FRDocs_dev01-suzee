@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Vultr Ubuntu (<20 mins)
+## 2.1 Create Vultr Ubuntu (<20 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 
 #### Introduction

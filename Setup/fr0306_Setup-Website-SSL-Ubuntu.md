@@ -11,7 +11,7 @@
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.6 Website SSL (<1 hr 35 mins)
+## 2.6 Run Website SSL (<1 hr 35 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 
 #### Introduction

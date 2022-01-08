@@ -1,8 +1,4 @@
 
-# Not Ready Yet
-
-![Not Ready Yet](./images/fr0000-01_not-ready.png "Not Ready Yet")
-
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
@@ -15,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 First React Apps 
+## 1.3 Clone First React Apps 
 #### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 
 #### Introduction  (*This section is not complete*) Needs finalized FRApps_prod-master

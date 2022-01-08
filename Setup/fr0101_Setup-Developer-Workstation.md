@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
 [Test Node- NEXT](/Setup/fr0102_Test-Node.md)
@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 1.1 Workstation (<2 hrs 30 mins) 
+## 1.1 Build Workstation (<2 hrs 30 mins) 
 #### [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 
 #### Introduction
@@ -930,7 +930,7 @@ https://textpad.com/download
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
 [Test Node - NEXT](/Setup/fr0102_Test-Node.md)

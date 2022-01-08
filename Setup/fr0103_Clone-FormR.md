@@ -14,8 +14,7 @@
 ## 1.4 Clone FormR  (< 45 mins)
 #### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 
-#### Introduction  (*This section is not complete*) @@@@@ Needs Updated Prod-Master
-
+#### Introduction  
 
 #### Important note about names, capitalization and pictures
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

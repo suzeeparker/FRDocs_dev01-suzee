@@ -43,16 +43,16 @@ and it's very secure
 ### Background for FormR
 ----
 
-- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 25 applications for the US federal government. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Development (RAD). 
+- FormR is based on development strategy called FormX that was used by the authors for more than 20 years in 30 applications for the US federal government. The now retired URL was FIDO.gov -- Federal Interagency Databases Online. Each application required the team to manage the infrastructure, database server, web server and web pages. The Microsoft product suite included everything from Visual Interdev through .Net MVC, Windows Server and SQL server. The team was and always has been focused on Rapid Application Development (RAD). 
+
+- [Visit the FIDO.gov applications here](http://web.archive.org/web/20130825012943/http://www.fido.gov)
 
 ----
 ### How is this FormR tutorial funded
 ----
-- We are funded by $10 referral fees from Vultr and by donations from you.
+- We are funded by donations from you. If you find this tutorial valuable, then please donate $5, $10 or $20 via Zelle at your bank. Send to 8020data@gmail.com. Thank you! This helps us keep FormR updated.
 
-- If you find this tutorial valuable, then please donate $5, $10 or $20 via Zelle to 8020data@gmail.com. Thank you! This helps us keep FormR updated.
-
-
+- [Zelle Information](https://zellepay.com)
 ----
 ### The FormR Tools and Technologies
 ----
