@@ -11,7 +11,7 @@
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.6 Run Website SSL (<1 hr 35 mins)
+## 2.6 Run Website SSL 1:35
 #### [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 
 #### Introduction
@@ -22,7 +22,7 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server (<5 mins)
+### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server 0:05
 ----
 1. Open Bitvise Client app 
 
@@ -92,7 +92,7 @@ Vultr-FormR0-nimda
 
 
 ----
-### 2. Configure Login via Public Key (SSH keys are more secure than passwords) (<15 mins)
+### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----
 1. Open Bitvise, the profile, Vultr-FormR0-nimda, should load. 
 - Click Log in, then 
@@ -188,7 +188,7 @@ Vultr-FormR0-nimda
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
 ----
-### 3. Using Bitvise New Terminal console delete nginx default files (<5 mins)
+### 3. Using Bitvise New Terminal console delete nginx default files  0:05
 ----
 1. Open New Terminal console
 
@@ -203,7 +203,7 @@ unlink /etc/nginx/sites-enabled/default
 ![BitVise Unlink nginx default](./images/fr0306-06_Ubuntu-Bitvise-Unlink-nginx-default.png "BitVise Unlink nginx default")
 
 ----
-### 4. Using Bitvise New Terminal console Clone simpleApp using git (<5 mins)
+### 4. Using Bitvise New Terminal console Clone simpleApp using git 0:05
 ----
 
 1. Open New Terminal console
@@ -249,7 +249,7 @@ node app.js
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 5. Setup pm2 to run website automatically (<5 mins)
+### 5. Setup pm2 to run website automatically 0:05
 ----
 1. Go to the Bitvise New terminal console
 2. Navigate to 
@@ -293,7 +293,7 @@ reboot
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 6. Setup nginx proxy (<5 mins)
+### 6. Setup nginx proxy 0:05
 ----
 
 1. Go to the Bitvise New terminal console
@@ -324,7 +324,7 @@ systemctl reload nginx
 ![BitVise nginx reload](./images/fr0306-08_Ubuntu-Bitvise-nginx-reload.png "BitVise nginx reload")
 
 ----
-### 7. Create a domain for public access to your server (<15 mins)
+### 7. Create a domain for public access to your server 0:15
 ----
 #### Note: 
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
@@ -362,7 +362,7 @@ e.g. formr-cbt-00.com
 ![Create Domain3](./images/fr0306-09_Ubuntu-create-domain4.png "Create Domain3") 
 
 ----
-### 8. Update your DNS record to point YourURL to your server IP address. (<10 mins)
+### 8. Update your DNS record to point YourURL to your server IP address. 0:10
 ----
 1. Login to your GoDaddy.com account
 2. Click Your Account
@@ -413,7 +413,7 @@ e.g http://formr-cbt-00.com
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify simpleApp.conf to use your new URL (<5 mins)
+### 9. Modify simpleApp.conf to use your new URL 0:05
 ----
 1. Open Bitvise 
 2. Load Profile: Vultr-FormR0-nimda.tlp
@@ -436,7 +436,7 @@ e.g http://formr-cbt-00.com
 7. Save this file
 
 ----
-### 10. Personalize the FormR Home Page (<5 mins)
+### 10. Personalize the FormR Home Page 0:05
 ----
 1. From your Bitvise SFTP window navigate to 
 
@@ -475,7 +475,7 @@ http:<your VM IP>:5000
 
 
 ----
-### 11. Add SSL certificate using Letsencrypt (<5 mins)
+### 11. Add SSL certificate using Letsencrypt 0:05
 ----
 1. Open Bitvise New Terminal Console and enter (You might use notpad to build yoururl)
 
@@ -504,7 +504,7 @@ e.g. https://formr-cbt-00.com
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
 ----
-### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols (<10 mins)
+### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols 0:10
 
 - This is for improved SSL security
 ----
@@ -604,7 +604,7 @@ ssllabs.com/ssltest/
 #### 8020data@gmail.com
 ----
 ----
-### 13. Close Port 5000 (< 5 mins)
+### 13. Close Port 5000  0:05
 ----
 1. From the Bitvise New terminal console enter:
 

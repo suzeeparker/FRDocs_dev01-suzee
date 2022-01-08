@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.3 Install Web Server (<20 mins)
+## 2.3 Install Web Server 0:20
 #### [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
 
 #### Introduction
@@ -21,7 +21,7 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
- ### 1. Restart your Vultr VM and Login  (<5 mins)
+ ### 1. Restart your Vultr VM and Login 0:05
 ----
  1. Login the your Vultr-FormR0 console and click the Restart button
 
@@ -40,7 +40,7 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Install nginx (<5 mins)
+### 2. Install nginx 0:05
 
 1. Install
 ----
@@ -91,7 +91,7 @@ http://xxx.xxx.xxx.xxx
 ![Test Web Site](./images/fr0303-05_Ubuntu-test-web-site.png "Test Web Site")
 
 ----
-### 3. Install Certbot  (<5 mins)
+### 3. Install Certbot 0:05
 ----
 1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.)
 
@@ -104,7 +104,7 @@ apt-get install python-certbot-nginx
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
 
 ----
-### 4. Create webs directory (<5 mins)
+### 4. Create webs directory 0:05
 ----
 1. Create a directory to hold your applications.
 

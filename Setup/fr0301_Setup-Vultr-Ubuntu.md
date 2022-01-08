@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Create Vultr Ubuntu (<20 mins)
+## 2.1 Create Vultr Ubuntu 0:20
 #### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 
 #### Introduction
@@ -23,7 +23,7 @@
 
 
 ----
-### 1. Create New Ubuntu Instance  (<10 mins)
+### 1. Create New Ubuntu Instance  0:10
 ----
 1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the FormR tutorial.)
 
@@ -80,7 +80,7 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Open Vultr VM Console to Log in (<10 mins)
+### 2. Open Vultr VM Console to Log in 0:10
 ----
 1. Click on Products, then the Server Name i.e. Vultr-FormR0
 

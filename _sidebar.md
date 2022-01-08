@@ -2,13 +2,13 @@
 <!-- <h>[Introduction                ](/_home.md.md)
 -->
 
-<h>1. Setup Local Workstation</h>
- 1. [Build Workstation		    ](/Setup/fr0101_Setup-Developer-Workstation.md)  
+<h>1. Setup Workstation 4:35</h>
+ 1. [Build Workstation        	](/Setup/fr0101_Setup-Developer-Workstation.md)  
  2. [Test Node 		        	](/Setup/fr0102_Test-Node.md)             
  3. [Clone First React Apps 	](/Setup/fr0102_First-React-Apps.md)             
  4. [Clone FormR                ](/Setup/fr0103_Clone-FormR.md)										
 
-<h>2. Setup Remote Server</h>
+<h>2. Setup Remote Server 4:25</h>
  1. [Create Vultr Ubuntu        ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
  2. [Harden Ubuntu              ](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
  3. [Install Web Server         ](/Setup/fr0303_Setup-Web-Server-Ubuntu.md)

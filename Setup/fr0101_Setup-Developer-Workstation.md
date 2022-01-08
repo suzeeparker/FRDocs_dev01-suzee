@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 1.1 Build Workstation (<2 hrs 30 mins) 
+## 1.1 Build Workstation 2:30 
 #### [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 
 #### Introduction
@@ -23,7 +23,7 @@ The following steps create the development environment on your workstation for d
 
 
 ----
-### 1. Create a new user, Local_Admin, on your workstation. (<10 min)
+### 1. Create a new user, Local_Admin, on your workstation. 0:10
 ----
 - This account will be used througout the documentation. 
 
@@ -98,13 +98,13 @@ The following steps create the development environment on your workstation for d
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
 ----
-### 2. Install any updates to your workstation. (<5 mins)
+### 2. Install any updates to your workstation.0:05
 ----
 
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
 ----
-### 3. Create 3 folders, change View Options,  Setup ssh and Create keys (<15 mins)
+### 3. Create 3 folders, change View Options,  Setup ssh and Create keys 0:15
 ----
 1. In C:\ add repos and remotes 
 
@@ -208,7 +208,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
 ----
-### 4. Install or open Chrome browser (<10 mins)
+### 4. Install or open Chrome browser 0:10
 ----
 1. Download and install Chrome from:
 
@@ -255,7 +255,7 @@ chrome://extensions/
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
 ----
-### 5. Create an account or sign into GitHub then Add your ssh key. (<15 mins)
+### 5. Create an account or sign into GitHub then Add your ssh key. 0:15
 ----
 1. Sign in to GitHub. (Create an account, if you don't have one.)
 
@@ -379,7 +379,7 @@ ssh github-mick  e.g. replace mick with your initials
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
 ----
-### 6. Download Git, if not already installed (<10 mins)
+### 6. Download Git, if not already installed 0:10
 ----
 
 ```
@@ -454,7 +454,7 @@ C:\Program Files\Git\bin
 - Close the git bash window
 
 ----
-### 7. Open or Install VSCode  (<10 mins)
+### 7. Open or Install VSCode  0:10
 ----
 
 ```
@@ -532,7 +532,7 @@ https://code.visualstudio.com/download
 9. Close VSCode
 
 ----
-### 8. Clone myProject  (<5 mins)
+### 8. Clone myProject 0:05
 ----
 1. Using File Explorer open git bash in c/repos folder
 
@@ -583,7 +583,7 @@ code .
 ![VSCode9a](./images/fr0101-08_VSCode9a.png "VSCode9a")
 
 ----
-### 9. Markdown Preview test (<5 mins)
+### 9. Markdown Preview test 0:05
 ----
 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
@@ -610,7 +610,7 @@ code .
 ![Markdown-Preview6](./images/fr0101-09_Markdown-Preview6.png "Markdown-Preview6")
 
 ----
-### 10. From VSCode push and pull with GitHub (<10 mins)
+### 10. From VSCode push and pull with GitHub 0:10
 ----
 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
@@ -680,7 +680,7 @@ Added Workspace and Updated Readme.md
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
 ----
-### 11. Install Node for Windows (<5 mins)
+### 11. Install Node for Windows 0:05
 ----
 1. Be sure to CLOSE VSCode before installing Node
 
@@ -715,7 +715,7 @@ nodejs.org/en/
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-check.png "Nodejs-install-check")
 
 ----
-### 12. Install MySql for windows (< 45 mins)
+### 12. Install MySql for windows0:45
 ----
 1. Browse to: 
 
@@ -868,7 +868,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 
 
 ----
-### 13. Install BitVise ssh client (<5 mins)
+### 13. Install Bitvise ssh client 0:05
 ----
 1. Install Bitvise from: 
 
@@ -887,7 +887,7 @@ https://bitvise.com/ssh-client-download
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
 ----
-### 14. Install TextPad (<5 mins)
+### 14. Install TextPad 0:05
 ----
 1. Install Textpad from: 
 

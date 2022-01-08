@@ -17,11 +17,11 @@
 ----
 
 
-1. Test The Node Version. (<5 Mins)
-2. Create Sub-Folders In MyProject (<5 Mins)
-3. Create A New File, Batch.Js, In The Scripts Folder And Run It With Nodejs. (<10 Mins)
-4. Create A New File, Server.Js In The Server Folder And Run It With Nodejs. (<10 Mins)
-5. Create A Basic React App In The Client Folder And Run It With Nodejs. (<10 Mins)
+1. Test The Node Version.0:05
+2. Create Sub-Folders In MyProject0:05
+3. Create A New File, Batch.Js, In The Scripts Folder And Run It With Nodejs. 0:10
+4. Create A New File, Server.Js In The Server Folder And Run It With Nodejs. 0:10
+5. Create A Basic React App In The Client Folder And Run It With Nodejs. 0:10
 6. Create A Nodejs Routine To Access The Local MySQL Database And Return Information.
 
 <!-- ------------------------------------------------------------------------- -->

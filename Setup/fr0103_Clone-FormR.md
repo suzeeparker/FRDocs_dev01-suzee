@@ -11,10 +11,11 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Clone FormR  (< 45 mins)
+## 1.4 Clone FormR 0:45
 #### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 
 #### Introduction  
+- In this topic you will clone the FormR and test the applications on your local workstation.
 
 #### Important note about names, capitalization and pictures
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -22,7 +23,7 @@
 
 
 ----
-### 1. Cloning FormR repository  (< 5 mins)
+### 1. Cloning FormR repository  0:05
 ----
 1. Clone into the local repos folder using the Windows Command prompt
 
@@ -30,7 +31,7 @@
 cd C:\repos\
 ```
  
-![FormR-Clone-01](images/fr0103-FormR-Clone-01.png "FormR-Clone-01")
+![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
  
 ```
 git clone https://github.com/8020data/FormR_prod-master.git FormR
@@ -53,7 +54,7 @@ code formr_prod-master.code-workspace
 ![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
 
 ----
-### 2. Install Node modules  (<10 mins)
+### 2. Install Node modules  0:10
 ----
 1. Right click on the server folder
 
@@ -85,7 +86,7 @@ npm install
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
 ----
-### 3. Install RAuth and World databases (<5 mins)
+### 3. Install RAuth and World databases 0:05
 ----
 Note: The World sample database has been modified so that all tables contain ID primary key fields.
 
@@ -141,7 +142,7 @@ Note: The World sample database has been modified so that all tables contain ID 
 8. Close Workbench
 
 ----
-### 4. Make sure that your MySQL password for root  is set to:  FormR!1234  (<5 mins)
+### 4. Make sure that your MySQL password for root  is set to:  FormR!1234 0:05
 ----
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -188,7 +189,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 
 ----
- ### 5. Run Client and Server applications (<10 mins)
+ ### 5. Run Client and Server applications 0:10
 ----
 
 1. Right click on the server/1s-world folder and
@@ -222,7 +223,7 @@ npm start
 ![FormR-Clone-24b](images/fr0103-FormR-Clone-24b.png "FormR-Clone-24b")
 
 ----
-### 6. Test the applications on your local workstation (<10 mins)
+### 6. Test the applications on your local workstation 0:10
 ----
 1. Enter each of the following in your browser to test the server:
 

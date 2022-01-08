@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.2 Harden Ubuntu (<1 hr 10 mins)
+## 2.2 Harden Ubuntu 1:10
 #### [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 
 #### Introduction
@@ -21,7 +21,7 @@
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 ----
-### 1. Restart your Vultr VM and Login (<5 mins)
+### 1. Restart your Vultr VM and Login 0:05
 ----
 1. Login the your Vultr-FormR0 console and click the Restart button
 
@@ -40,7 +40,7 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Create a new sudo user (<5 mins)
+### 2. Create a new sudo user 0:05
 ----
 1. Create a new user alias with root privileges. This user will login remotely.
 
@@ -82,7 +82,7 @@ cat /etc/passwd
 ![Check User Info](./images/fr0302-03_Ubuntu-Check-User-Info.png "Check User Info")
 
 ----
-### 3. Update and upgrade server (<5 mins)
+### 3. Update and upgrade server 0:05
 ----
 1. Update
 
@@ -95,7 +95,7 @@ apt-get update && apt-get upgrade
 ![Update and Upgrade](./images/fr0302-04_Ubuntu-Update-Upgrade.png "Update and Upgrade")
 
 ----
-### 4. Install and Configure unattended-updates (<10 mins)
+### 4. Install and Configure unattended-updates 0:10
 ----
 1. Install
 
@@ -184,7 +184,7 @@ After reboot login again as root, copy the password from the Vultr and click the
 ```
 
 ----
-### 5. Secure Shared Memory (<5 mins)
+### 5. Secure Shared Memory 0:05
 ----
 1. Edit  fstab
 
@@ -215,7 +215,7 @@ After reboot login again as root, copy the password from the Vultr and click the
 ```
 
 ----
-### 6. Enable SSH Login for Specific Users Only (<10 mins)
+### 6. Enable SSH Login for Specific Users Only 0:10
 ----
 1. Get your IP address at:
 
@@ -272,7 +272,7 @@ ssh nimda@<your VM IP address>
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
 ----
-### 7. Include a Security Login Banner (<5 mins)
+### 7. Include a Security Login Banner 0:05
 ----
 1. Create a banner file
 
@@ -340,7 +340,7 @@ systemctl restart sshd
 11. When someone logs into your server using SSH, they see your newly added banner warning them of any consequences of further action. 
 
 ----
-### 8. Install Fail2ban (<10 mins)
+### 8. Install Fail2ban 0:10
 ----
 1. Install (Enter Y or y when asked to continue.)
 
@@ -391,7 +391,7 @@ fail2ban-client unban --all
 ```
 
 ----
-### 9. Enable firewall (<5 mins)
+### 9. Enable firewall 0:05
 ----
 1. Allow ssh connections through firewall
 
@@ -414,7 +414,7 @@ ufw status
 ![Enable Firewall](./images/fr0302-18_Ubuntu-enable-firewall.png "Enable Firewall")
 
 ----
-### 10. Set the server time zone (<5 mins)
+### 10. Set the server time zone 0:05
 ----
 1. Enter into the cpnsole:
 
@@ -431,7 +431,7 @@ timedatectl
 ![Set Time Zone](./images/fr0302-19_Ubuntu-set-timezone.png "Set Time Zone")
 
 ----
-### 11. Test local access after Hardening (<5 mins)
+### 11. Test local access after Hardening 0:05
 ----
 1. Test local access to your Vultr FormR VM. 
 
