@@ -76,9 +76,18 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
-3. Right click on the client folder
+3. Fix the vulnerabilities
 
-4. Click Open in Integrated Terminal, then 
+```
+npm audit fix --force
+```
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
+
+
+4. Right click on the client folder
+
+5. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-07](images/fr0103-FormR-Clone-07.png "FormR-Clone-07")
 
@@ -90,6 +99,16 @@ npm install
 
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
+
+6. Fix the vulnerabilities
+
+```
+npm audit fix --force
+```
+
+![FormR-Clone-09a](images/fr0103-FormR-Clone-09a.png "FormR-Clone-09a")
+
+![FormR-Clone-09b](images/fr0103-FormR-Clone-09b.png "FormR-Clone-09b")
 
 
 1. Empty
