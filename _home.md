@@ -154,7 +154,7 @@ and it's very secure
 - We especially thank BezKoder, Ben Awad, Jared Palmer, Jason Watmore, 
 GraspingTech, LifeWire, SQL-Hub and W3Schools.
 
-- The prime contributors and creators for this tutorial are Robin Matter, Kennett Fussell and Bruce Troutman.
+- The prime contributors and creators for this tutorial are Robin Mattern, Kennett Fussell and Bruce Troutman.
 
 
 ----
