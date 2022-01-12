@@ -65,6 +65,8 @@ and it's very secure
  https://discord.gg/tk5NQAWYxK
 ```
 
+![Discord](/images/fr0001-01_Discord.png "Discord")
+
 
 ----
 ### The FormR Tools and Technologies
@@ -147,14 +149,17 @@ and it's very secure
 
  - The example database is the sample MySql World database.
 
-- This documentation is writtem in Markdown and uses Docsify.
+- This documentation is written in Markdown and uses Docsify.
 
 - Credit is given to all whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. 
 
 - We especially thank BezKoder, Ben Awad, Jared Palmer, Jason Watmore, 
 GraspingTech, LifeWire, SQL-Hub and W3Schools.
 
+- Complete as of Jan, 2022 are 2 Setup chapters with 9 topics with 76 sections and 246 steps.
+
 - The prime contributors and creators for this tutorial are Robin Mattern, Kennett Fussell and Bruce Troutman.
+
 
 
 ----
