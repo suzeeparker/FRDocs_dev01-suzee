@@ -152,7 +152,9 @@ and it's very secure
 - Credit is given to all whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. 
 
 - We especially thank BezKoder, Ben Awad, Jared Palmer, Jason Watmore, 
-GraspingTech, LifeWire, SQL-Hub, W3Schools,
+GraspingTech, LifeWire, SQL-Hub and W3Schools.
+
+- The prime contributors and creators for this tutorial are Robin Matter, Kennett Fussell and Bruce Troutman.
 
 
 ----
