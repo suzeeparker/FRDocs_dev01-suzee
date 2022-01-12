@@ -3,10 +3,10 @@
 
 <div class="page-back">
 
-[BACK - Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
+[BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[First  React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
+[Clone First React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -443,10 +443,10 @@ node queryDB
 
 <div class="page-back">
 
-[BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
+[BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[First  React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
+[Clone First React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

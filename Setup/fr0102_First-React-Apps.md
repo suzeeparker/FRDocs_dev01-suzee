@@ -6,8 +6,8 @@
 [BACK - Test Node](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
-</div><div style="margin-top:35px">&nbsp;</div>
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+</div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
@@ -223,6 +223,8 @@ npm start
 [BACK - Test Node](/Setup/fr0106_Test-Node.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
+
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div>
+
 <!-- ------------------------------------------------------------------------- -->

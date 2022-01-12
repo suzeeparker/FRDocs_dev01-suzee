@@ -6,7 +6,7 @@
 [BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Utu.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -271,10 +271,10 @@ npm start
 
 <div class="page-back">
 
-[BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
+[BACK - First  React Apps](/Setup/fr0102_First-Reacpps.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

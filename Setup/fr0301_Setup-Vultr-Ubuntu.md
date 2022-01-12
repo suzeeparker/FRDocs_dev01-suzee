@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FormR  ](/Setup/fr0103_Clone-FormR.md)
+[BACK - Clone First React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
@@ -15,7 +15,7 @@
 
 #### Introduction
 - In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
-- Vultr costs only $5 per month. Once you complete your secure website you can
+- Vultr costs only $5 per month. Once you complete your secure website, you can destroy the server, which stops the charges.
 
 #### Important note about names, capitalization and pictures
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -121,7 +121,7 @@ https://www.vultr.com/?ref=8778592
 
 <div class="page-back">
 
-[BACK - Clone FormR  ](/Setup/fr0103_Clone-FormR.md)
+[BACK - Clone First React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
