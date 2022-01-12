@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Clone First React Apps 0:30
+## 1.3 Clone First React Apps 0:45
 #### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 
 #### Introduction  
