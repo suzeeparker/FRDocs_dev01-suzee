@@ -57,12 +57,12 @@ and it's very secure
 ----
 ### Questions, answers, and feedback (Please)
 
-Please tell us if you spot any mistakes or if you have suggestions for improvements. We appreciate all feedback.
-<br/><br/>
-Please contact us at:
+- Please tell us if you spot any mistakes or if you have suggestions for improvements. We appreciate all feedback.
+
+- Please use Discord.com to access the 8020data Server. Look for the appropriate text channel and leave a message. You can tag Bruce or Robin by using @Bruce etc in your message. Here is the Discord link:
 
 ```
- 8020data@gmail.com
+ https://discord.gg/tk5NQAWYxK
 ```
 
 
