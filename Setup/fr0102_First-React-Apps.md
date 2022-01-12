@@ -15,7 +15,7 @@
 #### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 
 #### Introduction  
-- FormR coding uses React. In this topic you will clone and test 4 basic React applications on your local workstation.
+- FRApps coding uses React. In this topic you will clone and test 4 basic React applications on your local workstation.
 
 
 #### Important note about names, capitalization and pictures
@@ -59,22 +59,23 @@ code FRApps.code-workspace
  
 ![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
-### 2. Install Node modules  0:10
 ----
-1. Right click on the server folder
+### 2. Install Node modules  0:15
+----
+1. Right click on the client folder
 
 2. Click Open in Integrated Terminal, then 
 
-![FormR-Clone-04](images/fr0103-FormR-Clone-04.png "FormR-Clone-04")
+![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
 ```
 npm install
 ```
 
-![FormR-Clone-05](images/fr0103-FormR-Clone-05.png "FormR-Clone-05")
+![FRApps-Clone-05](images/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
 
 
-![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
+![FRApps-Clone-06](images/fr0103-FRApps-Clone-06.png "FRApps-Clone-06")
 
 3. Fix the vulnerabilities
 
@@ -82,107 +83,144 @@ npm install
 npm audit fix --force
 ```
 
-![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
+![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
 
 
-4. Right click on the client folder
+4. Right click on the server folder
 
 5. Click Open in Integrated Terminal, then 
 
-![FormR-Clone-07](images/fr0103-FormR-Clone-07.png "FormR-Clone-07")
+![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
 
 ```
 npm install 
 ```
 
-![FormR-Clone-08](images/fr0103-FormR-Clone-08.png "FormR-Clone-08")
+![FRApps-Clone-08](images/fr0103-FRApps-Clone-08.png "FRApps-Clone-08")
 
-![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
-
-
-6. Fix the vulnerabilities
-
-```
-npm audit fix --force
-```
-
-![FormR-Clone-09a](images/fr0103-FormR-Clone-09a.png "FormR-Clone-09a")
-
-![FormR-Clone-09b](images/fr0103-FormR-Clone-09b.png "FormR-Clone-09b")
-
-
-1. Empty
-2. React Button
-3. React noAPI
-4. React with API
+![FRApps-Clone-09](images/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
 
 ----
- ### 3. Run Client and Server applications 0:10
+ ### 3. Run Client 1c-react-empty application 0:05
 ----
 
-1. Right click on the server/1s-world folder and
+1. Right click on the client/1c-react-empty folder
 2. Click Open in Integrated Terminal, then 
 
-![FormR-Clone-21](images/fr0103-FormR-Clone-21.png "FormR-Clone-21") 
+![FRApps-Clone-21](images/fr0103-FRApps-Clone-21.png "FRApps-Clone-21") 
 
 ```
 npm start
 ```
 
-![FormR-Clone22](images/fr0103-FormR-Clone-22.png "FormR-Clone-22")
+![FRApps-Clone22](images/fr0103-FRApps-Clone-22.png "FRApps-Clone-22")
 
-![FormR-Clone22a](images/fr0103-FormR-Clone-22a.png "FormR-Clone-22a")
+![FRApps-Clone22a](images/fr0103-FRApps-Clone-22a.png "FRApps-Clone-22a")
 
-3. Right click on the client/1c-world folder and
-4. Click Open in Integrated Terminal, then 
+![FRApps-Clone22b](images/fr0103-FRApps-Clone-22b.png "FRApps-Clone-22b")
 
-(Note: The client application can take up to 15 minutes to start for the first time)
+----
+ ### 4. Run Client 2c-react-button application 0:05
+----
 
-![FormR-Clone-23](images/fr0103-FormR-Clone-23.png "FormR-Clone-23")
+1. Right click on the client/2c-react-button folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-31](images/fr0103-FRApps-Clone-31.png "FRApps-Clone-31") 
 
 ```
 npm start
 ```
 
-![FormR-Clone-24](images/fr0103-FormR-Clone-24.png "FormR-Clone-24")
+![FRApps-Clone33](images/fr0103-FRApps-Clone-33.png "FRApps-Clone-33")
 
-![FormR-Clone-24a](images/fr0103-FormR-Clone-24a.png "FormR-Clone-24a")
+![FRApps-Clone33a](images/fr0103-FRApps-Clone-33a.png "FRApps-Clone-33a")
 
-![FormR-Clone-24b](images/fr0103-FormR-Clone-24b.png "FormR-Clone-24b")
+- Click the Like button.
 
-----
-### 4. Test the applications on your local workstation 0:05
-----
-1. Enter each of the following in your browser to test the server:
-
-```
-    localhost:50251
-    localhost:50251/api/world/cities/test
-    localhost:50251/api/world/cities/model
-    localhost:50251/api/world/cities/
-    localhost:50251/api/world/cities/1
-
-    localhost:50251/api/world/countries/test
-    localhost:50251/api/world/countries/model
-    localhost:50251/api/world/countries/
-    localhost:50251/api/world/countries/1
-```
-
-2.  Enter the following in your browser to test the client:
-
-```
-    localhost:50201
-```
+![FRApps-Clone33b](images/fr0103-FRApps-Clone-33b.png "FRApps-Clone-33b")
 
 ----
-#### Congratulations! You have Cloned FRApps successfully to your local workstation.
+ ### 5. Run Client 3c-react-no-api application 0:05
+----
+
+1. Right click on the client/3c-react-no-api folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-41](images/fr0103-FRApps-Clone-41.png "FRApps-Clone-41") 
+
+```
+npm start
+```
+
+![FRApps-Clone44](images/fr0103-FRApps-Clone-44.png "FRApps-Clone-44")
+
+![FRApps-Clone44a](images/fr0103-FRApps-Clone-44a.png "FRApps-Clone-44a")
+
+3. Click Invoices, then Santa Monica
+
+![FRApps-Clone44b](images/fr0103-FRApps-Clone-44b.png "FRApps-Clone-44b")
+
+----
+ ### 6a. Run Server 4s-react-wi-api application 0:05
+----
+
+1. Right click on the server/4s-react-wi-api folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
+
+```
+npm start
+```
+
+![FRApps-Clone55](images/fr0103-FRApps-Clone-55.png "FRApps-Clone-55")
+
+![FRApps-Clone55a](images/fr0103-FRApps-Clone-55a.png "FRApps-Clone-55a")
+
+3. Browse to
+
+```
+http://localhost:50114/invoices
+```
+
+![FRApps-Clone55b](images/fr0103-FRApps-Clone-55b.png "FRApps-Clone-55b")
+
+( Note: Keep this step 6a running when you do step 6b }
+
+----
+ ### 6b. Run Client 4c-react-wi-api application 0:05
+----
+
+1. Right click on the client/4c-react-wi-api folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
+
+```
+npm start
+```
+
+![FRApps-Clone66](images/fr0103-FRApps-Clone-66.png "FRApps-Clone-66")
+
+![FRApps-Clone66a](images/fr0103-FRApps-Clone-66a.png "FRApps-Clone-66a")
+
+![FRApps-Clone-66b](images/fr0103-FRApps-Clone-66b.png "FRApps-Clone-66b")
+
+3. Click Invoices, then Ocean Avenue
+
+![FRApps-Clone-66c](images/fr0103-FRApps-Clone-66c.png "FRApps-Clone-66c")
+
+
+----
+#### Congratulations! You have cloned and run the FRApps successfully to your local workstation.
 ----
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - Test Node](/Setup/fr0102_Test-Node.md)
+[BACK - Test Node](/Setup/fr0106_Test-Node.md)
 </div><div class="page-next">
 
 [Clone FRApps - NEXT](/Setup/fr0103_Clone-FRApps.md)

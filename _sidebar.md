@@ -21,13 +21,16 @@
 -->
 
 <h>3. Run FormR Apps</h>
- 1. [FormR Tools                ](/FormR/fr0401_FRTools-Setup.md)
- 2. [World Database             ](/FormR/fr0401_World-Database-Access.md)
- 3. [Authentication             ](/FormR/fr0402_Authentication.md)
- 4. [User Administration        ](/FormR/fr0403_User-Administration.md)
- 5. [World Application          ](/FormR/fr0404_Complete-World-Application.md)
+ 1. [Deploy First React Apps    ](/FormR/fr0401_FRTools-Setup.md)
+ 2. [Deploy FormR Tools         ](/FormR/fr0401_FRTools-Setup.md)
+ 3. [Deploy FormR               ](/FormR/fr0401_FRTools-Setup.md)
+ 4. [Run First React Apps       ](/FormR/fr0401_FRTools-Setup.md)
+ 5. [Run World Database         ](/FormR/fr0401_World-Database-Access.md)
+ 6. [Run Authentication         ](/FormR/fr0402_Authentication.md)
+ 7. [Run User Administration    ](/FormR/fr0403_User-Administration.md)
+ 8. [Run World Application      ](/FormR/fr0404_Complete-World-Application.md)
 
-<h>4. Customize FormR Apps</h>
+<h>4. Customize FormR</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
 
 <!-- 

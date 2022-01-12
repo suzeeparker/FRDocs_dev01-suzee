@@ -143,7 +143,9 @@ Please contact us at:
 ### Some Final Points
 ----
 
-- The example database is the sample MySql World database.
+- Estimated timings for sections and topics are shown using the hr:min format. i.e. 4:25 = 4 hrs 25 mins
+
+ - The example database is the sample MySql World database.
 
 - This documentation is writtem in Markdown and uses Docsify.
 
