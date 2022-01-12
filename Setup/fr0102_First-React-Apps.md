@@ -6,7 +6,7 @@
 [BACK - Test Node](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Clone FRApps - NEXT](/Setup/fr0103_Clone-FRApps.md)
+[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
@@ -223,6 +223,6 @@ npm start
 [BACK - Test Node](/Setup/fr0106_Test-Node.md)
 </div><div class="page-next">
 
-[Clone FRApps - NEXT](/Setup/fr0103_Clone-FRApps.md)
+[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->

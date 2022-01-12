@@ -31,7 +31,7 @@
 cd C:\repos\
 ```
  
-![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
+![FormR-Clone-01](images/fr0103-FormR-Clone-01.png "FormR-Clone-01")
  
 ```
 git clone https://github.com/8020data/FormR_prod-master.git FormR
@@ -43,20 +43,25 @@ dir
 
 ![FormR-Clone-02](images/fr0103-FormR-Clone-02.png "FormR-Clone-02")
 
-2. Open with VSCode
+2. From Windows command propt open with VSCode
 
 ```
 code formr_prod-master.code-workspace
 ```
 
+![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
+
 - If prompted, click "Yes I trust the authors".
 
-![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
+![FormR-Clone-03](images/fr0103-FormR-Clone-03a.png "FormR-Clone-03")
+
+![FormR-Clone-03](images/fr0103-FormR-Clone-03b.png "FormR-Clone-03")
+
 
 ----
 ### 2. Install Node modules  0:10
 ----
-1. Right click on the server folder
+1. Right click on the client folder
 
 2. Click Open in Integrated Terminal, then 
 
@@ -71,9 +76,19 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
-3. Right click on the client folder
+3. Fix the vulnerabilities
 
-4. Click Open in Integrated Terminal, then 
+```
+npm audit fix --force
+```
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06b.png "FormR-Clone-06")
+
+4. Right click on the server folder
+
+5. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-07](images/fr0103-FormR-Clone-07.png "FormR-Clone-07")
 
@@ -84,6 +99,7 @@ npm install
 ![FormR-Clone-08](images/fr0103-FormR-Clone-08.png "FormR-Clone-08")
 
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
+
 
 ----
 ### 3. Install RAuth and World databases 0:05
