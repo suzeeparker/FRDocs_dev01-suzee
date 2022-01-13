@@ -5,7 +5,7 @@
 [BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
-[Test Node- NEXT](/Setup/fr0102_Test-Node.md)
+[Test NodeJS- NEXT](/Setup/fr0102_Test-Node.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -933,7 +933,7 @@ https://textpad.com/download
 [BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
-[Test Node - NEXT](/Setup/fr0102_Test-Node.md)
+[Test NodeJS - NEXT](/Setup/fr0102_Test-Node.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

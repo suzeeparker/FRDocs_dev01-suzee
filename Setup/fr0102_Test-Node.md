@@ -11,7 +11,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Test Node 1:00
+## 1.2 Test NodeJS 1:00
 #### [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
 
 #### Introduction

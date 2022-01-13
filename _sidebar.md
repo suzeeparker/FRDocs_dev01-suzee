@@ -4,7 +4,7 @@
 
 <h>1. Setup Workstation 4:15</h>
  1. [Build Workstation        	](/Setup/fr0101_Setup-Developer-Workstation.md)  
- 2. [Test Node 		        	](/Setup/fr0102_Test-Node.md)             
+ 2. [Test NodeJS	        	](/Setup/fr0102_Test-Node.md)             
  3. [Clone First React Apps 	](/Setup/fr0102_First-React-Apps.md)             
 
 <h>2. Setup Remote Server 4:25</h>

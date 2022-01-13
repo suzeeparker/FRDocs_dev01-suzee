@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Test Node](/Setup/fr0102_Test-Node.md)
+[BACK - Test NodeJS](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
@@ -220,7 +220,7 @@ npm start
 
 <div class="page-back">
 
-[BACK - Test Node](/Setup/fr0106_Test-Node.md)
+[BACK - Test NodeJS](/Setup/fr0106_Test-Node.md)
 </div><div class="page-next">
 
 
