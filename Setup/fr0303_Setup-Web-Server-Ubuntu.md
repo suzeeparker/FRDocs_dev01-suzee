@@ -11,7 +11,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.3 Install Web Server 0:20
-#### [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217213539635200)
 
 #### Introduction
 

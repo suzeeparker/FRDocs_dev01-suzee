@@ -12,7 +12,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.2 Test NodeJS 1:00
-#### [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216136853413958)
 
 #### Introduction
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   

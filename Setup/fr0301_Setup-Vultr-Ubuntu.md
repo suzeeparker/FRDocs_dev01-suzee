@@ -11,7 +11,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.1 Create Vultr Ubuntu 0:20
-#### [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217076885008495)
 
 #### Introduction
 - In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 

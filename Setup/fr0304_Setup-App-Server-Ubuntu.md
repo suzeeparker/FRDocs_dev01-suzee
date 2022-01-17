@@ -12,7 +12,9 @@
 
 
 ## 2.4 Install App Server 0:30
-#### [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218086256857118)
 
 #### Introduction
 

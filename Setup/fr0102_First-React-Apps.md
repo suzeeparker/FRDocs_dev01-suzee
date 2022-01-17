@@ -12,7 +12,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.3 Clone First React Apps 0:45
-#### [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
 - FRApps coding uses React. In this topic you will clone and test 4 basic React applications on your local workstation.

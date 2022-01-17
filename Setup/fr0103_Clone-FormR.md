@@ -12,7 +12,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.4 Clone FormR 0:45
-#### [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 #### Introduction  
 - In this topic you will clone the FormR and test the applications on your local workstation.

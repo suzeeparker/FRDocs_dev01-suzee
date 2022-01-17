@@ -11,7 +11,9 @@ BACK
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1. Uses of SSH Keys  #### [Purpose and Background](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
+## 1.1. Uses of SSH Keys  ----
+- [Purpose and Background](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 ## A1. Uses of SSH Keys  <a href="purposes/pfr0101_Setup-Developer-Workstation.md"><img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;" onclick="return opnPurpose()"></a>
 

@@ -11,7 +11,9 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.5 Install Data Server 0:25
-#### [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
+----
+- [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 #### Introduction
 
