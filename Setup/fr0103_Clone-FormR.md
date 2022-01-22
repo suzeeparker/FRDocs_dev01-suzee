@@ -3,51 +3,67 @@
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Simple-React-Apps.md)
+[BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Utu.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Clone FormR
+## 1.4 Clone FormR 0:45
+----
+- [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
+
+#### Introduction  
+- In this topic you will clone the FormR and test the applications on your local workstation.
+
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
+
 
 ----
-### 1. Cloning FormR repository
+### 1. Cloning FormR repository  0:05
 ----
-1. Create local repos folder in Windows Command prompt
+1. Clone into the local repos folder using the Windows Command prompt
 
 ```
-mkdir C:\repos\FormR
-
-cd C:\repos\FormR
+cd C:\repos\
 ```
  
 ![FormR-Clone-01](images/fr0103-FormR-Clone-01.png "FormR-Clone-01")
  
 ```
-git clone https://github.com/8020data/FormR_test-master.git test-master
+git clone https://github.com/8020data/FormR_prod-master.git FormR
 
-cd test-master
+cd FormR
 
 dir
 ```
 
 ![FormR-Clone-02](images/fr0103-FormR-Clone-02.png "FormR-Clone-02")
 
-2. Open with VSCode
+2. From Windows command propt open with VSCode
 
 ```
-code formr_test-master.code-workspace
+code formr_prod-master.code-workspace
 ```
- 
+
 ![FormR-Clone-03](images/fr0103-FormR-Clone-03.png "FormR-Clone-03")
 
+- If prompted, click "Yes I trust the authors".
+
+![FormR-Clone-03](images/fr0103-FormR-Clone-03a.png "FormR-Clone-03")
+
+![FormR-Clone-03](images/fr0103-FormR-Clone-03b.png "FormR-Clone-03")
+
+
 ----
-### 2. Install Node modules
+### 2. Install Node modules  0:10
 ----
-1. Right click on the server folder
+1. Right click on the client folder
 
 2. Click Open in Integrated Terminal, then 
 
@@ -62,9 +78,19 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
-3. Right click on the client folder
+3. Fix the vulnerabilities
 
-4. Click Open in Integrated Terminal, then 
+```
+npm audit fix --force
+```
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06b.png "FormR-Clone-06")
+
+4. Right click on the server folder
+
+5. Click Open in Integrated Terminal, then 
 
 ![FormR-Clone-07](images/fr0103-FormR-Clone-07.png "FormR-Clone-07")
 
@@ -76,10 +102,13 @@ npm install
 
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
+
 ----
-### 3. Install RAuth and World databases.
+### 3. Install RAuth and World databases 0:05
 ----
-(Note that the World database has been modified so that all tables contain ID primary key fields)
+Note: The World sample database has been modified so that all tables contain ID primary key fields.
+
+----
 
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -99,12 +128,12 @@ npm install
 4. Navigate to and Open: 
 
 ```
- C:\repos\FormR\test-master\_3\SQLs\FormR_RAuth-DB-Create.
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_RAuth-DB-Create.
  sql
 
  then repeat these steps for:
 
- C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_World-DB-Create.sql
  
 ```
 
@@ -125,11 +154,13 @@ npm install
 7. IMPORTANT - Go back to Step 4. and repeat these same steps for the World DB file
 
 ```
- C:\repos\FormR\test-master\_3\SQLs\FormR_World-DB-Create.sql
+ C:\repos\FormR\prod-master\_3\SQLs\FormR_World-DB-Create.sql
 ```
 
+8. Close Workbench
+
 ----
-### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
+### 4. Make sure that your MySQL password for root  is set to:  FormR!1234 0:05
 ----
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -143,11 +174,12 @@ npm install
 
 4. Enter the following into the Query window, then
 
-5. Click the Execute icon
-
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 ```
+
+5. Click the Execute icon
+
 
 ![FormR-Clone-18](images/fr0103-FormR-Clone-18.png "FormR-Clone-18")
 
@@ -169,12 +201,13 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 
 11. Click Test Connection then
 
-12. Click Close and then close Workbench
-
 ![FormR-Clone-20b](images/fr0103-FormR-Clone-20b.png "FormR-Clone-20b")
 
+12. Click Close and then close Workbench
+
+
 ----
- ### 5. Run Client and Server applications
+ ### 5. Run Client and Server applications 0:10
 ----
 
 1. Right click on the server/1s-world folder and
@@ -208,7 +241,7 @@ npm start
 ![FormR-Clone-24b](images/fr0103-FormR-Clone-24b.png "FormR-Clone-24b")
 
 ----
-### 6. Test the applications on your local workstation
+### 6. Test the applications on your local workstation 0:10
 ----
 1. Enter each of the following in your browser to test the server:
 
@@ -232,7 +265,7 @@ npm start
 ```
 
 ----
-### Congratulations! You have Cloned FormR successfully to your local workstation.
+#### Congratulations! You have Cloned FormR successfully to your local workstation.
 ----
 
 
@@ -240,10 +273,10 @@ npm start
 
 <div class="page-back">
 
-[BACK - Create Simple React Apps](/Setup/fr0102_Simple-React-Apps.md)
+[BACK - First  React Apps](/Setup/fr0102_First-Reacpps.md)
 </div><div class="page-next">
 
-[Setup Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
