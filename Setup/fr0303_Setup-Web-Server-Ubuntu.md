@@ -10,16 +10,26 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Setup Instructions for the web server, NGINX, on Ubuntu
+## 2.3 Install Web Server 0:20
+----
+- [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217213539635200)
+
+#### Introduction
+
+
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
- ### 1. Restart your Vultr VM and Login
+ ### 1. Restart your Vultr VM and Login 0:05
 ----
- 1. Login the your Vultr FormR1 console and click the Restart button
+ 1. Login the your Vultr-FormR0 console and click the Restart button
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
- 2. From your Vultr FormR1 console
+ 2. From your Vultr-FormR0 console
  
  3. Copy the root password
  
@@ -32,12 +42,16 @@
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ----
-### 2. Install nginx
+### 2. Install nginx 0:05
 
 1. Install
 ----
+
 ```
 apt-get install nginx
+
+(Enter Y when asked to continue)
+
 ```
 
 ![Install NGINX](./images/fr0303-01_Ubuntu-install-nginx.png "Install NGINX")
@@ -68,7 +82,7 @@ ufw allow 'Nginx Full'
 
 6. Get the server IP from Vultr
 
-![Get IP Address](./images/fr0303-05_Ubuntu-get-ip-address.png "Get IP Address")
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 7. Browse to your server's IP address.
 
@@ -79,18 +93,20 @@ http://xxx.xxx.xxx.xxx
 ![Test Web Site](./images/fr0303-05_Ubuntu-test-web-site.png "Test Web Site")
 
 ----
-### 3. Install Certbot
+### 3. Install Certbot 0:05
 ----
 1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.)
 
 ```
 apt-get install python-certbot-nginx
+
+(Enter Y when asked to continue)
 ```
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
 
 ----
-### 4. Create webs directory
+### 4. Create webs directory 0:05
 ----
 1. Create a directory to hold your applications.
 
@@ -108,7 +124,7 @@ ls -ld /webs
 ![Create Webs Directory](./images/fr0303-07_Ubuntu-create-webs-directory.png "Create Webs Directory")
 
 ----
-### Congratulations! You have installed a Web server on your Ubuntu server.
+#### Congratulations! You have installed a Web server on your Ubuntu server.
 ----
 
 <!-- ------------------------------------------------------------------------- -->
