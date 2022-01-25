@@ -21,8 +21,9 @@
  3. [User Administration        ](/FormR/fr0403_User-Administration.md)
  4. [Complete World Application ](/FormR/fr0404_Complete-World-Application.md)
 
-<h>4. Customize FormR Applications</h>
+<h>4. Customize FormR Apps</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
+ 2. [Deploy to Remote Server    ](/FormR/fr0502_Deloy-To-Remote_Server.md)
 
-<h>5. Deploy FormR Applications</h>
- 1. [Deploy to Remote Server    ](/FormR/fr0601_Deloy-To-Remote_Server.md)
+<h>5. Collaborate with Discord</h>
+ 1. [How To Videos              ](/Discord/fr0601_Video-Carousel.md)
