@@ -32,8 +32,8 @@
 
 <h>4. Customize FormR</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
+ 2. [Deploy to Remote Server    ](/FormR/fr0502_Deloy-To-Remote_Server.md)
 
-<!-- 
-<h>5. Deploy FormR Apps</h>
- 1. [Deploy to Remote Server    ](/FormR/fr0601_Deloy-To-Remote_Server.md)
- -->
+<h>5. Collaborate with Discord</h>
+ 1. [How To Videos              ](/Discord/fr0601_Video-Carousel.md)
+
