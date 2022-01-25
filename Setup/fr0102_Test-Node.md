@@ -3,23 +3,29 @@
 
 <div class="page-back">
 
-[BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
+[BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
+[Clone First React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
- 
+
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Simple Node Apps
+## 1.2 Test NodeJS 1:00
+----
+- [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216136853413958)
 
 #### Introduction
-
 The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. We will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
-<br>
+
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
+
 
 ----
-### 1. Test the Node version and update.
+### 1. Test the Node version 0:05
 ----
 1. In VSCode select the myProject folder and open terminal
 
@@ -36,7 +42,7 @@ The following steps create several basic node applications. There are script, se
 ![Node-test](images/fr0102-02_Node-test.png "Node-test")
 
 ----
-### 2. Create sub-folders in myProject
+### 2. Create sub-folders in myProject 0:05
 ----
 1. Click on myProject and create a new folder:
 
@@ -55,7 +61,7 @@ The following steps create several basic node applications. There are script, se
 ![Node-create-folders](images/fr0102-04_Node-create-folders.png "Node-create-folders")
 
 ----
-### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs.
+### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs. 0:10
 ----
 1. Click on the scripts folder, then click the new file icon
 
@@ -93,45 +99,9 @@ node batch.js
 
 ![Node-run-batch](images/fr0102-07_Node-run-batch.png "Node-run-batch")
 
-#### Push your changes to GitHub
-
-1. Open Source Control
-
-![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
-
-2. Add Message:
-
-```
-Add Node App - batch.js
-```
-
-![Node-github-message](images/fr0102-14_Node-github-message.png "Node-github-message")
-
-![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
-
-3. Click on Commit checkmark
-
-![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
-
-3. Push
-
-```
-Click on 3 dots then click Push 
-```
-
-![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
-
-4. The following message may show the first time. 
-```
-Click on: Ok, Don't show again
-```
-
-![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
-
-#### *** End of Push to Github
 
 ----
-### 4. Create a new file, server.js in the server folder and run it with Nodejs.
+### 4. Create a new file, server.js in the server folder and run it with Nodejs. 0:10
 ----
 1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
 
@@ -212,13 +182,44 @@ http://localhost:8080/myProject/server/app01s
 
 
 #### Push your changes to GitHub
-     1. Open Souce Control
-     2. Add description of your choice
-     3. Click the checkmark to Commit
-     4. Click Push on the Source Control three dots (...) menu
+
+1. Click the Source Control charm
+
+![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
+
+2. Add Message:
+
+```
+Add Node App - batch.js
+```
+
+![Node-github-message](images/fr0102-14_Node-github-message.png "Node-github-message")
+
+![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
+
+3. Click on Commit checkmark
+
+![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
+
+3. Push
+
+```
+Click on 3 dots then click Push 
+```
+
+![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
+
+4. The following message may show the first time. 
+```
+Click on: Ok, Don't show again
+```
+
+![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
+
+#### *** End of Push to Github
 
 ----
-### 5. Create a basic react app in the client folder and run it with Nodejs.
+### 5. Create a basic react app in the client folder and run it with Nodejs. 0:10
 ----
 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
 
@@ -266,13 +267,13 @@ npm start
 
      1. In vscode edit package.json
 #### Push your changes to GitHub
-     1. Open Souce Control
+     1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
 
 ----
-### 6. Create a Nodejs routine to access the local MySQL database and return information.
+### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
 ----
 1. Install Sequelize. It will be used to connect to and access information in MySQL. 
 
@@ -320,11 +321,11 @@ CREATE DATABASE practice
 
 ![Node-schemas-refresh](images/fr0102-20_Node-schemas-refresh.png "Node-schemas-refresh")
 
-11. In VSCode in the folder server/app01s create a new file, queryDB.js. Enter the following and then use FormR!1234 for the MySQL root login.
+11. From VSCode Explorer navigate to the folder server/app01s and create a new file, queryDB.js, then enter the following code:
 
 ```
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("practice", "root", FormR!1234, {
+const sequelize = new Sequelize("practice", "root", "FormR!1234", {
   host: "localhost", 
   dialect: "mysql", 
 });
@@ -368,8 +369,6 @@ async function runQuery() {
 
 - Be aware, if you execute the same step twice in a row you will get an error. For example, step 1. creates a table. If you run it a second time  You will get an error that tells you that the table already exists.
 
-![Node-create-queryDB](images/fr0102-21_Node-create-queryDB.png "Node-create-queryDB")
-
 15. Uncomment Step 1 Create Table
 
 ![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
@@ -379,10 +378,6 @@ async function runQuery() {
 ![Open-Terminal-app01s](images/fr0102-19_Open-Terminal-app01s.png "Open-Terminal-app01s")
 
 17. Enter:
-
-(Remember to change to your password)
-
-#### !! Remember to write your passwords in a safe place !!
 
 ```
 node queryDB
@@ -437,23 +432,23 @@ node queryDB
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
 #### --- Push your changes to Github
-     1. Open Souce Control
+     1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click Push on the Source Control three dots (...) menu
   
 ----
-### Congratulations! You have run the Node applications that test your development environment.
+#### Congratulations! You have run the Node applications that test your development environment.
 ----
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - Setup Developer Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
+[BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/fr0103_Clone-FormR.md)
+[Clone First React Apps - NEXT](/Setup/fr0102_First-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

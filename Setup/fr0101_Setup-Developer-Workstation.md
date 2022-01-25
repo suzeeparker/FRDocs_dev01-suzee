@@ -2,24 +2,27 @@
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
-[Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
+[Test NodeJS- NEXT](/Setup/fr0102_Test-Node.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Setup Workstation[<img src="../assets/mdi-question-mark-circle-pink.svg" style="width:30px; margin-bottom:-3px; margin-left:2px; block:inline;">](./purposes/pfr0101_Setup-Developer-Workstation.md)
+## 1.1 Build Workstation 2:30 
+- [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)  
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
+
 #### Introduction
-The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps.
+The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps. The total disk space required is 7 GB.
 
-#### Important Note about names and capitalization
-
-- In this tutorial please be careful to use the exact spelling and capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Create a new user, Local_Admin on your workstation.
+### 1. Create a new user, Local_Admin, on your workstation. 0:10
 ----
 - This account will be used througout the documentation. 
 
@@ -83,6 +86,10 @@ The following steps create the development environment on your workstation for d
 
 13. Sign out
 
+- Click the Start charm on the taskbar
+- then click your login name 
+- then click Sign out
+
 ![Windows-Signout](./images/fr0101-00_Windows-Signout.png "Windows-Signout")
 
 14. Sign in as Local_Admin
@@ -90,13 +97,13 @@ The following steps create the development environment on your workstation for d
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
 ----
-### 2. Install any updates to your workstation.
+### 2. Install any updates to your workstation.0:05
 ----
 
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
 ----
-### 3. Create 3 folders, change View Options,  Setup ssh and Create keys
+### 3. Create 3 folders, change View Options,  Setup ssh and Create keys 0:15
 ----
 1. In C:\ add repos and remotes 
 
@@ -188,9 +195,9 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 10. Key pairs for access to Remote Server on Cloud Provider:
 
 ```
-Change "FormR1-Vultr_nimda" below to your VM Instance name and login
+Change "Vultr-FormR0_nimda" below to your VM Instance name and login
 
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@FormR1-Vultr_nimda_v210713_key" -C "mickey.mouse@FormR1-Vultr_nimda_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR0_nimda_v210713"
 ```
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
@@ -200,9 +207,11 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@FormR1-Vultr_nimda_
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
 ----
-### 4. Install or open Chrome browser
+### 4. Install or open Chrome browser 0:10
 ----
 1. Download and install Chrome from:
+
+- Make Chrome your default browser -- Remember this is for the Local_Admin account
 
 ```
 https://google.com/chrome
@@ -245,9 +254,9 @@ chrome://extensions/
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
 ----
-### 5. Create an account or sign into GitHub then Add your ssh key.
+### 5. Create an account or sign into GitHub then Add your ssh key. 0:15
 ----
-1. Sign in to GitHub. (Create an account, if you don't habe one.)
+1. Sign in to GitHub. (Create an account, if you don't have one.)
 
 ```
 https://github.com
@@ -328,7 +337,9 @@ Click the pencil
 
 ![GitHub-myProject-readme4](./images/fr0101-04_GitHub-myProject-readme4.png "GitHub-myProject-readme4")
 
-13. Configure ssh Access to Github
+    - Close your browser.
+
+13. Configure ssh Access to Github on your Windows workstation
 
 - Create a Host for github connection in the .ssh/config file.
 
@@ -350,17 +361,24 @@ Host github-mick
 14. From the DOS command window, test the connection to github.
 
 ```
-ssh github-mick
+ssh github-mick  e.g. replace mick with your initials
 
 Note: On the first try when prompted enter "yes" 
 ```
 
 ![Test ssh to github-1st-yes](./images/fr0101-03_Test-ssh-to-github-1st-yes.png "Test ssh to github-1st-yes") 
 
+- Change directory to repos, connect again and you will be successfully authenticated.
+
+```
+ssh github-mick  e.g. replace mick with your initials
+```
+
+
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
 ----
-### 6. Download Git, if not already installed
+### 6. Download Git, if not already installed 0:10
 ----
 
 ```
@@ -377,7 +395,7 @@ Note: On the first try when prompted enter "yes"
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
-3. Finish Install
+3. Finish Install check Launch Git Bash
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
@@ -392,7 +410,7 @@ Note: On the first try when prompted enter "yes"
 ```
 Change Mickey Mouse to <your name>:
 
-git config --global user.name = "Mickey Mouse"  i.e. 
+git config --global user.name = "Mickey Mouse"  i.e. <your name>
 ```
 
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
@@ -432,9 +450,10 @@ C:\Program Files\Git\bin
 
 - Then click the OK button and close the next 2 windows
 
+- Close the git bash window
 
 ----
-### 7. Open or Install VSCode
+### 7. Open or Install VSCode  0:10
 ----
 
 ```
@@ -472,13 +491,13 @@ https://code.visualstudio.com/download
 
 7. Change default terminal and add Autosave
 
-        - Using Notepad, edit: 
+        - Using File Explorer create or edit settings.json: 
 
 ```
  C:\Users\Local_Admin\AppData\Roaming\Code\User\settings.json
 ```
 
-        - Delete all line and Add these lines:
+        - Delete all lines and Add these lines:
 
 ```
 {
@@ -512,7 +531,7 @@ https://code.visualstudio.com/download
 9. Close VSCode
 
 ----
-### 8. Clone myProject
+### 8. Clone myProject 0:05
 ----
 1. Using File Explorer open git bash in c/repos folder
 
@@ -563,7 +582,7 @@ code .
 ![VSCode9a](./images/fr0101-08_VSCode9a.png "VSCode9a")
 
 ----
-### 9. Markdown Preview test
+### 9. Markdown Preview test 0:05
 ----
 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
@@ -590,7 +609,7 @@ code .
 ![Markdown-Preview6](./images/fr0101-09_Markdown-Preview6.png "Markdown-Preview6")
 
 ----
-### 10. From VSCode push and pull with GitHub
+### 10. From VSCode push and pull with GitHub 0:10
 ----
 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
@@ -660,7 +679,7 @@ Added Workspace and Updated Readme.md
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
 ----
-### 11. Install Node for Windows
+### 11. Install Node for Windows 0:05
 ----
 1. Be sure to CLOSE VSCode before installing Node
 
@@ -695,7 +714,7 @@ nodejs.org/en/
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-check.png "Nodejs-install-check")
 
 ----
-### 12. Install MySql for windows
+### 12. Install MySql for windows0:45
 ----
 1. Browse to: 
 
@@ -753,6 +772,8 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 ![MySQL-product-configuration-1](./images/fr0101-12_MySQL-product-configuration-1.png "MySQL-product-configuration-1")
 
 ![MySQL-product-configuration-2](./images/fr0101-12_MySQL-product-configuration-2.png "MySQL-product-configuration-2")
+
+- Use the password: FormR!1234
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
 
@@ -846,7 +867,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 
 
 ----
-### 13. Install BitVise ssh client
+### 13. Install Bitvise ssh client 0:05
 ----
 1. Install Bitvise from: 
 
@@ -865,7 +886,7 @@ https://bitvise.com/ssh-client-download
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
 ----
-### 14. Install TextPad
+### 14. Install TextPad 0:05
 ----
 1. Install Textpad from: 
 
@@ -899,19 +920,19 @@ https://textpad.com/download
 
 
 ----
-### Congratulations! Your Developer Workstation is setup.
+#### Congratulations! Your Developer Workstation is setup.
 
- After all installations on a new Windows 10 machine, 26GB was used on Drive C:.
+ After all installations on a new Windows 10 machine, 7 GB was added to Drive C:.
 
 ----
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/fr0001_FormR-Introduction.md)
+[BACK - FormR Introduction](/_home.md.md)
 </div><div class="page-next">
 
-[Create a Simple NodeJS App - NEXT](/Setup/fr0102_Simple-Node-Apps.md)
+[Test NodeJS - NEXT](/Setup/fr0102_Test-Node.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

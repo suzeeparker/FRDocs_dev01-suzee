@@ -3,17 +3,28 @@
 
 <div class="page-back">
 
-[BACK - Install Database Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
-</div><div class="page-next disabled">
+[BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+</div><div class="page-next">
 
-NEXT
+[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
 </div>
-
+<div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
-## Setup Instructions for creating a simple website with SSL
+## 2.6 Run Website SSL 1:35
 ----
-### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server
+- [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218167236276224)
+
+#### Introduction
+
+
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
+
+----
+### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server 0:05
 ----
 1. Open Bitvise Client app 
 
@@ -23,10 +34,10 @@ NEXT
  
 ![BitVise New Profile](./images/fr0306-01_Ubuntu-Bitvise-New-Profile.png "BitVise New Profile")
 
-3. Enter new profile name: 
+3. Navigate to the Local_Admin\.shh folder and enter new profile name: 
 
 ```
-FormR1-Vultr-nimda
+Vultr-FormR0-nimda
 ```
 
 ![BitVise New Profile Name](./images/fr0306-01_Ubuntu-Bitvise-New-Profile-Name.png "BitVise New Profile Name")
@@ -38,7 +49,7 @@ FormR1-Vultr-nimda
   Host IP address: Your Vultr Ubuntu server IP 
 ```
 
- ![BitVise IP](./images/fr0306-01_Ubuntu-Bitvise-IP.png "BitVise IP")
+ ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 5. then enter:
 
@@ -46,39 +57,61 @@ FormR1-Vultr-nimda
   Port: 22
   Username: nimda
   Initial Method: password
+  Check the box: "Store encrypted password in profile
   Password: FormR!1234
 ```
 
-```
 #### !! Remember to write your passwords in a safe place !!
-```
+
 ![BitVise Initial Login](./images/fr0306-02_Ubuntu-Bitvise-Initial-Login.png "BitVise Initial Login")
   
-6. Click log In (You will see Warning message and then be logged in via password)
+6. Click log In (You will see Host Key, Warning message and then be logged in via password)
+
+- Host key - Click Accept and Save (This will only happen on the first logon.)
+
+![BitVise Click Login Host Key](./images/fr0306-03_Ubuntu-Bitvise-Click-Login-Host-Key.png "BitVise Click Login Host Key")
+
+- Warning Banner - Click the X to close it
 
 ![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
+
+- Authenticated Completion 
 
 ![BitVise Click Login2](./images/fr0306-03_Ubuntu-Bitvise-Click-Login2.png "BitVise Click Login2")
 
 
-7. Click Save profile icon and save as FormR1-Vultr-nimda
+7. Click Save profile icon
 
 ![BitVise Save Profile](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
+- Select - Any account on this computer - and click OK
+
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
 
+8.  Close Bitvise by clicking X in upper right corner
+
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
 ----
-### 2. Configure Login via Public Key (SSH keys are more secure than passwords)
+### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----
-1. Open Bitvise profile, FormR-Vultr-nimda, click Log in, then click New SFTP window icon
+1. Open Bitvise, the profile, Vultr-FormR0-nimda, should load. 
+- Click Log in, then 
+- Warning Banner - Click the X to close it
+
+![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
+
+
+- Click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
 
 ![BitVise New SFTP window2](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window2.png "BitVise New SFTP window2")
 
-2. Right click in remote files pane (right)
+2. Click in Remote files pane (right) and enter: /root
 
-3. create folder: /root/.ssh
+3. Right click in blank space and click Create Folder, then enter: .ssh
 
 ![BitVise Create SSH Folder](./images/fr0306-05_Ubuntu-Bitvise-Create-SSH-Folder.png "BitVise Create SSH Folder")
 
@@ -90,9 +123,8 @@ FormR1-Vultr-nimda
 
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
-5. In local files panes (left)
-6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for FormR_Vultr_nimda
-
+5. In Local files panes (left)
+6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_FormR0_nimda
 7. Right click and select Edit
 
     (Note you may need to expand the name column to see the .pub extension)
@@ -149,11 +181,16 @@ FormR1-Vultr-nimda
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
 #### IMPORTANT -- Click Save Profile !!!
+</br>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
+- Select - Any account on this computer - and click OK
+
+![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
+
 ----
-### 3. Using Bitvice New Terminal console delete nginx default files 
+### 3. Using Bitvise New Terminal console delete nginx default files  0:05
 ----
 1. Open New Terminal console
 
@@ -168,12 +205,19 @@ unlink /etc/nginx/sites-enabled/default
 ![BitVise Unlink nginx default](./images/fr0306-06_Ubuntu-Bitvise-Unlink-nginx-default.png "BitVise Unlink nginx default")
 
 ----
-### 4. Clone simpleApp using git 
+### 4. Using Bitvise New Terminal console Clone simpleApp using git 0:05
 ----
+
+1. Open New Terminal console
+
 ```
-cd /webs https://github.com/brucetroutman-gmail/simpleApp.git simpleApp
+cd /webs 
+
+git clone https://github.com/8020Data/simpleApp.git simpleApp
 ```
-1. Confim clone
+
+-  Confim clone
+
 ```
 cd simpleApp
 ls -l
@@ -185,8 +229,11 @@ ufw allow 5000
 
 ![BitVise Clone simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Clone-simpleApp.png "BitVise Clone simpleApp")
 
-3. Start app.js on the server
+3. Install and start app.js on the server
+
 ```
+npm install
+
 node app.js
 ```
 
@@ -204,7 +251,7 @@ node app.js
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 5. Setup pm2 to run website automatically
+### 5. Setup pm2 to run website automatically 0:05
 ----
 1. Go to the Bitvise New terminal console
 2. Navigate to 
@@ -239,7 +286,7 @@ reboot
 
 ![BitVise PM2 save](./images/fr0306-08_Ubuntu-Bitvise-PM2-save.png "BitVise PM2 save")
 
-6. Test from local browser, 
+6. Wait a few minutes for server to reboot then test from local browser, 
 
 ```
 <your server ip address here>:5000
@@ -248,9 +295,12 @@ reboot
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
 ----
-### 6. Setup nginx proxy 
+### 6. Setup nginx proxy 0:05
 ----
-1. Copy simpleApp.conf file
+
+1. Go to the Bitvise New terminal console
+
+- Copy simpleApp.conf file
 
 ```
 cp /webs/simpleApp/etc/nginx/sites-available/simpleApp.conf /etc/nginx/sites-available/simpleApp.conf
@@ -276,7 +326,7 @@ systemctl reload nginx
 ![BitVise nginx reload](./images/fr0306-08_Ubuntu-Bitvise-nginx-reload.png "BitVise nginx reload")
 
 ----
-### 7. Create a domain for public access to your server (Skip to step 11, if you don't wan't to purchase a domain.) 
+### 7. Create a domain for public access to your server 0:15
 ----
 #### Note: 
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
@@ -296,7 +346,7 @@ godaddy.com
 3. Enter domain name
 
 ```
-formr-<your initiatls>-00.com
+formr-<your initials>-00.com
 
 e.g. formr-cbt-00.com
 ```
@@ -314,7 +364,7 @@ e.g. formr-cbt-00.com
 ![Create Domain3](./images/fr0306-09_Ubuntu-create-domain4.png "Create Domain3") 
 
 ----
-### 8. Update your DNS record to point YourURL to your server IP address.
+### 8. Update your DNS record to point YourURL to your server IP address. 0:10
 ----
 1. Login to your GoDaddy.com account
 2. Click Your Account
@@ -339,9 +389,9 @@ e.g. formr-cbt-00.com
 
 10. Change the Points to = Parked to - the IP address of your Vultr server
 
-11. Get your IP address from the Bitvise console
+11. Get your IP address from the Vultr console
 
-![BitVise Browse simpleApp0](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp0.png "BitVise Browse simpleApp0")
+![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 12. Change Parked
 
@@ -357,7 +407,7 @@ To Your server IP address and Save
 14. Browse to your web site via http
 
 ```
-http://formr-<yourinitials>-00com
+http://formr-<your initials>-00.com
 
 e.g http://formr-cbt-00.com
 ```
@@ -365,18 +415,17 @@ e.g http://formr-cbt-00.com
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify simpleApp.conf to use your new URL
+### 9. Modify simpleApp.conf to use your new URL 0:05
 ----
 1. Open Bitvise 
-2. Load Profile: FormR1-Vultr-nimda.tlp
+2. Load Profile: Vultr-FormR0-nimda.tlp
 3. Login
 4. From your Bitvise SFTP window navigate to 
 
 ```
-/etc/nginx/sites-available/simpleApp.conf
-
+/etc/nginx/sites-available
 ```
-5. Click Edit 
+5. On "simpleApp.conf" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
@@ -386,62 +435,51 @@ e.g http://formr-cbt-00.com
  
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
-7. Save this file and continue on
+7. Save this file
 
 ----
-### 10. Personalize the FormR Home Page
-----
-1. From your Bitvise SFTP window navigate to 
-
-```
-/webs/simpleApp/App.js
-
-```
-2. Click Edit 
-
-![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
-
-3. ASdd something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
-
-![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
- 
-![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
-
-4. Save this file then Close the SFTP window
-
-----
-### 11. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols
-
-- (This is for SSL security)
+### 10. Personalize the FormR Home Page 0:05
 ----
 1. From your Bitvise SFTP window navigate to 
 
 ```
-/webs/simpleApp/App.js
+/webs/simpleApp/
 
 ```
-2. Click Edit 
+2. On "app.js" right click and select Edit 
 
-![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
+![BitVise appjs1](./images/fr0306-10_Ubuntu-Bitvise-appjs1.png "BitVise appjs1")
 
 3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
 
-![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
+![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
-![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
 4. Save this file then Close the SFTP window
 
-5. Reboot from the Bitvise New terminal console enter:
+5. Reboot from the Bitvise New terminal console (Bitvise will reconnect when server is back up)
 
 ```
 reboot
 ```
 
+6. Browse to your IP e.g. 155.138.210.79:5000
+
+```
+http:<your VM IP>:5000
+```
+
+![BitVise appjs3](./images/fr0306-10_Ubuntu-Bitvise-appjs3.png "BitVise appjs3")
+
+7. Close Bitvise by clicking X in upper right corner
+
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
 ----
-### 12. Add SSL certificate using Letsencrypt
+### 11. Add SSL certificate using Letsencrypt 0:05
 ----
-1. Open Bitvice New Terminal Console and enter (You might use notpad to build yoururl)
+1. Open Bitvise New Terminal Console and enter (You might use notpad to build yoururl)
 
 ```
 certbot --nginx -d <yoururl>  
@@ -456,17 +494,7 @@ certbot --nginx -d <yoururl>
 
 ![BitVise Add SSL2](./images/fr0306-11_Ubuntu-Bitvise-add-ssl2.png "BitVise Add SSL2")
 
-4. Test your SSL certificate by browsing to:
-
-```
-ssllabs.com/ssltest/analyze.html?d=<yoururl>
-
-e.g. ssllabs.com/ssltest/analyze.html?d=formr-cbt.01.com
-```
-
-![BitVise Add SSL3](./images/fr0306-11_Ubuntu-Bitvise-add-ssl3.png "BitVise Add SSL3")
-
-5. Browse to your web via https
+4. Browse to your web via https
 
 ```
 https://yoururl
@@ -478,7 +506,107 @@ e.g. https://formr-cbt-00.com
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
 ----
-### 13. Close Port 5000
+### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols 0:10
+
+- This is for improved SSL security
+----
+1. Edit nginx.conf
+
+```
+nano /etc/nginx/nginx.conf
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS1.png "BitVise TLS")
+
+2. Modify SSL Settings
+
+- Remove
+
+```
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS2.png "BitVise TLS")
+
+
+- Add
+
+```
+ssl_protocols TLSv1.2 TLSv1.3;
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS3.png "BitVise TLS")
+
+
+3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+
+4. Edit options-ssl-nginx.conf
+
+```
+nano /etc/letsencrypt/options-ssl-nginx.conf
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS4.png "BitVise TLS")
+
+6. Modify SSL Settings
+
+- Remove
+
+```
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS5.png "BitVise TLS")
+
+
+- Add
+
+```
+ssl_protocols TLSv1.2 TLSv1.3;
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS6.png "BitVise TLS")
+
+
+7. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+
+8. Test nginx and reload it
+
+```
+nginx -t
+
+service nginx reload
+```
+
+![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS7.png "BitVise TLS")
+
+
+9.  Close Bitvise by clicking X in upper right corner
+
+![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
+
+
+
+10. Test your SSL settings by browsing to:
+
+```
+ssllabs.com/ssltest/
+```
+
+- Enter your URL e.g. formr-cbt.00.com
+
+![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
+
+- Your test results
+
+![SSL Test](./images/fr0306-11_Ubuntu-SSL-test2.png "SSL Test")
+
+----
+#### Email us your test results picture. We would love to hear from you!!
+#### 8020data@gmail.com
+----
+----
+### 13. Close Port 5000  0:05
 ----
 1. From the Bitvise New terminal console enter:
 
@@ -493,17 +621,16 @@ e.g. https://formr-cbt-00.com
 ![BitVise Close Port 5000](./images/fr0306-13_Ubuntu-Bitvise-Close-Port-5000.png "BitVise Close Port 5000")
 
 ----
-### Congratulations your Ubuntu server is secure and ready for action.
+#### Congratulations your Ubuntu server is secure and ready for action.
 ----
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - Install Database Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
-</div><div class="page-next disabled">
+[BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
+</div><div class="page-next">
 
-NEXT
+[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
 </div>
-
 <!-- ------------------------------------------------------------------------- -->

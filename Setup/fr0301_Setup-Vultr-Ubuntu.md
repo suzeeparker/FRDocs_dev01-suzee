@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FormR  ](/Setup/fr0103_Clone-FormR.md)
+[BACK - Clone First React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
@@ -10,15 +10,30 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Instructions for creating an Ubuntu server on Vultr
+## 2.1 Create Vultr Ubuntu 0:20
+----
+- [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217076885008495)
 
-- In order to test our FormR apps on the Internet
- we will create an Ubuntu server on the cloud provider, Vultr.com. Vultr costs only $5 per month. 
+#### Introduction
+- In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
+- Vultr costs only $5 per month. Once you complete your secure website, you can destroy the server, which stops the charges.
+
+#### Important note about names, capitalization and pictures
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
+
 
 ----
-### 1. Create New Ubuntu Instance
+### 1. Create New Ubuntu Instance  0:10
 ----
-1. Signin or create an account on vultr.com
+1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the FormR tutorial.)
+
+- Browse to:
+
+```
+https://www.vultr.com/?ref=8778592
+```
 
 2. Deploy New Server 
 
@@ -32,7 +47,7 @@
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial)
+5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial. If this version is not available in the future, then choose the lowest version, since it is the most tested.)
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
@@ -53,7 +68,7 @@
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-8. Server Host Name and Label: FormR1-Vultr for both
+8. Server Host Name and Label: Vultr-FormR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
@@ -67,9 +82,9 @@
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Open Vultr VM Console to Log in
+### 2. Open Vultr VM Console to Log in 0:10
 ----
-1. Click on Products, then the Server Name i.e. FormR1-Vultr
+1. Click on Products, then the Server Name i.e. Vultr-FormR0
 
 ![Vultr Open Console](./images/fr0301-09_Vultr-Open-Console.png "Open Console")
 
@@ -95,12 +110,12 @@
 
 6. You will see the Welcome screen for Ubuntu and the command prompt:
 
-    root@FormRx-Vultr:~#
+    root@Vultr-FormR0:~#
 
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 
 ----
-### Congratulations! You have created your Ubuntu server on Vultr.
+#### Congratulations! You have created your Ubuntu server on Vultr.
 ----
 
 
@@ -108,7 +123,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FormR  ](/Setup/fr0103_Clone-FormR.md)
+[BACK - Clone First React Apps](/Setup/fr0102_First-React-Apps.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
