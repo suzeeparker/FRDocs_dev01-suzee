@@ -16,7 +16,7 @@
     }
 
 summary {
-    text-transform: capitalize; 
+    text-transform: capitalize;
  /* font-weight: bold; */
  /* border-style: solid; */
  /* border-color: var(--link-color); */
@@ -85,7 +85,7 @@ details {
     right: 0px;
     width: 80%;
     font-size:80%;
-    text-align:center;
+    text-align:left;   /* was center */
     }
 
 .sidebar p {
@@ -192,12 +192,14 @@ img {
     }
 
 .markdown-section iframe {
-    margin: 0.5em auto;
-    max-width:80%;
+    margin: 0px;            /* was 0.5em auto */
+    margin-left: -200px;            /* added */
+    max-width: 1320px;             /* was 80% */
+    text-align: left;
     border-top: 1px;
     border-bottom: 1px;
-    border-right:30px;
-    border-left:30px;
+    border-right:0px;             /* was 30px; */
+    border-left:0px;              /* was 30px; */
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.8);
     border-top-color: rgba(0, 0, 0, 0.1);
@@ -223,7 +225,7 @@ img {
     }
 
 h1, h2, h3 {
-    text-transform: capitalize; 
+    text-transform: capitalize;
     }
 
 h1, h2 {
